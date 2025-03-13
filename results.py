@@ -19,3 +19,5 @@ class app:
     def run(self):
         """Función principal para ejecutar la aplicación sin main()"""
         logging.info("Iniciando aplicación")
+        st.markdown('<h3 class="custom-h3">Comparación de Modelo 🧮</h3>', unsafe_allow_html=True)
+        st.write("")
