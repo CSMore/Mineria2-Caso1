@@ -1,2 +1,45 @@
 
 
+2025-03-14 18:55:01,317 - No se ha cargado ningún archivo. Esperando que el usuario cargue uno.
+2025-03-14 18:55:15,789 - Iniciando aplicación
+2025-03-14 19:14:18,862 - No se ha cargado ningún archivo. Esperando que el usuario cargue uno.
+2025-03-14 19:48:03,786 - Archivo CSV cargado correctamente.
+2025-03-14 19:48:11,966 - Archivo CSV cargado correctamente.
+2025-03-14 19:48:11,971 - Dataset guardado correctamente en sesión.
+2025-03-14 19:48:30,245 - Archivo CSV cargado correctamente.
+2025-03-14 19:48:30,249 - Dataset guardado correctamente en sesión.
+2025-03-14 19:54:11,842 - Archivo CSV cargado correctamente.
+2025-03-14 19:54:16,636 - Archivo CSV cargado correctamente.
+2025-03-14 19:54:16,642 - Dataset guardado correctamente en sesión.
+2025-03-14 19:54:30,422 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 19:54:30,433 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 20:05:44,219 - Archivo CSV cargado correctamente.
+2025-03-14 20:05:47,695 - Archivo CSV cargado correctamente.
+2025-03-14 20:05:47,701 - Dataset guardado correctamente en sesión.
+2025-03-14 21:15:41,287 - Archivo CSV cargado correctamente.
+2025-03-14 21:15:45,431 - Archivo CSV cargado correctamente.
+2025-03-14 21:15:45,435 - Dataset guardado correctamente en sesión.
+2025-03-14 21:15:59,673 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 21:15:59,682 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 21:16:05,575 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 21:16:05,609 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 21:55:57,284 - Archivo CSV cargado correctamente.
+2025-03-14 21:56:00,797 - Archivo CSV cargado correctamente.
+2025-03-14 21:56:00,803 - Dataset guardado correctamente en sesión.
+2025-03-14 21:56:14,537 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 21:56:14,547 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 21:56:17,696 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 21:56:17,705 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-14 22:00:05,727 - Archivo CSV cargado correctamente.
+2025-03-14 22:00:09,076 - Archivo CSV cargado correctamente.
+2025-03-14 22:00:09,081 - Dataset guardado correctamente en sesión.
+2025-03-14 22:04:51,715 - Archivo CSV cargado correctamente.
+2025-03-14 22:04:55,095 - Archivo CSV cargado correctamente.
+2025-03-14 22:04:55,100 - Dataset guardado correctamente en sesión.
+2025-03-14 22:11:30,173 - Archivo CSV cargado correctamente.
+2025-03-14 22:11:33,248 - Archivo CSV cargado correctamente.
+2025-03-14 22:11:33,252 - Dataset guardado correctamente en sesión.
+2025-03-14 22:11:40,552 - Regresión Lineal entrenado con MSE: 124526.10536596173
+2025-03-14 22:11:40,559 - Árbol de Decisión entrenado con MSE: 268939.2673206176
+2025-03-14 22:11:41,023 - Random Forest entrenado con MSE: 160800.94187036433
+2025-03-14 22:11:41,140 - Gradient Boosting entrenado con MSE: 131916.815402121
