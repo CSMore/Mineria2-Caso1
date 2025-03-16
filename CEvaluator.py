@@ -40,6 +40,21 @@ class ModelEvaluator:
         }
         self.param_grids_genetic = self._get_param_grids_genetic()
         self.param_grids_exhaustive = self._get_param_grids_exhaustive()
+        self.best_estimator_ = None
+        
+    def fit(self, X_train, y_train):
+        """Permite entrenar un modelo seleccionado dentro de ModelEvaluator."""
+        self.X_train = X_train
+        self.y_train = y_train
+        self.best_estimator_ = self.models['LinearRegression']  # Ejemplo: modelo por defecto
+        self.best_estimator_.fit(X_train, y_train)
+
+    def predict(self, X_test):
+        """Genera predicciones usando el mejor modelo encontrado."""
+        if self.best_estimator_ is not None:
+            return self.best_estimator_.predict(X_test)
+        else:
+            raise AttributeError("No se ha entrenado ningún modelo aún. Ejecuta `fit()` primero.")
 
     def _get_param_grids_genetic(self):
         """Define los espacios de búsqueda de parámetros para cada modelo."""

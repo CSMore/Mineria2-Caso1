@@ -28,6 +28,14 @@ class EDA:
 
     def check_data_types(self):
         return self.__df.dtypes.astype(str)
+    
+    def summary_statistics(self):
+        """Genera un resumen estadístico de las columnas numéricas."""
+        if not self.__df.empty:
+            return self.__df.describe().transpose()  # Transpone para mejor legibilidad
+        else:
+            return "No hay datos cargados para generar el resumen estadístico."
+
 
     def drop_irrelevant_columns(self, columns):
         self.__df.drop(columns=columns, inplace=True)
@@ -49,6 +57,8 @@ class EDA:
         return Dicc_outliers if Dicc_outliers else "No se detectaron valores atípicos en las columnas numéricas."
 
     def plot_scatter(self, col1, col2):
+        if col1 not in self.__df.columns or col2 not in self.__df.columns:
+            return st.error("Selecciona columnas válidas para el gráfico de dispersión.")
         plt.figure(figsize=(10, 6))
         sns.scatterplot(x=self.__df[col1], y=self.__df[col2])
         plt.title(f'Gráfico de Dispersión: {col1} vs {col2}')
@@ -58,6 +68,8 @@ class EDA:
         st.pyplot(plt)
 
     def plot_histogram(self, col):
+        if col not in self.__df.columns:
+            return st.error("Selecciona una columna válida para el histograma.")
         plt.figure(figsize=(10, 6))
         sns.histplot(self.__df[col], kde=True)
         plt.title(f'Histograma de {col}')
@@ -65,31 +77,40 @@ class EDA:
         plt.ylabel('Frecuencia')
         st.pyplot(plt)
 
-    def plot_heatmap(self):
+    def plot_heatmap(self, corr_method='pearson'):
         num_df = self.__df.select_dtypes(include=['float64', 'int64'])
         if num_df.empty:
             return st.warning("No hay columnas numéricas para generar el mapa de calor.")
 
+        corr_matrix = num_df.corr(method=corr_method)  # Matriz de correlación con el método seleccionado
+
         plt.figure(figsize=(12, 10))
-        sns.heatmap(num_df.corr(), cmap="crest", annot=True, linewidths=0.5, cbar=True)
+        sns.heatmap(corr_matrix, cmap="crest", annot=True, linewidths=0.5, cbar=True)  # Aquí solo pasamos corr_matrix
         plt.xticks(rotation=45, ha='right')
         plt.yticks(rotation=0)
         st.pyplot(plt)
 
+
     def plot_bar(self, col):
-        plt.figure(figsize=(10, 6))
-        sns.countplot(x=self.__df[col])
-        plt.title(f'Gráfico de Barras: {col}')
-        plt.xlabel(col)
-        plt.ylabel('Frecuencia')
-        st.pyplot(plt)
+        if self.validate_column(col):
+            if self.__df[col].nunique() < 2:
+                return st.warning("No hay suficientes categorías para generar un gráfico de barras.")
+            plt.figure(figsize=(10, 6))
+            sns.countplot(x=self.__df[col])
+            plt.title(f'Gráfico de Barras: {col}')
+            plt.xlabel(col)
+            plt.ylabel('Frecuencia')
+            st.pyplot(plt)
 
     def plot_violin(self, col):
-        plt.figure(figsize=(10, 6))
-        sns.violinplot(x=self.__df[col])
-        plt.title(f'Gráfico de Violín: {col}')
-        plt.xlabel(col)
-        st.pyplot(plt)
+        if self.validate_column(col):
+            if self.__df[col].nunique() < 2:
+                return st.warning("No hay suficientes valores distintos para generar un gráfico de violín.")
+            plt.figure(figsize=(10, 6))
+            sns.violinplot(x=self.__df[col])
+            plt.title(f'Gráfico de Violín: {col}')
+            plt.xlabel(col)
+            st.pyplot(plt)
 
     def plot_line(self, col):
         plt.figure(figsize=(10, 6))
@@ -109,6 +130,9 @@ class EDA:
         st.pyplot(plt)
 
     def plot_boxplot(self, col):
+        
+        if col not in self.__df.columns:
+            return st.error("Selecciona una columna válida para el boxplot.")
         plt.figure(figsize=(10, 6))
         sns.boxplot(x=self.__df[col])
         plt.title(f'Boxplot de {col}')
@@ -123,9 +147,9 @@ class EDA:
 
 class app:
     def main(self):
-        st.title("Exploración de Datos 🔍")
+        st.title("Exploración de Datos")
 
-        if 'data' in st.session_state:
+        if 'data' in st.session_state and st.session_state['data'] is not None:
             eda_instance = EDA(df=st.session_state['data'])
 
             st.subheader("Vista previa de datos cargados")
@@ -142,16 +166,34 @@ class app:
             with tab3:
                 st.write(eda_instance.check_data_types())
 
+            st.subheader("Resumen Estadístico")
+            st.dataframe(eda_instance.summary_statistics())
+
+            st.subheader("Normalización de Datos")
+            norm_method = st.selectbox("Método de normalización", ["Ninguno", "MinMaxScaler", "StandardScaler"])
+            if norm_method != "Ninguno":
+                eda_instance.normalize_data(norm_method)
+                st.success(f"Datos normalizados con {norm_method}") 
+            
             st.subheader("Valores Faltantes")
             st.write(eda_instance.missing_values_info())
 
             st.subheader("Detección de Outliers")
             st.write(eda_instance.detect_outliers())
+            
+            st.subheader("Matriz de Correlación")
+            corr_type = st.radio("Método de correlación:", ["pearson", "spearman", "kendall"], index=0)
+            eda_instance.plot_heatmap(corr_method=corr_type)
 
+            st.subheader("Visualización de Datos")
             columnas_numericas = eda_instance.get_df().select_dtypes(include=['float64', 'int64']).columns.tolist()
-
             tipo_grafico = st.selectbox("Selecciona un gráfico", ["Histograma", "Boxplot", "Barras", "Dispersión", "Línea", "Heatmap", "Pairplot"])
 
+                      
+            if not columnas_numericas:
+                st.warning("No hay columnas numéricas disponibles en el dataset.")
+                return  # Detener ejecución si no hay datos válidos
+            
             if tipo_grafico == "Histograma":
                 col = st.selectbox("Columna numérica", columnas_numericas)
                 eda_instance.plot_histogram(col)
@@ -180,3 +222,29 @@ class app:
             elif tipo_grafico == "Línea":
                 col = st.selectbox("Columna numérica para gráfico de líneas", columnas_numericas)
                 eda_instance.plot_line(col)
+               
+             # Agregar botón para limpiar los datos
+            if st.button("Reiniciar Datos"):
+                st.session_state['data'] = None
+                st.experimental_rerun()  # Recargar la app
+
+        else:
+            st.warning("No hay datos cargados. Carga un dataset en el Pipeline primero.")
+    
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+

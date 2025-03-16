@@ -26,7 +26,7 @@ class ModelTrainer:
             "Árbol de Decisión": DecisionTreeRegressor(),
             "Random Forest": RandomForestRegressor(),
             "Gradient Boosting": GradientBoostingRegressor(),
-            "Modelo Evaluador (Profesor)": ModelEvaluator(
+            "Modelo Evaluador": ModelEvaluator(
                 self.X_train, self.X_test, self.y_train, self.y_test,
                 population_size=population_size,
                 generations=generations,
@@ -37,7 +37,7 @@ class ModelTrainer:
         resultados = {}
 
         for nombre, modelo in models.items():
-            if nombre != "Modelo Evaluador (Profesor)":
+            if nombre != "Modelo Evaluador":
                 modelo.fit(self.X_train, self.y_train)
                 preds = modelo.predict(self.X_test)
             else:
@@ -93,7 +93,7 @@ class app:
                     "Árbol Decisión": resultados["Árbol de Decisión"],
                     "Random Forest": resultados["Random Forest"],
                     "Gradient Boosting": resultados["Gradient Boosting"],
-                    "Evaluador (Profesor)": resultados["Modelo Evaluador (Profesor)"]
+                    "Evaluador": resultados["Modelo Evaluador (Profesor)"]
                 }
 
                 # Añadir resultados al historial

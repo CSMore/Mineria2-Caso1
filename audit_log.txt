@@ -43,3 +43,98 @@
 2025-03-14 22:11:40,559 - Árbol de Decisión entrenado con MSE: 268939.2673206176
 2025-03-14 22:11:41,023 - Random Forest entrenado con MSE: 160800.94187036433
 2025-03-14 22:11:41,140 - Gradient Boosting entrenado con MSE: 131916.815402121
+2025-03-16 09:04:18,503 - Archivo CSV cargado correctamente.
+2025-03-16 09:04:25,400 - Archivo CSV cargado correctamente.
+2025-03-16 09:04:38,269 - Archivo CSV cargado correctamente.
+2025-03-16 09:04:40,599 - Archivo CSV cargado correctamente.
+2025-03-16 09:05:57,522 - Archivo CSV cargado correctamente.
+2025-03-16 09:06:01,997 - Archivo CSV cargado correctamente.
+2025-03-16 11:53:13,462 - Archivo CSV cargado correctamente.
+2025-03-16 11:53:16,061 - Archivo CSV cargado correctamente.
+2025-03-16 11:53:16,065 - Dataset guardado correctamente en sesión.
+2025-03-16 11:54:20,476 - Archivo CSV cargado correctamente.
+2025-03-16 11:54:22,353 - Archivo CSV cargado correctamente.
+2025-03-16 11:54:22,358 - Dataset guardado correctamente en sesión.
+2025-03-16 11:55:58,338 - Archivo CSV cargado correctamente.
+2025-03-16 11:56:04,351 - Archivo CSV cargado correctamente.
+2025-03-16 11:56:09,306 - Archivo CSV cargado correctamente.
+2025-03-16 11:56:13,790 - Archivo CSV cargado correctamente.
+2025-03-16 11:56:20,827 - Archivo CSV cargado correctamente.
+2025-03-16 11:56:27,042 - Archivo CSV cargado correctamente.
+2025-03-16 11:56:43,290 - Archivo CSV cargado correctamente.
+2025-03-16 11:56:48,548 - Archivo CSV cargado correctamente.
+2025-03-16 11:56:54,889 - Archivo CSV cargado correctamente.
+2025-03-16 11:57:04,890 - Archivo CSV cargado correctamente.
+2025-03-16 11:57:06,426 - Archivo CSV cargado correctamente.
+2025-03-16 11:57:31,429 - Archivo CSV cargado correctamente.
+2025-03-16 11:57:35,877 - Archivo CSV cargado correctamente.
+2025-03-16 11:57:37,395 - Archivo CSV cargado correctamente.
+2025-03-16 11:57:40,113 - Archivo CSV cargado correctamente.
+2025-03-16 11:57:40,151 - Dataset guardado correctamente en sesión.
+2025-03-16 12:05:43,473 - Archivo CSV cargado correctamente.
+2025-03-16 12:05:48,242 - Archivo CSV cargado correctamente.
+2025-03-16 12:05:52,475 - Archivo CSV cargado correctamente.
+2025-03-16 12:05:56,404 - Archivo CSV cargado correctamente.
+2025-03-16 12:05:59,249 - Archivo CSV cargado correctamente.
+2025-03-16 12:06:01,752 - Archivo CSV cargado correctamente.
+2025-03-16 12:07:21,838 - Archivo CSV cargado correctamente.
+2025-03-16 12:07:33,740 - Archivo CSV cargado correctamente.
+2025-03-16 12:08:58,073 - Archivo CSV cargado correctamente.
+2025-03-16 12:09:02,375 - Archivo CSV cargado correctamente.
+2025-03-16 12:09:02,412 - Dataset guardado correctamente en sesión.
+2025-03-16 12:09:11,469 - Regresión Lineal entrenado con MSE: 118372.54328990751
+2025-03-16 12:09:11,486 - Árbol de Decisión entrenado con MSE: 239333.71041269845
+2025-03-16 12:09:12,003 - Random Forest entrenado con MSE: 148655.66795031342
+2025-03-16 12:09:12,119 - Gradient Boosting entrenado con MSE: 123998.99609726085
+2025-03-16 15:17:38,223 - Archivo CSV cargado correctamente.
+2025-03-16 15:17:43,605 - Archivo CSV cargado correctamente.
+2025-03-16 15:17:51,095 - Archivo CSV cargado correctamente.
+2025-03-16 15:17:53,337 - Archivo CSV cargado correctamente.
+2025-03-16 15:17:53,381 - Dataset guardado correctamente en sesión.
+2025-03-16 15:20:05,685 - Archivo CSV cargado correctamente.
+2025-03-16 15:20:12,299 - Archivo CSV cargado correctamente.
+2025-03-16 15:20:20,339 - Archivo CSV cargado correctamente.
+2025-03-16 15:20:21,316 - Archivo CSV cargado correctamente.
+2025-03-16 15:20:21,356 - Dataset guardado correctamente en sesión.
+2025-03-16 15:20:27,389 - Regresión Lineal entrenado con MSE: 118372.54328990751
+2025-03-16 15:20:27,408 - Árbol de Decisión entrenado con MSE: 242018.12673922905
+2025-03-16 15:20:27,915 - Random Forest entrenado con MSE: 148665.580212319
+2025-03-16 15:20:28,028 - Gradient Boosting entrenado con MSE: 124089.74847446822
+2025-03-16 15:50:29,062 - Archivo CSV cargado correctamente.
+2025-03-16 15:50:33,975 - Archivo CSV cargado correctamente.
+2025-03-16 15:50:40,782 - Archivo CSV cargado correctamente.
+2025-03-16 15:50:42,227 - Archivo CSV cargado correctamente.
+2025-03-16 15:50:42,272 - Dataset guardado correctamente en sesión.
+2025-03-16 15:50:49,627 - Regresión Lineal entrenado con MSE: 118372.54328990751
+2025-03-16 15:50:49,635 - Árbol de Decisión entrenado con MSE: 249599.40531065763
+2025-03-16 15:50:50,141 - Random Forest entrenado con MSE: 147797.56861214893
+2025-03-16 15:50:50,257 - Gradient Boosting entrenado con MSE: 124011.3241484446
+2025-03-16 15:51:15,999 - Archivo CSV cargado correctamente.
+2025-03-16 15:51:21,376 - Archivo CSV cargado correctamente.
+2025-03-16 15:51:25,037 - Archivo CSV cargado correctamente.
+2025-03-16 15:51:25,866 - Archivo CSV cargado correctamente.
+2025-03-16 15:51:25,900 - Dataset guardado correctamente en sesión.
+2025-03-16 15:51:45,044 - Regresión Lineal entrenado con MSE: 122047.87736828275
+2025-03-16 15:51:45,051 - Árbol de Decisión entrenado con MSE: 250616.07868917938
+2025-03-16 15:51:45,517 - Random Forest entrenado con MSE: 160566.75598666858
+2025-03-16 15:51:45,627 - Gradient Boosting entrenado con MSE: 130372.10247029031
+2025-03-16 15:59:11,732 - Archivo CSV cargado correctamente.
+2025-03-16 15:59:16,338 - Archivo CSV cargado correctamente.
+2025-03-16 15:59:19,433 - Archivo CSV cargado correctamente.
+2025-03-16 15:59:20,479 - Archivo CSV cargado correctamente.
+2025-03-16 15:59:20,521 - Dataset guardado correctamente en sesión.
+2025-03-16 15:59:35,454 - Regresión Lineal entrenado con MSE: 118372.54328990751
+2025-03-16 15:59:35,462 - Árbol de Decisión entrenado con MSE: 240710.5971473923
+2025-03-16 15:59:35,991 - Random Forest entrenado con MSE: 150396.7348025041
+2025-03-16 15:59:36,103 - Gradient Boosting entrenado con MSE: 124251.38244163351
+2025-03-16 15:59:36,104 - Modelo Evaluador (Profesor) entrenado con MSE: 118372.54328990751
+2025-03-16 15:59:58,742 - Regresión Lineal entrenado con MSE: 122047.87736828275
+2025-03-16 15:59:58,749 - Árbol de Decisión entrenado con MSE: 244358.21839506173
+2025-03-16 15:59:58,969 - Regresión Lineal entrenado con MSE: 122047.87736828275
+2025-03-16 15:59:58,977 - Árbol de Decisión entrenado con MSE: 250817.87080973128
+2025-03-16 15:59:59,290 - Random Forest entrenado con MSE: 158861.0086140155
+2025-03-16 15:59:59,416 - Gradient Boosting entrenado con MSE: 130294.02588626168
+2025-03-16 15:59:59,417 - Modelo Evaluador (Profesor) entrenado con MSE: 122047.87736828275
+2025-03-16 15:59:59,604 - Random Forest entrenado con MSE: 163251.02837885614
+2025-03-16 15:59:59,714 - Gradient Boosting entrenado con MSE: 130307.64332570085
+2025-03-16 15:59:59,715 - Modelo Evaluador (Profesor) entrenado con MSE: 122047.87736828275
