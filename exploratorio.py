@@ -11,6 +11,11 @@ class EDA:
         else:
             self.__df = pd.DataFrame()
 
+    def validate_column(self, col):
+        if col not in self.__df.columns:
+            st.error(f"La columna '{col}' no existe en el DataFrame.")
+            return False
+
     def missing_values_info(self):
         if not self.__df.empty:
             return pd.DataFrame(self.__df.isnull().sum(), columns=["Cantidad de valores faltantes"])
@@ -93,14 +98,15 @@ class EDA:
 
     def plot_bar(self, col):
         if self.validate_column(col):
-            if self.__df[col].nunique() < 2:
+            return
+        if self.__df[col].nunique() < 2:
                 return st.warning("No hay suficientes categorías para generar un gráfico de barras.")
-            plt.figure(figsize=(10, 6))
-            sns.countplot(x=self.__df[col])
-            plt.title(f'Gráfico de Barras: {col}')
-            plt.xlabel(col)
-            plt.ylabel('Frecuencia')
-            st.pyplot(plt)
+        plt.figure(figsize=(10, 6))
+        sns.countplot(x=self.__df[col])
+        plt.title(f'Gráfico de Barras: {col}')
+        plt.xlabel(col)
+        plt.ylabel('Frecuencia')
+        st.pyplot(plt)
 
     def plot_violin(self, col):
         if self.validate_column(col):
@@ -226,7 +232,7 @@ class app:
              # Agregar botón para limpiar los datos
             if st.button("Reiniciar Datos"):
                 st.session_state['data'] = None
-                st.experimental_rerun()  # Recargar la app
+                st.rerun()  # Recargar la app
 
         else:
             st.warning("No hay datos cargados. Carga un dataset en el Pipeline primero.")

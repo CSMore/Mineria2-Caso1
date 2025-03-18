@@ -1,14 +1,16 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
+import streamlit_antd_components as sac
 import pipeline as pipeline  # Importar py Pipeline 
 import results as results     # Importar py Results
 import exploratorio as exploratorio  # Importar py Análisis Exploratorio
 import aprendizaje as aprendizaje  # Importar py Aprendizaje Supervisado
+import series_temporales as series_tiempo
 
 st.set_page_config(
     page_title="Testing",
     layout="wide"
 )
+
 '''
 if "pipeline_completed" not in st.session_state:
     st.session_state.pipeline_completed = False
@@ -17,23 +19,30 @@ if "dataset_loaded" not in st.session_state:
 if "page" not in st.session_state:
     st.session_state.page = "Pipeline"  # Página inicial predeterminada
 
+
 # Función que controla la navegación (menú lateral)
 def app_control():
     with st.sidebar:
-        selected = option_menu(
-            "Navegación",
-            options=[
-                "Pipeline",
-                "Análisis Exploratorio",
-                "Aprendizaje Supervisado",
-                "Comparación de Modelo"
-            ],
-            icons=["gear", "bar-chart", "robot", "graph-up-arrow"],
-            menu_icon="cast",
-            default_index=0
-        )
+        selected = sac.menu([
+            sac.MenuItem("Data", icon="gear",children=[
+                sac.MenuItem("Pipeline", icon="bar-chart", description="Carga de datos"),
+                sac.MenuItem("Análisis Exploratorio", icon="bar-chart", description="Explora y analiza el conjunto de datos"),
+            ]),
+            sac.MenuItem("Series Temporales", icon="bar-chart",children=[
+                sac.MenuItem("Configuración inicial", icon="bar-chart", description="Carga de datos"),
+                sac.MenuItem("Operaciones", icon="bar-chart", description="Carga de datos"),
+            ]),
+            sac.MenuItem("Aprendizaje Supervisado", icon="robot"),
+            sac.MenuItem("Comparación de Modelo", icon="graph-up-arrow"),
+        ] , variant='left-bar', color='#4682b4', open_all=True)#open_all=True, format_func=lambda x: x)  # Convierte el nombre en string directamente
+
+
+
+        st.session_state.page = selected
+
         st.session_state.page = selected
     return selected
+
 
 def main():
     if "page" not in st.session_state:
@@ -49,6 +58,19 @@ def main():
     elif st.session_state.page == "Análisis Exploratorio":
         #if st.session_state.pipeline_completed:
         exploratorio.app().main()  # Llamada al módulo Análisis Exploratorio
+        #st.session_state.dataset_loaded = True  # Simular que el dataset fue cargado
+
+    elif st.session_state.page == "Configuración inicial":
+    #if st.session_state.pipeline_completed:
+        if 'data' in st.session_state:
+            series_tiempo.app().main()  # Llamada al módulo Series Temporales
+        else:
+            st.warning("Por favor, carga un dataset desde el Pipeline.")
+        #st.session_state.dataset_loaded = True  # Simular que el dataset fue cargado
+
+    elif st.session_state.page == "Operaciones":
+    #if st.session_state.pipeline_completed:
+        series_tiempo.app().main()  # Llamada al módulo Series Temporales
         #st.session_state.dataset_loaded = True  # Simular que el dataset fue cargado
 
     elif st.session_state.page == "Aprendizaje Supervisado":
