@@ -153,7 +153,7 @@ class EDA:
 
 class app:
     def main(self):
-        st.title("Exploración de Datos")
+        st.markdown('<h2>Exploración de Datos </h2>', unsafe_allow_html=True)
 
         if 'data' in st.session_state and st.session_state['data'] is not None:
             eda_instance = EDA(df=st.session_state['data'])

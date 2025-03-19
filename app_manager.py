@@ -11,11 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-'''
-if "pipeline_completed" not in st.session_state:
-    st.session_state.pipeline_completed = False
-if "dataset_loaded" not in st.session_state:
-    st.session_state.dataset_loaded = False'''
+
 if "page" not in st.session_state:
     st.session_state.page = "Pipeline"  # Página inicial predeterminada
 
@@ -62,10 +58,7 @@ def main():
 
     elif st.session_state.page == "Configuración inicial":
     #if st.session_state.pipeline_completed:
-        if 'data' in st.session_state:
-            series_tiempo.app().main()  # Llamada al módulo Series Temporales
-        else:
-            st.warning("Por favor, carga un dataset desde el Pipeline.")
+        series_tiempo.app().main()
         #st.session_state.dataset_loaded = True  # Simular que el dataset fue cargado
 
     elif st.session_state.page == "Operaciones":
