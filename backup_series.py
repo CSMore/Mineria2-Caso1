@@ -2,61 +2,67 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import logging
-import matplotlib.pyplot as plt
-import statsmodels.api as sm
-from statsmodels.tsa.arima.model import ARIMA
-from statsmodels.tsa.seasonal import seasonal_decompose
-from sklearn.metrics import mean_absolute_error
 from datetime import timedelta
+
 def setup_logging():
-    logging.basicConfig(filename="audit_log.txt", 
-                        level=logging.INFO, 
-                        format="%(asctime)s - %(message)s")
+    logging.basicConfig(filename="audit_log.txt", level=logging.INFO, format="%(asctime)s - %(message)s")
+
 class SeriesTemporales:
     def __init__(self, df):
         setup_logging()
-        self.original_df = df.copy()  # Keep a copy of the original dataframe
-        self.df = df.copy()  # Working copy
-        
+        self.original_df = df.copy()
+        self.df = df.copy()
         logging.info(f"DataFrame recibido con columnas: {list(self.df.columns)}")
-        logging.info(f"Tipos de datos del DataFrame: {self.df.dtypes}")
-        
-        
-        logging.info("Instancia de SeriesTemporales creada con datos cargados correctamente.")
-    def head_df(self, n=5):
-        if not self.__df.empty:
-            return self.__df.head(n).astype(str)
-        return "No se cargaron los datos :("
-    def tail_df(self, n=5):
-        if not self.__df.empty:
-            return self.__df.tail(n).astype(str)
-        return "No se cargaron los datos :("
+
+    def preview_df(self, n=5, tail=False):
+        """Muestra las primeras o últimas filas del dataframe."""
+        if self.df is None or self.df.empty:
+            return "No se cargaron los datos :("
+        return self.df.tail(n).astype(str) if tail else self.df.head(n).astype(str)
     
+    def render_data_preview(self):
+        """Muestra pestañas con las primeras y últimas filas del dataframe."""
+        tab1, tab2 = st.tabs(["Top Rows", "Last Rows"])
+        with tab1:
+            st.write(self.preview_df(n=5))
+        with tab2:
+            st.write(self.preview_df(n=5, tail=True))
+
+    def render_date_selection(self):
+        """Crea la selección de fechas con columnas en Streamlit."""
+        col1, col2 = st.columns(2)
+        with col1:
+            fecha_inicio = st.date_input("Fecha de inicio")
+        with col2:
+            fecha_fin = st.date_input("Fecha de fin")
+        return fecha_inicio, fecha_fin
+
     def validate_data_loaded(self):
         """Verifica si los datos están cargados en el pipeline."""
-        if self.df is None:
+        if self.df is None or self.df.empty:
             st.warning("No hay datos cargados. Carga primero un dataset válido.")
             logging.warning("Intento de realizar operaciones sin datos cargados.")
             return False
         return True
+
     @staticmethod
-    def validate_date(df, date_column):
-        """Función para validar y convertir la columna a tipo datetime."""
-        if date_column not in df.columns:
-            st.error(f"La columna '{date_column}' no está presente en los datos.")
-            logging.error(f"La columna '{date_column}' no se encuentra en el DataFrame.")
+    def validate_column(df, column, convert_func, error_msg):
+        """Valida una columna para convertirla con una función y manejar errores."""
+        if column not in df.columns:
+            st.error(f"La columna '{column}' no está presente en los datos.")
+            logging.error(f"La columna '{column}' no se encuentra en el DataFrame.")
             return None
         
-        # Intentar convertir la columna a datetime, forzando errores a NaT
-        df[date_column] = pd.to_datetime(df[date_column], errors='coerce', dayfirst=True)
-        if df[date_column].isnull().all():
-            st.error(f"La columna '{date_column}' no tiene valores válidos de fecha.")
+        # Intentar convertir la columna
+        df[column] = convert_func(df[column], errors='coerce')
+        
+        if df[column].isnull().all():
+            st.error(error_msg)
             return None
         
-        # Eliminar filas con fechas inválidas (NaT)
-        df = df.dropna(subset=[date_column])
-        
+        df = df.dropna(subset=[column])
         return df
+
     @staticmethod
     def validate_time(df, time_column):
         """Función para validar y convertir la columna a tipo timedelta."""
@@ -73,95 +79,71 @@ class SeriesTemporales:
             return None
         
         return df
+
     def render_option_selector(self):
         """Muestra la opción de seleccionar o crear."""
         col1, _ = st.columns(2)
         with col1:
             st.write("## Opciones")
             return st.radio("Selecciona una opción:", ("Seleccionar", "Crear"))
-    def render_data_selector(self, option):
+
+    def render_data_selector(self):
         """Muestra el selector de columna de datos."""
-        if option == "Seleccionar":
-            col2, _ = st.columns(2)
-            with col2:
-                st.write("## Datos")
-                st.write("### Selecciona la columna con los datos temporales:")
-                
-                # First, check explicitly for a column named 'fecha' which is common in Spanish datasets
-                if 'fecha' in self.df.columns:
-                    # Test if it can be converted to datetime
-                    test_series = pd.to_datetime(self.df['fecha'], errors='coerce')
-                    valid_dates = test_series.notnull().sum()
-                    
-                    if valid_dates > 0:
-                        st.success(f"Columna 'fecha' encontrada con {valid_dates} fechas válidas.")
-                        logging.info(f"Columna 'fecha' identificada con {valid_dates} fechas válidas")
-                        potential_date_columns = ['fecha']
-                    else:
-                        potential_date_columns = []
-                else:
-                    potential_date_columns = []
-                
-                # If 'fecha' wasn't found or doesn't contain valid dates, check all columns
-                if not potential_date_columns:
-                    # Print the first few rows of each string column to help with debugging
-                    st.write("### Contenido de columnas de texto:")
-                    for column in self.df.columns:
-                        if pd.api.types.is_string_dtype(self.df[column]) or pd.api.types.is_object_dtype(self.df[column]):
-                            st.write(f"Columna '{column}' - Primeros 5 valores: {self.df[column].head().tolist()}")
-                    
-                    # Now search for date columns more aggressively
-                    for column in self.df.columns:
-                        # Skip non-string/object columns
-                        if not (pd.api.types.is_string_dtype(self.df[column]) or pd.api.types.is_object_dtype(self.df[column])):
-                            continue
-                            
-                        # Try to convert to datetime
+        col2, _ = st.columns(2)
+        with col2:
+            st.write("## Datos")
+            st.write("### Selecciona la columna con los datos temporales:")
+            
+            potential_date_columns = []
+            
+            # Revisar la columna 'fecha' primero
+            if 'fecha' in self.df.columns:
+                test_series = pd.to_datetime(self.df['fecha'], errors='coerce')
+                valid_dates = test_series.notnull().sum()
+                if valid_dates > 0:
+                    potential_date_columns.append('fecha')
+                    st.success(f"Columna 'fecha' encontrada con {valid_dates} fechas válidas.")
+                    logging.info(f"Columna 'fecha' identificada con {valid_dates} fechas válidas")
+            
+            # Si no hay una columna 'fecha' válida, revisa todas las demás columnas
+            if not potential_date_columns:
+                st.write("### Contenido de columnas de texto:")
+                for column in self.df.columns:
+                    if pd.api.types.is_string_dtype(self.df[column]) or pd.api.types.is_object_dtype(self.df[column]):
+                        st.write(f"Columna '{column}' - Primeros 5 valores: {self.df[column].head().tolist()}")
+                for column in self.df.columns:
+                    if pd.api.types.is_string_dtype(self.df[column]) or pd.api.types.is_object_dtype(self.df[column]):
                         test_series = pd.to_datetime(self.df[column], errors='coerce')
                         valid_dates = test_series.notnull().sum()
-                        
-                        # If any dates are valid, add to potential columns
                         if valid_dates > 0:
                             potential_date_columns.append(column)
                             st.success(f"Columna '{column}' identificada con {valid_dates} fechas válidas")
                             logging.info(f"Columna '{column}' identificada con {valid_dates} fechas válidas")
-                
-                if potential_date_columns:
-                    selected_column = st.selectbox("Selecciona una columna de fecha:", potential_date_columns)
+            
+            if potential_date_columns:
+                selected_column = st.selectbox("Selecciona una columna de fecha:", potential_date_columns)
+                if st.button("Usar esta columna como índice temporal"):
+                    self.df[selected_column] = pd.to_datetime(self.df[selected_column], errors='coerce', dayfirst=False)
                     
-                    # When a column is selected, convert it and set as index
-                    if st.button("Usar esta columna como índice temporal"):
-                        # Convert the selected column to datetime
-                        self.df[selected_column] = pd.to_datetime(self.df[selected_column], errors='coerce', dayfirst=False)
-                        
-                        # Print the first few converted dates for verification
-                        st.write(f"Fechas convertidas (primeras 5): {self.df[selected_column].head().tolist()}")
-                        
-                        # Drop rows with invalid dates
-                        valid_rows = self.df[selected_column].notnull().sum()
-                        total_rows = len(self.df)
-                        self.df = self.df.dropna(subset=[selected_column])
-                        
-                        # Set the selected column as index
-                        self.df.set_index(selected_column, inplace=True)
-                        
-                        st.success(f"Columna '{selected_column}' configurada como índice temporal. {valid_rows} de {total_rows} filas son válidas.")
-                        logging.info(f"Columna '{selected_column}' configurada como índice temporal")
-                        
-                    return selected_column
-                else:
-                    st.warning("No se encontraron columnas con formato de fecha.")
-                    logging.warning("No se encontraron columnas con formato de fecha válido")
+                    # Print the first few converted dates for verification
+                    st.write(f"Fechas convertidas (primeras 5): {self.df[selected_column].head().tolist()}")
                     
-                    # Debug information
-                    st.write("### DEBUG - Información de columnas:")
-                    for column in self.df.columns:
-                        st.write(f"Columna: {column}, Tipo: {self.df[column].dtype}")
-                        if pd.api.types.is_string_dtype(self.df[column]) or pd.api.types.is_object_dtype(self.df[column]):
-                            st.write(f"Valores: {self.df[column].head().tolist()}")
+                    # Drop rows with invalid dates
+                    valid_rows = self.df[selected_column].notnull().sum()
+                    total_rows = len(self.df)
+                    self.df = self.df.dropna(subset=[selected_column])
                     
-                    return None
-        return None
+                    # Set the selected column as index
+                    self.df.set_index(selected_column, inplace=True)
+                    
+                    st.success(f"Columna '{selected_column}' configurada como índice temporal. {valid_rows} de {total_rows} filas son válidas.")
+                    logging.info(f"Columna '{selected_column}' configurada como índice temporal")
+                return selected_column
+            else:
+                st.warning("No se encontraron columnas con formato de fecha.")
+                logging.warning("No se encontraron columnas con formato de fecha válido")
+                return None
+
     def render_create_data(self):
         """Muestra los controles para crear los datos si no se encuentran."""
         col2, _ = st.columns(2)
@@ -173,32 +155,21 @@ class SeriesTemporales:
                 "Los datos vienen de forma:",
                 ("Anual", "Mensual", "Diaria", "Por días laborales", "Por hora", "Por minuto", "Por segundo")
             )
-            tab1, tab2 = st.tabs(["Top Rows", "Last Rows"])
-            with tab1:
-                if 'fecha' in self.df.columns:
-                    st.write(self.df[['fecha']].head())  # Muestra las primeras filas del dataframe
-            with tab2:
-                if 'fecha' in self.df.columns:
-                    st.write(self.df[['fecha']].tail())  # Muestra las últimas filas del dataframe
+            
+            self.render_data_preview()
+            
             col1, col2 = st.columns(2)
             with col1:
                 fecha_inicio = st.date_input("Fecha de inicio")
             with col2:
                 fecha_fin = st.date_input("Fecha de fin")
+            
             if st.button("Crear índice temporal"):
-                # Crear el índice temporal según la frecuencia seleccionada
                 freq_map = {
-                    "Anual": "YE", 
-                    "Mensual": "M", 
-                    "Diaria": "D", 
-                    "Por días laborales": "B", 
-                    "Por hora": "H", 
-                    "Por minuto": "T", 
-                    "Por segundo": "S"
+                    "Anual": "YE", "Mensual": "M", "Diaria": "D", "Por días laborales": "B", 
+                    "Por hora": "H", "Por minuto": "T", "Por segundo": "S"
                 }
                 freq = freq_map.get(frecuencia)
-                
-                # Create date range
                 date_range = pd.date_range(start=fecha_inicio, end=fecha_fin, freq=freq)
                 
                 # Create new dataframe with the date range as index
@@ -220,91 +191,220 @@ class SeriesTemporales:
                 st.success(f"Índice temporal creado con frecuencia {frecuencia} desde {fecha_inicio} hasta {fecha_fin}.")
                 logging.info(f"Índice temporal creado con frecuencia {frecuencia}")
                 
-            logging.info(f"Creación de datos con frecuencia {frecuencia} desde {fecha_inicio} hasta {fecha_fin}.")
             return frecuencia, fecha_inicio, fecha_fin
+
     def render_smoothing_selector(self):
         """Muestra el selector de suavizado."""
         col3, _ = st.columns(2)
         with col3:
             st.write("## Suavizado")
             st.write("### Cantidad de datos a promediar:")
-            return st.slider("Selecciona el número de elementos a promediar:", 1, 10, 3)
+            window_size = st.slider("Selecciona el número de elementos a promediar:", 1, 10, 3)
+            
+            if st.button("Aplicar suavizado"):
+                self.apply_smoothing(window_size)
+                self.display_time_series_data(show_smoothed=True)
+                
+            return window_size
+
+    def apply_smoothing(self, window_size):
+        """Apply moving average smoothing to the time series data."""
+        if isinstance(self.df.index, pd.DatetimeIndex) and len(self.df.columns) > 0:
+            # Apply rolling mean to numeric columns
+            numeric_cols = self.df.select_dtypes(include=['number']).columns
+            for col in numeric_cols:
+                smoothed_col_name = f"{col}_smoothed_{window_size}"
+                self.df[smoothed_col_name] = self.df[col].rolling(window=window_size).mean()
+            
+            st.success(f"Suavizado aplicado con ventana de {window_size} períodos.")
+            logging.info(f"Suavizado aplicado con ventana de {window_size}")
+            return True
+        return False
+
+    def display_time_series_data(self, show_smoothed=False):
+        """Display the time series data if it's properly formatted."""
+        if isinstance(self.df.index, pd.DatetimeIndex):
+            st.write("### Vista previa de los datos temporales:")
+            st.write(self.df.head())
+            
+            # Show charts for the data
+            if len(self.df.columns) > 0:
+                # If smoothed data is available and requested, show both original and smoothed
+                if show_smoothed:
+                    smoothed_cols = [col for col in self.df.columns if '_smoothed_' in col]
+                    if smoothed_cols:
+                        st.write("### Datos originales y suavizados:")
+                        # Create a new dataframe with only the columns we want to display
+                        display_cols = []
+                        # Add original columns first
+                        numeric_cols = self.df.select_dtypes(include=['number']).columns
+                        original_cols = [col for col in numeric_cols if '_smoothed_' not in col]
+                        display_cols.extend(original_cols)
+                        # Then add smoothed columns
+                        display_cols.extend(smoothed_cols)
+                        
+                        # Display the chart with all data
+                        st.line_chart(self.df[display_cols])
+                        return True
+                
+                # If no smoothed data or not requested, just show original data
+                numeric_cols = self.df.select_dtypes(include=['number']).columns
+                original_cols = [col for col in numeric_cols if '_smoothed_' not in col]
+                if original_cols:
+                    st.write("### Datos originales:")
+                    st.line_chart(self.df[original_cols])
+                    return True
+        return False
+    
     def render_options_panel(self):
         """Función principal que maneja el panel de opciones."""
-        
-        # Verificar si los datos están cargados
         if not self.validate_data_loaded():
             return None, None, None
         
-        # Selección de opciones
         option = self.render_option_selector()
-        
-        # Inicializar variables
         datos = None
         suavizado = None
         
-        # Si la opción es "Seleccionar", mostramos el selector de columnas de datos
         if option == "Seleccionar":
-            datos = self.render_data_selector(option)
-            # Selección de suavizado
+            datos = self.render_data_selector()
             suavizado = self.render_smoothing_selector()
-        # Si la opción es "Crear", pedimos los datos necesarios
         elif option == "Crear":
             frecuencia, fecha_inicio, fecha_fin = self.render_create_data()
-            # Guardar los datos en una estructura que se pueda manejar con 3 valores de retorno
-            datos = {
-                'frecuencia': frecuencia,
-                'fecha_inicio': fecha_inicio,
-                'fecha_fin': fecha_fin
-            }
-            # Selección de suavizado
+            datos = {'frecuencia': frecuencia, 'fecha_inicio': fecha_inicio, 'fecha_fin': fecha_fin}
             suavizado = self.render_smoothing_selector()
         
         logging.info(f"Opciones seleccionadas: {option}, Datos: {datos}, Suavizado: {suavizado}")
         return option, datos, suavizado
+
 class app:
     def main(self):
         st.title("Análisis de Series Temporales")
         
         if 'data' in st.session_state and st.session_state['data'] is not None:
             series_temp = SeriesTemporales(df=st.session_state['data'])
-            # Resto del código
             option, datos, suavizado = series_temp.render_options_panel()
+
             if option is None:  # Verificar si no se han seleccionado opciones
                 return
+
             if option == "Seleccionar" and datos is not None:
                 st.write(f"Has seleccionado la columna: {datos}")
-                
-                # Here you could add additional analysis based on the selected time column
-                if hasattr(series_temp, 'df') and series_temp.df is not None:
-                    # Instead of checking is_all_dates, check if the index is a DatetimeIndex
-                    if isinstance(series_temp.df.index, pd.DatetimeIndex):
-                        st.write("### Vista previa de los datos temporales:")
-                        st.write(series_temp.df.head())
-                        
-                        # Example: show a line chart of the time series data
-                        if len(series_temp.df.columns) > 0:
-                            first_col = series_temp.df.columns[0]
-                            st.line_chart(series_temp.df[first_col])
-                
+                series_temp.display_time_series_data()
+
             elif option == "Crear" and datos is not None:
-                # Extraer los datos del diccionario
-                if isinstance(datos, dict):  # Check if datos is a dictionary
+                if isinstance(datos, dict):
                     frecuencia = datos.get('frecuencia')
                     fecha_inicio = datos.get('fecha_inicio')
                     fecha_fin = datos.get('fecha_fin')
-                    
                     st.write(f"Frecuencia: {frecuencia}")
                     st.write(f"Fecha de inicio: {fecha_inicio}")
                     st.write(f"Fecha de fin: {fecha_fin}")
                     st.write(f"Suavizado: {suavizado}")
-                else:
-                    st.write(f"Datos seleccionados: {datos}")
-                    st.write(f"Suavizado: {suavizado}")
-                
-                # Add visualization for created time series if needed
-                
-            # Continuar con el análisis de series temporales si es necesario
-            # ...
+                    
+                series_temp.display_time_series_data()
         else:
             st.warning("No hay datos cargados. Carga un dataset en el Pipeline primero.")
+
+
+
+
+
+
+    def render_data_selector(self):
+        """Renderiza el selector de columna de fechas en los datos."""
+        potential_date_columns = [col for col in self.df.columns if pd.to_datetime(self.df[col], errors='coerce').notnull().sum() > 0]
+
+        if potential_date_columns:
+            return st.selectbox("Selecciona una columna de fecha:", potential_date_columns)
+        else:
+            st.warning("No se encontraron columnas con formato de fecha válido.")
+            logging.warning("No se encontraron columnas con formato de fecha válido")
+            return None
+        
+# ---------------------------------------------------------------------------------------------#
+
+    def render_smoothing_button(self):
+        """Muestra el botón de aplicar suavizado en una nueva fila completa."""
+        if self.df is None or self.df.empty:
+            return None
+
+        # Crear un contenedor que ocupe todo el ancho de la pantalla
+        with st.container():
+            if st.button("Aplicar suavizado", key="apply_smoothing_button", use_container_width=True):
+                if self.show_smoothed:
+                    st.warning("El suavizado ya ha sido aplicado.")
+                else:
+                    if self.apply_smoothing(window_size=3):  # Ajusta el tamaño de la ventana como desees
+                        st.success("Suavizado aplicado con éxito.")
+
+
+    def render_options_panel(self):
+        """Panel con las opciones organizadas en columnas."""
+        if not self.validate_data_loaded():
+            return None, None, None, None
+
+        col1, col2, col3 = st.columns([1.7, 1.6, 1.5])  # Ajustamos tamaños para balance visual
+
+        with col1: #Selección de fechas
+            option, datos = self.render_option_selection()
+
+        with col2: #Selección de la variable numérica
+            selected_data_col = self.render_numeric_column_selector()
+            if selected_data_col: 
+                st.write(f"Columna de datos seleccionada: {selected_data_col}")
+
+        with col3: #Configuración de suavizado
+            suavizado = self.render_smoothing_selector()
+
+        self.render_smoothing_button()
+
+        self.display_time_series_data(show_smoothed=self.show_smoothed)
+        return option, datos, selected_data_col, suavizado
+    
+
+
+    def select_date_column(self, potential_date_columns):
+        """Muestra el selector de columna de fecha y permite usarla como índice temporal."""
+        selected_column = st.selectbox("Selecciona una columna de fecha:", potential_date_columns)
+
+        # Acción al seleccionar una columna
+        if st.button("Usar como columna de fecha"):
+            self.df[selected_column] = pd.to_datetime(self.df[selected_column], errors='coerce', dayfirst=False)
+            
+            # Eliminar filas con fechas no válidas
+            valid_rows = self.df[selected_column].notnull().sum()
+            total_rows = len(self.df)
+            self.df = self.df.dropna(subset=[selected_column])
+            
+            # Establecer la columna seleccionada como índice
+            self.df.set_index(selected_column, inplace=True)
+            
+            st.success(f"Columna '{selected_column}' configurada como índice temporal. {valid_rows} de {total_rows} filas son válidas.")
+            logging.info(f"Columna '{selected_column}' configurada como índice temporal")
+        
+        return selected_column
+
+
+
+
+    def display_time_series_data(self, show_smoothed=False):
+        """Muestra los datos de la serie temporal."""
+        if isinstance(self.df.index, pd.DatetimeIndex):
+            st.write("### Vista previa de los datos temporales:")
+            st.write(self.df.head())
+
+            numeric_cols = self.df.select_dtypes(include=['number']).columns
+            original_cols = [col for col in numeric_cols if '_smoothed_' not in col]
+
+            if show_smoothed:
+                smoothed_cols = [col for col in self.df.columns if '_smoothed_' in col]
+                display_cols = original_cols + smoothed_cols
+                st.write("### Datos originales y suavizados:")
+            else:
+                display_cols = original_cols
+                st.write("### Datos originales:")
+
+            if display_cols:
+                st.line_chart(self.df[display_cols])
+                return True
+        return False

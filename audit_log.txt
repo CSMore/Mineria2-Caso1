@@ -138,3 +138,1935 @@
 2025-03-16 15:59:59,604 - Random Forest entrenado con MSE: 163251.02837885614
 2025-03-16 15:59:59,714 - Gradient Boosting entrenado con MSE: 130307.64332570085
 2025-03-16 15:59:59,715 - Modelo Evaluador (Profesor) entrenado con MSE: 122047.87736828275
+2025-03-16 19:06:50,090 - Archivo CSV cargado correctamente.
+2025-03-16 19:07:34,051 - Archivo CSV cargado correctamente.
+2025-03-16 19:08:01,986 - Archivo CSV cargado correctamente.
+2025-03-16 19:08:30,016 - Archivo CSV cargado correctamente.
+2025-03-16 19:08:30,030 - Dataset guardado correctamente en sesión.
+2025-03-16 19:10:13,062 - Archivo CSV cargado correctamente.
+2025-03-16 19:10:17,324 - Archivo CSV cargado correctamente.
+2025-03-16 19:10:22,895 - Archivo CSV cargado correctamente.
+2025-03-16 19:10:34,013 - Archivo CSV cargado correctamente.
+2025-03-16 19:10:35,994 - Archivo CSV cargado correctamente.
+2025-03-16 19:10:37,846 - Archivo CSV cargado correctamente.
+2025-03-16 19:10:37,861 - Dataset guardado correctamente en sesión.
+2025-03-16 19:14:27,844 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:35,017 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:41,077 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:42,947 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:44,857 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:46,185 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:47,870 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:49,427 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:51,668 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:54,740 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:56,608 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:57,974 - Archivo CSV cargado correctamente.
+2025-03-16 19:14:59,402 - Archivo CSV cargado correctamente.
+2025-03-16 19:15:00,713 - Archivo CSV cargado correctamente.
+2025-03-16 19:23:38,939 - Archivo CSV cargado correctamente.
+2025-03-16 19:26:08,117 - Archivo CSV cargado correctamente.
+2025-03-16 19:26:15,727 - Archivo CSV cargado correctamente.
+2025-03-16 19:26:28,459 - Archivo CSV cargado correctamente.
+2025-03-16 19:26:28,472 - Dataset guardado correctamente en sesión.
+2025-03-16 19:27:50,278 - Archivo CSV cargado correctamente.
+2025-03-17 19:43:14,285 - Archivo CSV cargado correctamente.
+2025-03-17 19:43:20,640 - Archivo CSV cargado correctamente.
+2025-03-17 19:47:03,945 - Archivo CSV cargado correctamente.
+2025-03-17 19:50:41,213 - Archivo CSV cargado correctamente.
+2025-03-17 19:50:41,237 - Dataset guardado correctamente en sesión.
+2025-03-17 22:09:08,523 - Archivo CSV cargado correctamente.
+2025-03-17 22:09:11,156 - Archivo CSV cargado correctamente.
+2025-03-17 22:09:15,700 - Archivo CSV cargado correctamente.
+2025-03-17 22:09:21,878 - Archivo CSV cargado correctamente.
+2025-03-17 22:09:21,901 - Dataset guardado correctamente en sesión.
+2025-03-17 22:09:44,560 - Archivo CSV cargado correctamente.
+2025-03-17 22:27:14,986 - Archivo CSV cargado correctamente.
+2025-03-17 22:27:19,596 - Archivo CSV cargado correctamente.
+2025-03-17 22:27:25,178 - Archivo CSV cargado correctamente.
+2025-03-17 22:27:31,404 - Archivo CSV cargado correctamente.
+2025-03-17 22:27:31,440 - Dataset guardado correctamente en sesión.
+2025-03-17 22:31:23,639 - Archivo CSV cargado correctamente.
+2025-03-17 22:31:30,451 - Archivo CSV cargado correctamente.
+2025-03-17 22:31:37,117 - Archivo CSV cargado correctamente.
+2025-03-17 22:31:39,603 - Archivo CSV cargado correctamente.
+2025-03-17 22:31:48,028 - Archivo CSV cargado correctamente.
+2025-03-17 22:31:57,792 - Archivo CSV cargado correctamente.
+2025-03-17 22:31:57,820 - Dataset guardado correctamente en sesión.
+2025-03-17 22:38:50,606 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-17 22:38:50,615 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-17 22:38:55,078 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-17 22:38:55,082 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-17 22:39:21,754 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-17 22:39:21,765 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-17 22:39:30,141 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-17 22:39:30,145 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-17 22:49:09,770 - Archivo CSV cargado correctamente.
+2025-03-17 22:49:18,779 - Archivo CSV cargado correctamente.
+2025-03-17 22:49:22,299 - Archivo CSV cargado correctamente.
+2025-03-17 22:49:23,809 - Archivo CSV cargado correctamente.
+2025-03-17 22:49:27,367 - Archivo CSV cargado correctamente.
+2025-03-17 22:49:42,634 - Archivo CSV cargado correctamente.
+2025-03-17 22:49:42,656 - Dataset guardado correctamente en sesión.
+2025-03-17 22:57:43,787 - Archivo CSV cargado correctamente.
+2025-03-17 22:57:48,142 - Archivo CSV cargado correctamente.
+2025-03-17 22:57:52,394 - Archivo CSV cargado correctamente.
+2025-03-17 22:57:55,665 - Archivo CSV cargado correctamente.
+2025-03-17 22:57:55,690 - Dataset guardado correctamente en sesión.
+2025-03-17 23:18:16,800 - Archivo CSV cargado correctamente.
+2025-03-17 23:18:25,721 - Archivo CSV cargado correctamente.
+2025-03-17 23:18:28,100 - Archivo CSV cargado correctamente.
+2025-03-17 23:18:30,485 - Archivo CSV cargado correctamente.
+2025-03-17 23:18:33,378 - Archivo CSV cargado correctamente.
+2025-03-17 23:18:33,407 - Dataset guardado correctamente en sesión.
+2025-03-17 23:29:35,329 - Archivo CSV cargado correctamente.
+2025-03-17 23:29:37,626 - Archivo CSV cargado correctamente.
+2025-03-17 23:29:40,704 - Archivo CSV cargado correctamente.
+2025-03-17 23:29:40,729 - Dataset guardado correctamente en sesión.
+2025-03-17 23:30:06,426 - Archivo CSV cargado correctamente.
+2025-03-17 23:30:10,283 - Archivo CSV cargado correctamente.
+2025-03-17 23:30:12,565 - Archivo CSV cargado correctamente.
+2025-03-17 23:30:14,696 - Archivo CSV cargado correctamente.
+2025-03-17 23:30:14,720 - Dataset guardado correctamente en sesión.
+2025-03-18 00:00:23,046 - Archivo CSV cargado correctamente.
+2025-03-18 00:00:25,934 - Archivo CSV cargado correctamente.
+2025-03-18 00:00:30,281 - Archivo CSV cargado correctamente.
+2025-03-18 00:00:32,158 - Archivo CSV cargado correctamente.
+2025-03-18 00:00:32,179 - Dataset guardado correctamente en sesión.
+2025-03-18 00:00:59,591 - Archivo CSV cargado correctamente.
+2025-03-18 00:01:02,355 - Archivo CSV cargado correctamente.
+2025-03-18 00:01:09,623 - Archivo CSV cargado correctamente.
+2025-03-18 00:01:09,643 - Dataset guardado correctamente en sesión.
+2025-03-18 00:02:03,343 - Archivo CSV cargado correctamente.
+2025-03-18 00:09:12,711 - Archivo CSV cargado correctamente.
+2025-03-18 00:09:14,627 - Archivo CSV cargado correctamente.
+2025-03-18 00:09:18,334 - Archivo CSV cargado correctamente.
+2025-03-18 00:09:19,914 - Archivo CSV cargado correctamente.
+2025-03-18 00:09:19,932 - Dataset guardado correctamente en sesión.
+2025-03-18 00:09:21,565 - Archivo CSV cargado correctamente.
+2025-03-18 00:09:22,156 - Archivo CSV cargado correctamente.
+2025-03-18 00:09:30,183 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:09:30,189 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:09:30,192 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:10:42,960 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 00:11:18,669 - Archivo CSV cargado correctamente.
+2025-03-18 00:11:20,913 - Archivo CSV cargado correctamente.
+2025-03-18 00:11:28,436 - Archivo CSV cargado correctamente.
+2025-03-18 00:11:39,790 - Archivo CSV cargado correctamente.
+2025-03-18 00:11:39,813 - Dataset guardado correctamente en sesión.
+2025-03-18 00:11:50,283 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:11:50,288 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:11:50,293 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:19:41,435 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:19:41,439 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:26:59,278 - Archivo CSV cargado correctamente.
+2025-03-18 00:27:01,449 - Archivo CSV cargado correctamente.
+2025-03-18 00:27:05,821 - Archivo CSV cargado correctamente.
+2025-03-18 00:27:07,526 - Archivo CSV cargado correctamente.
+2025-03-18 00:27:07,554 - Dataset guardado correctamente en sesión.
+2025-03-18 00:27:12,547 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:27:12,552 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:27:12,555 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:33:52,066 - Archivo CSV cargado correctamente.
+2025-03-18 00:33:53,975 - Archivo CSV cargado correctamente.
+2025-03-18 00:33:57,249 - Archivo CSV cargado correctamente.
+2025-03-18 00:33:57,273 - Dataset guardado correctamente en sesión.
+2025-03-18 00:33:58,806 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:33:58,810 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:33:58,814 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:34:26,226 - Archivo CSV cargado correctamente.
+2025-03-18 00:34:34,930 - Archivo CSV cargado correctamente.
+2025-03-18 00:34:39,426 - Archivo CSV cargado correctamente.
+2025-03-18 00:34:45,746 - Archivo CSV cargado correctamente.
+2025-03-18 00:34:45,772 - Dataset guardado correctamente en sesión.
+2025-03-18 00:35:12,672 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:35:12,677 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:35:12,680 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:36:43,968 - Archivo CSV cargado correctamente.
+2025-03-18 00:36:47,202 - Archivo CSV cargado correctamente.
+2025-03-18 00:36:51,216 - Archivo CSV cargado correctamente.
+2025-03-18 00:36:51,245 - Dataset guardado correctamente en sesión.
+2025-03-18 00:36:53,135 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:36:53,142 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:36:53,145 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:40:18,429 - Archivo CSV cargado correctamente.
+2025-03-18 00:40:21,147 - Archivo CSV cargado correctamente.
+2025-03-18 00:40:24,528 - Archivo CSV cargado correctamente.
+2025-03-18 00:40:24,552 - Dataset guardado correctamente en sesión.
+2025-03-18 00:40:32,796 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:40:32,799 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:40:32,801 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:43:21,407 - Archivo CSV cargado correctamente.
+2025-03-18 00:43:23,764 - Archivo CSV cargado correctamente.
+2025-03-18 00:43:26,495 - Archivo CSV cargado correctamente.
+2025-03-18 00:43:26,520 - Dataset guardado correctamente en sesión.
+2025-03-18 00:43:27,854 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:43:27,857 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:43:27,858 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:43:34,142 - Archivo CSV cargado correctamente.
+2025-03-18 00:43:36,208 - Archivo CSV cargado correctamente.
+2025-03-18 00:43:38,310 - Archivo CSV cargado correctamente.
+2025-03-18 00:43:38,338 - Dataset guardado correctamente en sesión.
+2025-03-18 00:43:39,739 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:43:39,745 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:43:39,748 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:44:14,423 - Archivo CSV cargado correctamente.
+2025-03-18 00:44:16,415 - Archivo CSV cargado correctamente.
+2025-03-18 00:44:20,848 - Archivo CSV cargado correctamente.
+2025-03-18 00:44:22,623 - Archivo CSV cargado correctamente.
+2025-03-18 00:44:22,652 - Dataset guardado correctamente en sesión.
+2025-03-18 00:44:23,789 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:44:23,794 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:44:23,797 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:45:15,546 - Archivo CSV cargado correctamente.
+2025-03-18 00:45:23,193 - Archivo CSV cargado correctamente.
+2025-03-18 00:45:30,289 - Archivo CSV cargado correctamente.
+2025-03-18 00:45:30,314 - Dataset guardado correctamente en sesión.
+2025-03-18 00:45:32,768 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:45:32,773 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:45:32,775 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:47:50,565 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:47:50,568 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:47:50,570 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:47:57,072 - Archivo CSV cargado correctamente.
+2025-03-18 00:47:58,985 - Archivo CSV cargado correctamente.
+2025-03-18 00:48:02,318 - Archivo CSV cargado correctamente.
+2025-03-18 00:48:04,491 - Archivo CSV cargado correctamente.
+2025-03-18 00:48:04,515 - Dataset guardado correctamente en sesión.
+2025-03-18 00:48:05,684 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:48:05,689 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:48:05,692 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:54:13,667 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:54:13,671 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:54:13,674 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:54:22,942 - Archivo CSV cargado correctamente.
+2025-03-18 00:54:24,802 - Archivo CSV cargado correctamente.
+2025-03-18 00:54:28,925 - Archivo CSV cargado correctamente.
+2025-03-18 00:54:37,666 - Archivo CSV cargado correctamente.
+2025-03-18 00:54:37,689 - Dataset guardado correctamente en sesión.
+2025-03-18 00:54:38,881 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:54:38,885 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:54:38,887 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:58:01,211 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:58:01,214 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:58:01,217 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:58:10,978 - Archivo CSV cargado correctamente.
+2025-03-18 00:58:12,725 - Archivo CSV cargado correctamente.
+2025-03-18 00:58:14,602 - Archivo CSV cargado correctamente.
+2025-03-18 00:58:14,624 - Dataset guardado correctamente en sesión.
+2025-03-18 00:58:15,641 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:58:15,644 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:58:15,646 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 00:58:19,450 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:58:19,456 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 00:58:25,976 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 00:58:25,982 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 00:58:25,985 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:00:53,151 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:00:53,154 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:00:53,156 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:02:36,576 - Archivo CSV cargado correctamente.
+2025-03-18 01:02:38,360 - Archivo CSV cargado correctamente.
+2025-03-18 01:02:42,678 - Archivo CSV cargado correctamente.
+2025-03-18 01:02:42,702 - Dataset guardado correctamente en sesión.
+2025-03-18 01:02:43,771 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:02:43,774 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:02:43,775 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:06:36,592 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:06:36,596 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:06:36,600 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:06:52,328 - Archivo CSV cargado correctamente.
+2025-03-18 01:06:53,993 - Archivo CSV cargado correctamente.
+2025-03-18 01:06:58,114 - Archivo CSV cargado correctamente.
+2025-03-18 01:06:58,137 - Dataset guardado correctamente en sesión.
+2025-03-18 01:06:59,104 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:06:59,110 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:06:59,113 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:12:12,895 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:12:12,901 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:12:12,904 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:12:28,132 - Archivo CSV cargado correctamente.
+2025-03-18 01:12:30,149 - Archivo CSV cargado correctamente.
+2025-03-18 01:12:33,743 - Archivo CSV cargado correctamente.
+2025-03-18 01:12:33,770 - Dataset guardado correctamente en sesión.
+2025-03-18 01:12:34,596 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:12:34,604 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:12:34,607 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:14:52,295 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:14:52,298 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:14:52,300 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:15:01,161 - Archivo CSV cargado correctamente.
+2025-03-18 01:15:03,172 - Archivo CSV cargado correctamente.
+2025-03-18 01:15:06,280 - Archivo CSV cargado correctamente.
+2025-03-18 01:15:06,303 - Dataset guardado correctamente en sesión.
+2025-03-18 01:15:07,225 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:15:07,229 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:15:07,230 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:18:15,769 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:18:15,769 - Columnas detectadas: ['super']
+2025-03-18 01:18:15,770 - Tipos de datos del DataFrame: super    float64
+dtype: object
+2025-03-18 01:18:15,773 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:18:15,775 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:23:17,659 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:23:17,660 - Columnas detectadas: ['super']
+2025-03-18 01:23:17,662 - Tipos de datos del DataFrame: super    float64
+dtype: object
+2025-03-18 01:23:17,668 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:23:17,670 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:23:25,413 - Archivo CSV cargado correctamente.
+2025-03-18 01:23:27,196 - Archivo CSV cargado correctamente.
+2025-03-18 01:23:29,389 - Archivo CSV cargado correctamente.
+2025-03-18 01:23:29,426 - Dataset guardado correctamente en sesión.
+2025-03-18 01:23:30,334 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:23:30,334 - Columnas detectadas: ['super']
+2025-03-18 01:23:30,336 - Tipos de datos del DataFrame: super    float64
+dtype: object
+2025-03-18 01:23:30,343 - Columnas de fecha encontradas: Index([], dtype='object')
+2025-03-18 01:23:30,345 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:28:24,920 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:28:24,921 - Columnas detectadas: ['super']
+2025-03-18 01:28:24,922 - Tipos de datos del DataFrame: super    float64
+dtype: object
+2025-03-18 01:28:24,927 - Tipos de columnas antes de la validación: super    float64
+dtype: object
+2025-03-18 01:28:24,928 - No se encontraron columnas con formato de fecha válido
+2025-03-18 01:28:24,929 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:29:17,317 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:29:17,317 - Columnas detectadas: ['super']
+2025-03-18 01:29:17,317 - Tipos de datos del DataFrame: super    float64
+dtype: object
+2025-03-18 01:29:17,321 - Tipos de columnas antes de la validación: super    float64
+dtype: object
+2025-03-18 01:29:17,322 - No se encontraron columnas con formato de fecha válido
+2025-03-18 01:29:17,324 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:29:28,092 - Archivo CSV cargado correctamente.
+2025-03-18 01:29:29,939 - Archivo CSV cargado correctamente.
+2025-03-18 01:29:32,290 - Archivo CSV cargado correctamente.
+2025-03-18 01:29:32,313 - Dataset guardado correctamente en sesión.
+2025-03-18 01:29:33,099 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:29:33,100 - Columnas detectadas: ['super']
+2025-03-18 01:29:33,100 - Tipos de datos del DataFrame: super    float64
+dtype: object
+2025-03-18 01:29:33,104 - Tipos de columnas antes de la validación: super    float64
+dtype: object
+2025-03-18 01:29:33,104 - No se encontraron columnas con formato de fecha válido
+2025-03-18 01:29:33,105 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:29:36,408 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:29:36,409 - Columnas detectadas: ['super']
+2025-03-18 01:29:36,409 - Tipos de datos del DataFrame: super    float64
+dtype: object
+2025-03-18 01:29:36,417 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 01:30:03,577 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:30:03,577 - Columnas detectadas: ['super']
+2025-03-18 01:30:03,578 - Tipos de datos del DataFrame: super    float64
+dtype: object
+2025-03-18 01:30:03,587 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 01:34:10,779 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:34:10,779 - Columnas detectadas: ['super']
+2025-03-18 01:34:10,780 - Tipos de datos del DataFrame: super    float64
+dtype: object
+2025-03-18 01:34:10,787 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 01:34:10,789 - Opciones seleccionadas: Crear, Suavizado: 3, Datos: None
+2025-03-18 01:34:20,672 - Archivo CSV cargado correctamente.
+2025-03-18 01:34:22,395 - Archivo CSV cargado correctamente.
+2025-03-18 01:34:23,735 - Archivo CSV cargado correctamente.
+2025-03-18 01:34:23,759 - Dataset guardado correctamente en sesión.
+2025-03-18 01:34:24,910 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:34:24,911 - Columnas detectadas: ['super']
+2025-03-18 01:34:24,912 - Tipos de datos del DataFrame: super    float64
+dtype: object
+2025-03-18 01:34:24,917 - Tipos de columnas antes de la validación: super    float64
+dtype: object
+2025-03-18 01:34:24,918 - No se encontraron columnas con formato de fecha válido
+2025-03-18 01:34:24,919 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:34:56,416 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:34:56,418 - Tipos de datos del DataFrame: fecha    datetime64[ns]
+super           float64
+dtype: object
+2025-03-18 01:34:56,421 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:34:56,429 - Tipos de columnas antes de la validación: fecha    datetime64[ns]
+super           float64
+dtype: object
+2025-03-18 01:34:56,431 - No se encontraron columnas con formato de fecha válido
+2025-03-18 01:34:56,434 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:35:03,491 - Archivo CSV cargado correctamente.
+2025-03-18 01:35:05,214 - Archivo CSV cargado correctamente.
+2025-03-18 01:35:06,556 - Archivo CSV cargado correctamente.
+2025-03-18 01:35:06,586 - Dataset guardado correctamente en sesión.
+2025-03-18 01:35:07,582 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:35:07,582 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:35:07,584 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:35:07,588 - Tipos de columnas antes de la validación: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:35:07,591 - No se encontraron columnas con formato de fecha válido
+2025-03-18 01:35:07,594 - Opciones seleccionadas: Seleccionar, Suavizado: 3, Datos: None
+2025-03-18 01:35:19,358 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:35:19,359 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:35:19,362 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:35:19,368 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 01:38:01,555 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:38:01,557 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:38:01,561 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:38:01,571 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 01:38:01,574 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 01:38:47,708 - Archivo CSV cargado correctamente.
+2025-03-18 01:38:50,541 - Archivo CSV cargado correctamente.
+2025-03-18 01:38:52,086 - Archivo CSV cargado correctamente.
+2025-03-18 01:38:54,457 - Archivo CSV cargado correctamente.
+2025-03-18 01:38:54,485 - Dataset guardado correctamente en sesión.
+2025-03-18 01:38:55,956 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:38:55,958 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:38:55,961 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:38:55,964 - Tipos de columnas antes de la validación: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:38:55,968 - No se encontraron columnas con formato de fecha válido
+2025-03-18 01:38:55,972 - Opciones seleccionadas: Seleccionar, Datos: None, Suavizado: 3
+2025-03-18 01:38:59,759 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:38:59,760 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:38:59,763 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:38:59,767 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 01:38:59,773 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 01:39:41,317 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:39:41,318 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:39:41,321 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:39:41,324 - Tipos de columnas antes de la validación: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:39:41,326 - No se encontraron columnas con formato de fecha válido
+2025-03-18 01:39:41,328 - Opciones seleccionadas: Seleccionar, Datos: None, Suavizado: 3
+2025-03-18 01:42:49,436 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:42:49,438 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:42:49,441 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:42:49,447 - Tipos de columnas antes de la validación: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:42:49,449 - No se encontraron columnas con formato de fecha válido
+2025-03-18 01:42:49,451 - Opciones seleccionadas: Seleccionar, Datos: None, Suavizado: 3
+2025-03-18 01:44:32,991 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:44:32,992 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:44:32,993 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:44:32,997 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:44:32,998 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 01:44:41,227 - Archivo CSV cargado correctamente.
+2025-03-18 01:44:43,034 - Archivo CSV cargado correctamente.
+2025-03-18 01:44:46,680 - Archivo CSV cargado correctamente.
+2025-03-18 01:44:46,707 - Dataset guardado correctamente en sesión.
+2025-03-18 01:44:47,579 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:44:47,581 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:44:47,584 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:44:47,592 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:44:47,597 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 01:45:05,564 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:45:05,566 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:45:05,569 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:45:05,574 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:45:05,590 - Columna 'fecha' configurada como índice temporal
+2025-03-18 01:45:05,594 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 01:45:19,872 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:45:19,873 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:45:19,877 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:45:19,883 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:45:19,888 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 4
+2025-03-18 01:45:22,458 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:45:22,458 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:45:22,460 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:45:22,464 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:45:22,467 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 01:46:47,448 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:46:47,449 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:46:47,451 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:46:47,457 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:46:47,459 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 01:46:57,140 - Archivo CSV cargado correctamente.
+2025-03-18 01:46:59,664 - Archivo CSV cargado correctamente.
+2025-03-18 01:47:02,548 - Archivo CSV cargado correctamente.
+2025-03-18 01:47:02,576 - Dataset guardado correctamente en sesión.
+2025-03-18 01:47:03,577 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:47:03,578 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:47:03,580 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:47:03,585 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:47:03,587 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 01:47:14,240 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:47:14,241 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:47:14,244 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:47:14,247 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:47:14,250 - Columna 'fecha' configurada como índice temporal
+2025-03-18 01:47:14,253 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 01:47:17,501 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:47:17,502 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:47:17,505 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:47:17,510 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:47:17,513 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 01:47:47,949 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:47:47,950 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:47:47,950 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:47:47,957 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:47:47,961 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 01:48:20,602 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:48:20,603 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:48:20,603 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:48:20,610 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:48:20,614 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 01:49:01,074 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:49:01,075 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:49:01,075 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:49:01,080 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 01:49:01,082 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 5
+2025-03-18 01:50:39,523 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:50:39,524 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:50:39,525 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:50:39,529 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:50:39,531 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 01:50:43,124 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:50:43,126 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:50:43,127 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:50:43,131 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 01:50:43,134 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 01:52:41,584 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:52:41,586 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:52:41,586 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:53:58,187 - Archivo CSV cargado correctamente.
+2025-03-18 01:54:00,108 - Archivo CSV cargado correctamente.
+2025-03-18 01:54:02,871 - Archivo CSV cargado correctamente.
+2025-03-18 01:54:02,903 - Dataset guardado correctamente en sesión.
+2025-03-18 01:54:03,712 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:54:03,713 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:54:03,713 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:54:03,721 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 01:54:03,725 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 01:54:12,736 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:54:12,737 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:54:12,737 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:54:36,105 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:54:36,106 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:54:36,106 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:55:22,928 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 01:55:22,929 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 01:55:22,929 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 01:55:22,936 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 01:55:22,938 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:02:13,436 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:02:13,438 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:02:13,438 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:03:30,481 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:03:30,482 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:03:30,482 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:03:30,492 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 02:03:30,495 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:05:41,345 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:05:41,348 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:05:41,349 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:06:00,985 - Archivo CSV cargado correctamente.
+2025-03-18 02:06:03,101 - Archivo CSV cargado correctamente.
+2025-03-18 02:06:05,455 - Archivo CSV cargado correctamente.
+2025-03-18 02:06:05,477 - Dataset guardado correctamente en sesión.
+2025-03-18 02:06:06,337 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:06:06,339 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:06:06,340 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:06:06,347 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:06:06,349 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:06:08,982 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:06:08,983 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:06:08,985 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:07:08,643 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:07:08,645 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:07:08,645 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:07:08,653 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 02:07:08,656 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:07:18,976 - Archivo CSV cargado correctamente.
+2025-03-18 02:07:20,699 - Archivo CSV cargado correctamente.
+2025-03-18 02:07:23,553 - Archivo CSV cargado correctamente.
+2025-03-18 02:07:23,581 - Dataset guardado correctamente en sesión.
+2025-03-18 02:07:24,533 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:07:24,533 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:07:24,533 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:07:24,538 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:07:24,541 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:07:30,290 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:07:30,291 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:07:30,291 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:07:30,301 - Creación de datos con frecuencia Anual desde 2025-03-18 hasta 2025-03-18.
+2025-03-18 02:07:30,304 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:07:41,793 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:07:41,794 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:07:41,794 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:07:41,803 - Creación de datos con frecuencia Anual desde 2020-03-03 hasta 2025-03-18.
+2025-03-18 02:07:41,805 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 3, 3), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:07:49,112 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:07:49,113 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:07:49,113 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:07:49,122 - Creación de datos con frecuencia Anual desde 2020-01-06 hasta 2025-03-18.
+2025-03-18 02:07:49,125 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:08:08,996 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:08:08,997 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:08:08,997 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:08:09,003 - Creación de datos con frecuencia Anual desde 2020-01-06 hasta 2024-04-08.
+2025-03-18 02:08:09,005 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 3
+2025-03-18 02:08:10,546 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:08:10,547 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:08:10,547 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:08:10,571 - Índice temporal creado con frecuencia Anual
+2025-03-18 02:08:10,572 - Creación de datos con frecuencia Anual desde 2020-01-06 hasta 2024-04-08.
+2025-03-18 02:08:10,574 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 3
+2025-03-18 02:08:18,390 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:08:18,391 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:08:18,392 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:08:18,406 - Creación de datos con frecuencia Anual desde 2020-01-06 hasta 2024-04-08.
+2025-03-18 02:08:18,410 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 5
+2025-03-18 02:08:53,460 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:08:53,462 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:08:53,462 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:08:53,477 - Creación de datos con frecuencia Anual desde 2020-01-06 hasta 2024-04-08.
+2025-03-18 02:08:53,481 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 5
+2025-03-18 02:14:02,847 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:14:02,848 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:14:02,849 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:14:02,859 - Creación de datos con frecuencia Anual desde 2020-01-06 hasta 2024-04-08.
+2025-03-18 02:14:02,862 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 5
+2025-03-18 02:14:21,932 - Archivo CSV cargado correctamente.
+2025-03-18 02:14:23,732 - Archivo CSV cargado correctamente.
+2025-03-18 02:14:26,437 - Archivo CSV cargado correctamente.
+2025-03-18 02:14:26,464 - Dataset guardado correctamente en sesión.
+2025-03-18 02:14:27,301 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:14:27,302 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:14:27,302 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:14:27,309 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:14:27,311 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:14:55,415 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:14:55,416 - Tipos de datos del DataFrame: fecha     object
+super    float64
+dtype: object
+2025-03-18 02:14:55,417 - Instancia de SeriesTemporales creada con datos cargados correctamente.
+2025-03-18 02:14:55,422 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:14:55,425 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:15:36,602 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:15:36,613 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:15:36,619 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:16:48,918 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:16:48,923 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:16:48,927 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:24:15,199 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:24:15,212 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:24:26,626 - Archivo CSV cargado correctamente.
+2025-03-18 02:24:28,696 - Archivo CSV cargado correctamente.
+2025-03-18 02:24:31,081 - Archivo CSV cargado correctamente.
+2025-03-18 02:24:31,107 - Dataset guardado correctamente en sesión.
+2025-03-18 02:24:32,530 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:24:32,537 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:24:38,344 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:24:38,353 - Columna 'fecha' configurada como índice temporal
+2025-03-18 02:24:38,356 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:24:41,148 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:24:41,158 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:24:57,542 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:24:57,549 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:24:59,800 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:24:59,808 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:25:03,653 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:25:03,661 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 5
+2025-03-18 02:25:17,440 - Archivo CSV cargado correctamente.
+2025-03-18 02:25:19,178 - Archivo CSV cargado correctamente.
+2025-03-18 02:25:22,283 - Archivo CSV cargado correctamente.
+2025-03-18 02:25:22,304 - Dataset guardado correctamente en sesión.
+2025-03-18 02:25:23,242 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:25:23,251 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:25:25,795 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:25:25,803 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:36:32,498 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:36:32,508 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:37:03,253 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:37:03,260 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:39:17,846 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:39:17,860 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:42:24,577 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:42:24,593 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:43:25,595 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:43:25,609 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:43:37,811 - Archivo CSV cargado correctamente.
+2025-03-18 02:43:40,042 - Archivo CSV cargado correctamente.
+2025-03-18 02:43:43,371 - Archivo CSV cargado correctamente.
+2025-03-18 02:43:43,399 - Dataset guardado correctamente en sesión.
+2025-03-18 02:43:45,131 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:43:45,137 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:43:45,144 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:43:50,096 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:43:50,117 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 3
+2025-03-18 02:44:08,232 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:44:08,238 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:44:08,242 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:44:10,923 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:44:10,929 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:44:10,935 - Columna 'fecha' configurada como índice temporal
+2025-03-18 02:44:10,937 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:44:14,614 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:44:14,621 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:44:14,626 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:44:17,343 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:44:17,349 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:44:17,352 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:44:20,711 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:44:20,716 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:44:20,720 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 2
+2025-03-18 02:44:22,734 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:44:22,738 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:44:22,745 - Columna 'fecha' configurada como índice temporal
+2025-03-18 02:44:22,748 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 2
+2025-03-18 02:45:15,433 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:45:15,439 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:45:15,442 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 2
+2025-03-18 02:45:17,310 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:45:17,318 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:45:17,324 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 6
+2025-03-18 02:45:17,996 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:45:18,001 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:45:18,005 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:45:18,574 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:45:18,579 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:45:18,582 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:49:43,185 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:49:43,194 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:49:43,199 - Columna 'fecha' configurada como índice temporal
+2025-03-18 02:49:43,202 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:49:46,114 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:49:46,120 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:49:46,124 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:49:51,015 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:49:51,030 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 5
+2025-03-18 02:50:18,899 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:50:18,916 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 5
+2025-03-18 02:51:07,124 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:51:07,140 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 5
+2025-03-18 02:52:03,183 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:52:03,196 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 5
+2025-03-18 02:53:34,501 - Archivo CSV cargado correctamente.
+2025-03-18 02:53:36,829 - Archivo CSV cargado correctamente.
+2025-03-18 02:53:39,488 - Archivo CSV cargado correctamente.
+2025-03-18 02:53:39,513 - Dataset guardado correctamente en sesión.
+2025-03-18 02:53:41,283 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:53:41,287 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:53:41,290 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:53:49,148 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:53:49,153 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:53:49,158 - Columna 'fecha' configurada como índice temporal
+2025-03-18 02:53:49,161 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-18 02:53:52,675 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:53:52,688 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:53:52,691 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:53:53,808 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:53:53,814 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:53:53,817 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:53:55,260 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:53:55,267 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:53:55,274 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:53:55,887 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:53:55,893 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:53:55,898 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:53:56,075 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:53:56,081 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:53:56,085 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:53:56,251 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:53:56,256 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:53:56,259 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:53:56,406 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:53:56,411 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:53:56,416 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:54:08,158 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:54:08,168 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2025, 3, 18), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 5
+2025-03-18 02:54:24,589 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:54:24,600 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 7), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 5
+2025-03-18 02:54:29,976 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:54:29,989 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2025, 3, 18)}, Suavizado: 5
+2025-03-18 02:54:41,571 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:54:41,583 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 5
+2025-03-18 02:54:46,211 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:54:46,223 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Diaria', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 5
+2025-03-18 02:54:49,161 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:54:49,182 - Índice temporal creado con frecuencia Diaria
+2025-03-18 02:54:49,185 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Diaria', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 5
+2025-03-18 02:55:04,395 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:55:04,407 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Diaria', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 5
+2025-03-18 02:55:08,336 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:55:08,345 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 5
+2025-03-18 02:55:09,954 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:55:09,968 - Índice temporal creado con frecuencia Anual
+2025-03-18 02:55:09,973 - Opciones seleccionadas: Crear, Datos: {'frecuencia': 'Anual', 'fecha_inicio': datetime.date(2020, 1, 6), 'fecha_fin': datetime.date(2024, 4, 8)}, Suavizado: 5
+2025-03-18 02:55:19,463 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:55:19,470 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:55:19,474 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:55:22,253 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:55:22,261 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:55:22,266 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:55:24,302 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:55:24,309 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:55:24,316 - Columna 'fecha' configurada como índice temporal
+2025-03-18 02:55:24,319 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 02:55:40,766 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 02:55:40,770 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 02:55:40,777 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 5
+2025-03-18 23:57:50,330 - Archivo CSV cargado correctamente.
+2025-03-18 23:57:52,879 - Archivo CSV cargado correctamente.
+2025-03-18 23:58:01,362 - Archivo CSV cargado correctamente.
+2025-03-18 23:58:01,398 - Dataset guardado correctamente en sesión.
+2025-03-18 23:58:02,818 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-18 23:58:02,836 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-18 23:58:02,838 - Opciones seleccionadas: Seleccionar, Datos: fecha, Suavizado: 3
+2025-03-19 00:03:53,527 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:04:11,704 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:04:45,630 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:05:18,778 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:05:32,344 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:08:52,722 - Archivo CSV cargado correctamente.
+2025-03-19 00:08:54,540 - Archivo CSV cargado correctamente.
+2025-03-19 00:08:56,295 - Archivo CSV cargado correctamente.
+2025-03-19 00:08:56,321 - Dataset guardado correctamente en sesión.
+2025-03-19 00:08:57,120 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:12,251 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:20,752 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:22,834 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:31,556 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:37,142 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:39,848 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:40,891 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:41,558 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:42,370 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:44,447 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:45,528 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:46,502 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:12:55,031 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:13:08,017 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:13:09,739 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:19:47,115 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:19:50,759 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:19:51,911 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:28:16,075 - Archivo CSV cargado correctamente.
+2025-03-19 00:28:17,965 - Archivo CSV cargado correctamente.
+2025-03-19 00:28:20,999 - Archivo CSV cargado correctamente.
+2025-03-19 00:28:21,030 - Dataset guardado correctamente en sesión.
+2025-03-19 00:28:22,063 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:28:43,086 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:28:47,930 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:28:49,815 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:28:52,145 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:28:53,243 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:28:54,134 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:29:14,462 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:29:15,886 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:42:32,621 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:47:30,003 - Archivo CSV cargado correctamente.
+2025-03-19 00:47:31,846 - Archivo CSV cargado correctamente.
+2025-03-19 00:47:35,172 - Archivo CSV cargado correctamente.
+2025-03-19 00:47:35,204 - Dataset guardado correctamente en sesión.
+2025-03-19 00:47:36,895 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:07,361 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:08,155 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:12,736 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:13,399 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:13,957 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:14,234 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:14,456 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:14,670 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:14,871 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:14,986 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:16,502 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:17,102 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:17,640 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:18,184 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:48:18,875 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 00:53:08,487 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:20,740 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:20,742 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:31,005 - Archivo CSV cargado correctamente.
+2025-03-19 01:03:33,083 - Archivo CSV cargado correctamente.
+2025-03-19 01:03:34,931 - Archivo CSV cargado correctamente.
+2025-03-19 01:03:34,964 - Dataset guardado correctamente en sesión.
+2025-03-19 01:03:35,783 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:43,391 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:44,141 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:44,698 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:45,671 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:46,263 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:46,692 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:46,903 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:47,079 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:47,217 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:47,377 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:47,516 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:47,655 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:47,795 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:48,162 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:48,589 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:49,001 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:49,237 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:49,433 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:49,632 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:49,829 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:03:49,988 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:04:33,775 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:04:34,449 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:08:52,407 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:08:52,408 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:10:36,718 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:10:36,719 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:12:14,252 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:12:14,254 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:12:24,443 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:12:49,827 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:12:55,917 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:12:56,990 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:12:58,603 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:13:01,430 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:23:26,502 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:23:52,343 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:24:07,210 - Archivo CSV cargado correctamente.
+2025-03-19 01:24:09,187 - Archivo CSV cargado correctamente.
+2025-03-19 01:25:33,805 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:25:33,811 - Archivo CSV cargado correctamente.
+2025-03-19 01:25:42,169 - Archivo CSV cargado correctamente.
+2025-03-19 01:25:42,211 - Dataset guardado correctamente en sesión.
+2025-03-19 01:25:44,243 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:25:51,813 - Archivo CSV cargado correctamente.
+2025-03-19 01:25:53,774 - Archivo CSV cargado correctamente.
+2025-03-19 01:25:56,497 - Archivo CSV cargado correctamente.
+2025-03-19 01:25:56,527 - Dataset guardado correctamente en sesión.
+2025-03-19 01:25:58,020 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:26:03,395 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:26:04,660 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:26:05,576 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:26:06,536 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:26:07,299 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:26:10,241 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:26:10,698 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:27:35,617 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:27:40,037 - Archivo CSV cargado correctamente.
+2025-03-19 01:27:42,027 - Archivo CSV cargado correctamente.
+2025-03-19 01:27:43,930 - Archivo CSV cargado correctamente.
+2025-03-19 01:27:43,955 - Dataset guardado correctamente en sesión.
+2025-03-19 01:27:45,180 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:27:50,467 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:27:51,635 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:27:52,949 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:27:54,037 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:27:54,983 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:27:55,717 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:32:00,645 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:32:02,468 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:32:04,095 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:34:44,693 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:34:44,693 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:35:06,232 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:35:06,233 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:35:13,730 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:35:47,257 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:36:13,136 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:36:13,138 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:36:20,395 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:36:20,395 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:36:45,955 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:36:50,846 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:36:52,542 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:36:55,340 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:36:57,595 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:38:57,507 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:38:57,509 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:39:01,428 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:39:02,993 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:39:03,973 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:39:26,449 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:39:47,742 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:40:13,165 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:44:30,540 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:45:23,952 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:45:23,955 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:45:35,352 - Archivo CSV cargado correctamente.
+2025-03-19 01:45:37,667 - Archivo CSV cargado correctamente.
+2025-03-19 01:45:40,454 - Archivo CSV cargado correctamente.
+2025-03-19 01:45:40,478 - Dataset guardado correctamente en sesión.
+2025-03-19 01:45:46,507 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:45:51,736 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:45:52,303 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:45:53,685 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:47:15,120 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:47:23,041 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:47:31,201 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:50:40,471 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:50:50,011 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:50:52,075 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:51:11,938 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:51:11,939 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:51:34,425 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:51:46,533 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:51:48,486 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:52:15,119 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:52:15,857 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:52:17,274 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:52:20,164 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:52:26,069 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:53:15,923 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:53:15,924 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:57:10,230 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:57:10,233 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:57:10,234 - No se encontraron columnas con formato de fecha válido
+2025-03-19 01:57:10,237 - No se encontraron columnas con formato de fecha válido
+2025-03-19 01:57:14,663 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:57:15,658 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 01:57:15,661 - No se encontraron columnas con formato de fecha válido
+2025-03-19 02:01:59,540 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:01:59,540 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:03:18,807 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:03:18,808 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:08:00,011 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:08:00,013 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:10:58,269 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:10:58,270 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:10:58,277 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:10:58,278 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:11:42,477 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:11:42,480 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:12:57,438 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:12:57,439 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:12:57,442 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:12:57,443 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:13:06,004 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:13:06,007 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:13:06,014 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:14:03,082 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:14:03,085 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:14:04,579 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:14:04,582 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:14:04,587 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:15:29,258 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:15:29,259 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:15:29,263 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:15:29,264 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:15:30,633 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:15:30,636 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:15:30,641 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:16:07,227 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:16:07,229 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:16:07,230 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:16:07,232 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:16:09,729 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:16:09,733 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:16:09,738 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:17:34,856 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:17:34,860 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:50,736 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:50,736 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:50,740 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:50,740 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:53,155 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:53,158 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:53,954 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:53,959 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:54,564 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:54,569 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:54,917 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:54,919 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:55,386 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:55,390 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:55,606 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:55,608 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:55,849 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:55,852 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:56,070 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:56,073 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:56,216 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:56,221 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:57,146 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:57,150 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:21:57,771 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:21:57,776 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:22:01,696 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:22:01,699 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:22:01,704 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:22:42,431 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:22:42,434 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:22:42,438 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:22:44,117 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:22:44,121 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:22:44,124 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:22:45,644 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:22:46,941 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:22:46,944 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:22:48,779 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:22:48,784 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:22:48,788 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:22:50,431 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:22:52,516 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:22:52,519 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:23:06,217 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:23:06,221 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:23:06,226 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:23:38,965 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:23:38,970 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:23:40,317 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:23:40,320 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:23:41,586 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:23:41,589 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:23:42,108 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:23:42,111 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:23:42,361 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:23:42,364 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:23:42,635 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:23:42,641 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:24:01,107 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:24:01,751 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:24:01,755 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:24:08,845 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:24:08,847 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:24:09,865 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:24:09,870 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:24:16,762 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:24:16,767 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:24:16,772 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:24:54,348 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:24:54,351 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:24:54,887 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:24:54,891 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:24:54,894 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:25:02,537 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:25:02,541 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:25:03,949 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:25:04,891 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:25:04,894 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:25:05,763 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:25:05,766 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:25:05,770 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:25:21,979 - Archivo CSV cargado correctamente.
+2025-03-19 02:25:24,033 - Archivo CSV cargado correctamente.
+2025-03-19 02:25:25,892 - Archivo CSV cargado correctamente.
+2025-03-19 02:25:25,925 - Dataset guardado correctamente en sesión.
+2025-03-19 02:25:27,087 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:25:27,090 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:25:48,475 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:25:48,478 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:25:48,481 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:26:03,031 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:26:26,324 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:26:26,328 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:26:41,184 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:26:41,187 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:26:41,189 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:34:51,906 - Archivo CSV cargado correctamente.
+2025-03-19 02:34:54,333 - Archivo CSV cargado correctamente.
+2025-03-19 02:34:56,389 - Archivo CSV cargado correctamente.
+2025-03-19 02:34:56,416 - Dataset guardado correctamente en sesión.
+2025-03-19 02:34:57,433 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:34:57,439 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:41:08,549 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:41:08,554 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:44:16,625 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:44:16,630 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:44:22,423 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:44:22,426 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:44:45,891 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:44:45,894 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:44:46,526 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:44:46,530 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:44:47,076 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:44:47,079 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:44:47,860 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:44:47,865 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:45:14,341 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:45:14,344 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:45:14,349 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:52:11,678 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:52:11,682 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:52:17,402 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:52:17,405 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:52:19,653 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:52:19,656 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:52:19,661 - Columna 'fecha' configurada como índice temporal
+2025-03-19 02:52:24,929 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:52:24,932 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:52:31,605 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:52:31,611 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:52:32,951 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:52:32,956 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:52:33,903 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:52:33,906 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:55:24,870 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:55:24,877 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 02:59:18,181 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 02:59:18,186 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:00:37,057 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:00:37,060 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:03:56,752 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:03:56,761 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:04:02,515 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:04:02,517 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:04:03,638 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:04:03,644 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:04:04,267 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:04:04,269 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:06:38,516 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:06:38,520 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:06:47,302 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:06:47,305 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:06:49,271 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:06:49,274 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:06:50,501 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:06:50,507 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:06:51,579 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:06:51,582 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:14:13,600 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:14:13,604 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:14:13,611 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:14:28,418 - Archivo CSV cargado correctamente.
+2025-03-19 03:14:31,510 - Archivo CSV cargado correctamente.
+2025-03-19 03:14:33,840 - Archivo CSV cargado correctamente.
+2025-03-19 03:14:33,866 - Dataset guardado correctamente en sesión.
+2025-03-19 03:14:34,864 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:14:34,869 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:14:34,873 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:14:39,079 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:14:39,083 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:14:39,089 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:14:40,830 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:14:40,834 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:14:40,837 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:14:40,856 - Suavizado aplicado con ventana de 5
+2025-03-19 03:15:24,904 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:15:24,911 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:15:24,916 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:15:28,118 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:15:28,122 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:15:28,125 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:15:28,131 - Suavizado aplicado con ventana de 5
+2025-03-19 03:15:58,605 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:15:58,611 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:15:58,616 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:16:01,547 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:16:01,554 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:16:01,560 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:16:02,214 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:16:02,218 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:16:02,222 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:16:02,227 - Suavizado aplicado con ventana de 7
+2025-03-19 03:16:16,774 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:16:16,782 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:16:16,787 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:16:18,803 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:16:18,806 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:16:18,809 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:16:18,815 - Suavizado aplicado con ventana de 3
+2025-03-19 03:16:23,686 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:16:23,690 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:16:23,693 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:16:25,034 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:16:25,037 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:16:25,042 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:16:25,047 - Suavizado aplicado con ventana de 5
+2025-03-19 03:18:00,408 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:18:00,413 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:18:00,416 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:18:00,421 - Suavizado aplicado con ventana de 5
+2025-03-19 03:18:06,859 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:18:06,864 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:18:06,868 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:18:07,612 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:18:07,618 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:18:07,622 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:18:07,629 - Suavizado aplicado con ventana de 7
+2025-03-19 03:19:58,508 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:19:58,511 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:19:58,513 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:20:08,364 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:20:08,367 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:20:08,370 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:20:08,378 - Suavizado aplicado con ventana de 7
+2025-03-19 03:20:15,391 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:20:15,397 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:20:15,400 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:28:42,962 - Archivo CSV cargado correctamente.
+2025-03-19 03:28:45,821 - Archivo CSV cargado correctamente.
+2025-03-19 03:29:01,061 - Archivo CSV cargado correctamente.
+2025-03-19 03:29:01,085 - Dataset guardado correctamente en sesión.
+2025-03-19 03:29:09,593 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:29:09,601 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:29:09,606 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:35:54,978 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:35:54,983 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:35:54,986 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:36:05,706 - Archivo CSV cargado correctamente.
+2025-03-19 03:36:07,443 - Archivo CSV cargado correctamente.
+2025-03-19 03:36:09,275 - Archivo CSV cargado correctamente.
+2025-03-19 03:36:09,301 - Dataset guardado correctamente en sesión.
+2025-03-19 03:36:10,839 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:36:10,843 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:36:10,845 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:37:45,903 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:37:45,907 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:37:45,912 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:37:52,382 - Archivo CSV cargado correctamente.
+2025-03-19 03:37:54,080 - Archivo CSV cargado correctamente.
+2025-03-19 03:37:56,511 - Archivo CSV cargado correctamente.
+2025-03-19 03:37:56,531 - Dataset guardado correctamente en sesión.
+2025-03-19 03:37:57,673 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:37:57,675 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:37:57,679 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:38:08,875 - Archivo CSV cargado correctamente.
+2025-03-19 03:38:10,646 - Archivo CSV cargado correctamente.
+2025-03-19 03:38:12,489 - Archivo CSV cargado correctamente.
+2025-03-19 03:38:12,526 - Dataset guardado correctamente en sesión.
+2025-03-19 03:38:13,776 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:38:13,778 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:38:13,781 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:39:16,067 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:39:16,073 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:39:16,077 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:39:26,654 - Archivo CSV cargado correctamente.
+2025-03-19 03:39:28,367 - Archivo CSV cargado correctamente.
+2025-03-19 03:39:29,849 - Archivo CSV cargado correctamente.
+2025-03-19 03:39:29,880 - Dataset guardado correctamente en sesión.
+2025-03-19 03:39:30,995 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:39:30,999 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:39:31,002 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:39:46,285 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:39:46,290 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:39:46,294 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:40:18,156 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:40:18,163 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:40:18,169 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:40:18,928 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:40:18,932 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:40:18,935 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:40:18,941 - Suavizado aplicado con ventana de 6
+2025-03-19 03:44:16,400 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:44:20,205 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:44:20,225 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:44:20,228 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:44:20,231 - Suavizado aplicado con ventana de 6
+2025-03-19 03:44:30,586 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:44:30,592 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:44:30,595 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:44:33,729 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:44:37,855 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:44:37,869 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:44:37,872 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:44:37,874 - Suavizado aplicado con ventana de 6
+2025-03-19 03:45:00,189 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:45:00,192 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:45:00,195 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:45:13,755 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:45:13,759 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:45:13,762 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:45:14,600 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:45:14,603 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:45:14,606 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:45:14,613 - Suavizado aplicado con ventana de 5
+2025-03-19 03:46:42,117 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:46:42,121 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:46:42,124 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:46:43,265 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:46:43,268 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:46:43,272 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:46:43,279 - Suavizado aplicado con ventana de 5
+2025-03-19 03:48:08,795 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:48:08,798 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:48:08,802 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:48:10,262 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:48:10,264 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:48:10,268 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:48:10,274 - Suavizado aplicado con ventana de 5
+2025-03-19 03:49:02,874 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:49:24,182 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:49:38,673 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:50:12,849 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:50:12,873 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:50:12,878 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:50:12,882 - Suavizado aplicado con ventana de 5
+2025-03-19 03:50:16,485 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:50:19,968 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 03:50:19,985 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 03:50:19,989 - Columna 'fecha' configurada como índice temporal
+2025-03-19 03:50:19,991 - Suavizado aplicado con ventana de 5
+2025-03-19 19:40:25,148 - Archivo CSV cargado correctamente.
+2025-03-19 19:40:27,511 - Archivo CSV cargado correctamente.
+2025-03-19 19:40:31,281 - Archivo CSV cargado correctamente.
+2025-03-19 19:40:31,317 - Dataset guardado correctamente en sesión.
+2025-03-19 19:40:34,384 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:40:34,400 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 19:40:34,405 - Columna 'fecha' configurada como índice temporal
+2025-03-19 19:40:42,359 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:40:42,368 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 19:40:42,377 - Columna 'fecha' configurada como índice temporal
+2025-03-19 19:40:43,889 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:40:43,891 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 19:40:43,895 - Columna 'fecha' configurada como índice temporal
+2025-03-19 19:40:43,911 - Suavizado aplicado con ventana de 5
+2025-03-19 19:41:04,569 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:48:02,090 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:48:02,112 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 19:48:02,116 - Columna 'fecha' configurada como índice temporal
+2025-03-19 19:48:02,117 - Suavizado aplicado con ventana de 5
+2025-03-19 19:48:12,955 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:48:18,134 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:48:18,156 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 19:48:18,162 - Columna 'fecha' configurada como índice temporal
+2025-03-19 19:48:18,165 - Suavizado aplicado con ventana de 5
+2025-03-19 19:48:21,306 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:48:21,313 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 19:48:21,318 - Columna 'fecha' configurada como índice temporal
+2025-03-19 19:48:23,421 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:48:23,425 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 19:48:23,429 - Columna 'fecha' configurada como índice temporal
+2025-03-19 19:48:23,437 - Suavizado aplicado con ventana de 5
+2025-03-19 19:48:44,342 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:48:44,347 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 19:48:44,353 - Columna 'fecha' configurada como índice temporal
+2025-03-19 19:48:49,067 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 19:48:49,070 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 19:48:49,074 - Columna 'fecha' configurada como índice temporal
+2025-03-19 19:48:49,079 - Suavizado aplicado con ventana de 5
+2025-03-19 20:26:32,984 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 20:26:32,992 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 20:26:32,997 - Columna 'fecha' configurada como índice temporal
+2025-03-19 20:36:35,928 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 20:36:35,932 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 20:36:35,935 - Columna 'fecha' configurada como índice temporal
+2025-03-19 20:36:44,568 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 20:36:44,571 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 20:36:44,575 - Columna 'fecha' configurada como índice temporal
+2025-03-19 20:36:44,583 - Suavizado aplicado con ventana de 5
+2025-03-19 21:59:39,216 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 21:59:39,221 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 21:59:39,225 - Columna 'fecha' configurada como índice temporal
+2025-03-19 21:59:43,345 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 21:59:43,348 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 21:59:43,352 - Columna 'fecha' configurada como índice temporal
+2025-03-19 21:59:43,360 - Suavizado aplicado con ventana de 5
+2025-03-19 21:59:54,137 - Archivo CSV cargado correctamente.
+2025-03-19 21:59:55,749 - Archivo CSV cargado correctamente.
+2025-03-19 21:59:58,666 - Archivo CSV cargado correctamente.
+2025-03-19 21:59:58,695 - Dataset guardado correctamente en sesión.
+2025-03-19 22:00:00,596 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 22:00:00,598 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 22:00:00,601 - Columna 'fecha' configurada como índice temporal
+2025-03-19 22:00:03,205 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 22:00:03,210 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 22:00:03,216 - Columna 'fecha' configurada como índice temporal
+2025-03-19 22:00:03,956 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 22:00:03,959 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 22:00:03,963 - Columna 'fecha' configurada como índice temporal
+2025-03-19 22:00:03,968 - Suavizado aplicado con ventana de 5
+2025-03-19 22:01:29,156 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 22:01:29,161 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 22:01:29,164 - Columna 'fecha' configurada como índice temporal
+2025-03-19 22:01:32,240 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 22:01:32,243 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 22:01:32,246 - Columna 'fecha' configurada como índice temporal
+2025-03-19 22:01:32,252 - Suavizado aplicado con ventana de 5
+2025-03-19 22:01:32,320 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-19 22:32:52,901 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 22:32:52,907 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 22:32:52,910 - Columna 'fecha' configurada como índice temporal
+2025-03-19 22:32:55,913 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 22:32:55,916 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 22:32:55,921 - Columna 'fecha' configurada como índice temporal
+2025-03-19 22:32:55,929 - Suavizado aplicado con ventana de 5
+2025-03-19 22:32:56,001 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-19 22:33:51,141 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 22:33:51,147 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 22:33:51,149 - Columna 'fecha' configurada como índice temporal
+2025-03-19 22:38:29,407 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 22:38:29,412 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 22:38:29,415 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:00:06,838 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:00:06,841 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:00:06,845 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:00:11,227 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:00:27,975 - Archivo CSV cargado correctamente.
+2025-03-19 23:00:29,616 - Archivo CSV cargado correctamente.
+2025-03-19 23:00:31,967 - Archivo CSV cargado correctamente.
+2025-03-19 23:00:31,997 - Dataset guardado correctamente en sesión.
+2025-03-19 23:00:33,202 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:00:33,205 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:00:33,208 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:00:34,786 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:06:09,692 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:07:57,782 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:08:05,237 - Archivo CSV cargado correctamente.
+2025-03-19 23:08:06,932 - Archivo CSV cargado correctamente.
+2025-03-19 23:08:09,992 - Archivo CSV cargado correctamente.
+2025-03-19 23:08:10,023 - Dataset guardado correctamente en sesión.
+2025-03-19 23:08:10,948 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:08:10,954 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:08:10,958 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:08:12,571 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:08:17,326 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:08:17,332 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:08:17,335 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:08:19,694 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:08:19,700 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:08:19,703 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:08:19,712 - Suavizado aplicado con ventana de 3
+2025-03-19 23:08:19,789 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-19 23:10:17,961 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:10:17,966 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:10:17,969 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:11:44,309 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:11:44,314 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:11:44,317 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:12:39,837 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:12:39,841 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:12:39,844 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:27:42,382 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:27:42,389 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:27:42,392 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:28:06,254 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:28:06,258 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:28:06,261 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:28:33,194 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:28:33,200 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:28:33,204 - Columna 'fecha' configurada como índice temporal
+2025-03-19 23:34:03,730 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:34:06,227 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-19 23:34:06,230 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-19 23:34:06,233 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:10:53,039 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:10:53,044 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:10:53,047 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:18:59,472 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:18:59,477 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:18:59,483 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:19:55,100 - Archivo CSV cargado correctamente.
+2025-03-20 00:19:58,414 - Archivo CSV cargado correctamente.
+2025-03-20 00:20:00,660 - Archivo CSV cargado correctamente.
+2025-03-20 00:20:00,694 - Dataset guardado correctamente en sesión.
+2025-03-20 00:20:02,134 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:20:02,137 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:20:02,140 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:22:07,636 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:22:07,638 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:22:07,642 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:22:07,645 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:22:18,032 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:22:18,036 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:22:18,040 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:22:18,043 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:22:19,252 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:22:19,255 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:22:19,259 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:22:20,720 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:22:20,725 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:22:20,730 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:22:20,732 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:22:21,666 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:22:21,671 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:22:21,674 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:22:22,696 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:22:22,700 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:22:22,703 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:22:22,705 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:26:22,120 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:26:22,124 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:26:22,129 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:26:22,132 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:26:30,690 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:26:30,693 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:26:30,697 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:26:30,699 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:26:32,271 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:26:32,274 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:26:32,278 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:26:32,281 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:26:33,621 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:26:33,625 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:26:33,628 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:26:33,632 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:26:35,653 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:26:35,658 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:26:35,663 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:26:35,667 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:26:36,439 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:26:36,441 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:26:36,445 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:26:36,447 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:26:36,451 - Suavizado aplicado con ventana de 6
+2025-03-20 00:26:36,531 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-20 00:27:21,343 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:27:21,348 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:27:21,351 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:27:42,790 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:27:42,793 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:27:42,795 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:27:55,228 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:27:55,232 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:27:55,235 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:28:07,289 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:28:07,293 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:28:07,296 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:28:11,872 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:28:11,875 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:28:11,880 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:28:15,862 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:28:15,867 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:28:15,870 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:28:15,886 - Suavizado aplicado con ventana de 5
+2025-03-20 00:28:15,958 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-20 00:33:29,231 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:33:29,238 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:33:29,242 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:33:29,244 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:33:32,398 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 00:33:32,403 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 00:33:32,407 - Columna 'fecha' configurada como índice temporal
+2025-03-20 00:33:32,410 - No se encontraron columnas con formato de fecha válido
+2025-03-20 00:55:23,038 - Archivo CSV cargado correctamente.
+2025-03-20 00:55:44,568 - Archivo CSV cargado correctamente.
+2025-03-20 00:55:44,639 - Dataset guardado correctamente en sesión.
+2025-03-20 00:55:46,663 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 00:55:47,473 - Columna 'title' identificada con 19 fechas válidas
+2025-03-20 00:55:49,574 - Columna 'date_added' identificada con 16000 fechas válidas
+2025-03-20 00:55:53,301 - Columna 'title' configurada como índice temporal
+2025-03-20 00:56:10,452 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 00:56:11,093 - Columna 'title' identificada con 19 fechas válidas
+2025-03-20 00:56:13,081 - Columna 'date_added' identificada con 16000 fechas válidas
+2025-03-20 00:56:15,873 - Columna 'date_added' configurada como índice temporal
+2025-03-20 00:56:58,348 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 00:56:58,984 - Columna 'title' identificada con 19 fechas válidas
+2025-03-20 00:57:00,699 - Columna 'date_added' identificada con 16000 fechas válidas
+2025-03-20 00:57:03,592 - Columna 'date_added' configurada como índice temporal
+2025-03-20 00:57:04,276 - Columna 'title' identificada con 19 fechas válidas
+2025-03-20 00:57:09,264 - Columna 'title' configurada como índice temporal
+2025-03-20 00:57:30,249 - Archivo CSV cargado correctamente.
+2025-03-20 00:58:15,623 - Archivo CSV cargado correctamente.
+2025-03-20 00:58:17,964 - Archivo CSV cargado correctamente.
+2025-03-20 00:58:21,428 - Archivo CSV cargado correctamente.
+2025-03-20 00:58:24,299 - Archivo CSV cargado correctamente.
+2025-03-20 00:58:28,843 - Archivo CSV cargado correctamente.
+2025-03-20 00:58:34,681 - Archivo CSV cargado correctamente.
+2025-03-20 00:58:39,447 - Archivo CSV cargado correctamente.
+2025-03-20 00:58:44,798 - Archivo CSV cargado correctamente.
+2025-03-20 00:58:49,023 - Archivo CSV cargado correctamente.
+2025-03-20 00:58:52,949 - Archivo CSV cargado correctamente.
+2025-03-20 00:59:01,690 - Archivo CSV cargado correctamente.
+2025-03-20 01:00:02,841 - Archivo CSV cargado correctamente.
+2025-03-20 01:00:14,873 - Archivo CSV cargado correctamente.
+2025-03-20 01:00:18,556 - Archivo CSV cargado correctamente.
+2025-03-20 01:00:20,248 - Archivo CSV cargado correctamente.
+2025-03-20 01:00:20,345 - Dataset guardado correctamente en sesión.
+2025-03-20 01:00:22,680 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 01:00:23,351 - Columna 'title' identificada con 19 fechas válidas
+2025-03-20 01:00:25,427 - Columna 'date_added' identificada con 16000 fechas válidas
+2025-03-20 01:00:28,707 - Columna 'title' configurada como índice temporal
+2025-03-20 01:25:12,953 - Archivo CSV cargado correctamente.
+2025-03-20 01:25:38,067 - Archivo CSV cargado correctamente.
+2025-03-20 01:25:39,507 - Archivo CSV cargado correctamente.
+2025-03-20 01:25:43,604 - Archivo CSV cargado correctamente.
+2025-03-20 01:25:46,875 - Archivo CSV cargado correctamente.
+2025-03-20 01:29:34,506 - Archivo CSV cargado correctamente.
+2025-03-20 01:29:39,940 - Archivo CSV cargado correctamente.
+2025-03-20 01:29:41,946 - Archivo CSV cargado correctamente.
+2025-03-20 01:29:42,044 - Dataset guardado correctamente en sesión.
+2025-03-20 01:31:39,648 - Archivo CSV cargado correctamente.
+2025-03-20 01:31:43,121 - Archivo CSV cargado correctamente.
+2025-03-20 01:31:44,431 - Archivo CSV cargado correctamente.
+2025-03-20 01:31:44,498 - Dataset guardado correctamente en sesión.
+2025-03-20 01:33:21,450 - Archivo CSV cargado correctamente.
+2025-03-20 01:33:31,141 - Archivo CSV cargado correctamente.
+2025-03-20 01:33:37,856 - Archivo CSV cargado correctamente.
+2025-03-20 01:33:39,140 - Archivo CSV cargado correctamente.
+2025-03-20 01:33:41,001 - Archivo CSV cargado correctamente.
+2025-03-20 01:33:41,062 - Dataset guardado correctamente en sesión.
+2025-03-20 01:36:00,203 - Archivo CSV cargado correctamente.
+2025-03-20 01:36:10,562 - Archivo CSV cargado correctamente.
+2025-03-20 01:36:17,138 - Archivo CSV cargado correctamente.
+2025-03-20 01:36:20,788 - Archivo CSV cargado correctamente.
+2025-03-20 01:36:22,950 - Archivo CSV cargado correctamente.
+2025-03-20 01:36:23,045 - Columnas eliminadas: ['type']
+2025-03-20 01:36:24,797 - Archivo CSV cargado correctamente.
+2025-03-20 01:36:24,873 - Dataset guardado correctamente en sesión.
+2025-03-20 01:40:16,878 - Archivo CSV cargado correctamente.
+2025-03-20 01:40:20,285 - Archivo CSV cargado correctamente.
+2025-03-20 01:40:27,504 - Archivo CSV cargado correctamente.
+2025-03-20 01:40:34,901 - Archivo CSV cargado correctamente.
+2025-03-20 01:40:36,244 - Archivo CSV cargado correctamente.
+2025-03-20 01:40:36,331 - Columnas eliminadas: ['type']
+2025-03-20 01:42:20,676 - Archivo CSV cargado correctamente.
+2025-03-20 01:42:26,678 - Archivo CSV cargado correctamente.
+2025-03-20 01:42:30,402 - Archivo CSV cargado correctamente.
+2025-03-20 01:42:38,779 - Archivo CSV cargado correctamente.
+2025-03-20 01:42:44,287 - Archivo CSV cargado correctamente.
+2025-03-20 01:42:45,840 - Archivo CSV cargado correctamente.
+2025-03-20 01:42:45,957 - Columnas eliminadas: ['type']
+2025-03-20 01:42:47,418 - Archivo CSV cargado correctamente.
+2025-03-20 01:42:47,485 - Dataset guardado correctamente en sesión.
+2025-03-20 01:46:31,708 - Error al cargar CSV: Invalid file path or buffer object type: <class 'NoneType'>
+2025-03-20 01:46:54,493 - Archivo CSV cargado correctamente.
+2025-03-20 01:47:58,093 - Archivo CSV cargado correctamente.
+2025-03-20 01:48:04,787 - Error al cargar CSV: Invalid file path or buffer object type: <class 'NoneType'>
+2025-03-20 01:48:43,130 - Archivo CSV cargado correctamente.
+2025-03-20 01:49:00,040 - Archivo CSV cargado correctamente.
+2025-03-20 01:55:10,546 - Archivo CSV cargado correctamente.
+2025-03-20 01:55:20,720 - Archivo CSV cargado correctamente.
+2025-03-20 01:55:26,268 - Archivo CSV cargado correctamente.
+2025-03-20 01:55:27,632 - Archivo CSV cargado correctamente.
+2025-03-20 01:55:27,725 - Columnas eliminadas: ['type']
+2025-03-20 01:55:31,013 - Archivo CSV cargado correctamente.
+2025-03-20 01:55:31,076 - Dataset guardado correctamente en sesión.
+2025-03-20 02:02:49,552 - Archivo CSV cargado correctamente.
+2025-03-20 02:05:08,327 - Archivo CSV cargado correctamente.
+2025-03-20 02:05:23,467 - Archivo CSV cargado correctamente.
+2025-03-20 02:05:34,108 - Archivo CSV cargado correctamente.
+2025-03-20 02:05:35,366 - Archivo CSV cargado correctamente.
+2025-03-20 02:05:35,495 - Columnas eliminadas: ['type']
+2025-03-20 02:05:40,391 - Archivo CSV cargado correctamente.
+2025-03-20 02:05:40,466 - Dataset guardado correctamente en sesión.
+2025-03-20 02:06:04,892 - Archivo CSV cargado correctamente.
+2025-03-20 02:06:04,990 - Columnas eliminadas: ['type']
+2025-03-20 02:06:42,618 - Archivo CSV cargado correctamente.
+2025-03-20 02:08:21,985 - Archivo CSV cargado correctamente.
+2025-03-20 02:08:25,126 - Archivo CSV cargado correctamente.
+2025-03-20 02:08:25,627 - Archivo CSV cargado correctamente.
+2025-03-20 02:08:31,928 - Archivo CSV cargado correctamente.
+2025-03-20 02:08:39,013 - Archivo CSV cargado correctamente.
+2025-03-20 02:08:46,562 - Archivo CSV cargado correctamente.
+2025-03-20 02:08:48,916 - Archivo CSV cargado correctamente.
+2025-03-20 02:08:48,952 - Columnas eliminadas: ['super']
+2025-03-20 02:08:50,624 - Archivo CSV cargado correctamente.
+2025-03-20 02:08:50,650 - Dataset guardado correctamente en sesión.
+2025-03-20 02:09:01,584 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 02:09:01,589 - Columna 'fecha' identificada con 223 fechas válidas
+2025-03-20 02:09:01,594 - Columna 'fecha' configurada como índice temporal
+2025-03-20 02:09:08,904 - Archivo CSV cargado correctamente.
+2025-03-20 02:09:20,522 - Archivo CSV cargado correctamente.
+2025-03-20 02:09:21,432 - Archivo CSV cargado correctamente.
+2025-03-20 02:09:21,501 - Columnas eliminadas: ['type']
+2025-03-20 02:09:23,123 - Archivo CSV cargado correctamente.
+2025-03-20 02:09:23,213 - Dataset guardado correctamente en sesión.
+2025-03-20 02:10:31,974 - Archivo CSV cargado correctamente.
+2025-03-20 02:10:38,508 - Archivo CSV cargado correctamente.
+2025-03-20 02:10:47,975 - Archivo CSV cargado correctamente.
+2025-03-20 02:10:50,430 - Archivo CSV cargado correctamente.
+2025-03-20 02:10:51,830 - Archivo CSV cargado correctamente.
+2025-03-20 02:10:51,914 - Columnas eliminadas: ['type']
+2025-03-20 02:10:53,384 - Archivo CSV cargado correctamente.
+2025-03-20 02:10:53,497 - Dataset guardado correctamente en sesión.
+2025-03-20 02:13:59,101 - Archivo CSV cargado correctamente.
+2025-03-20 02:14:08,528 - Archivo CSV cargado correctamente.
+2025-03-20 02:14:13,744 - Archivo CSV cargado correctamente.
+2025-03-20 02:14:15,110 - Archivo CSV cargado correctamente.
+2025-03-20 02:14:15,974 - Archivo CSV cargado correctamente.
+2025-03-20 02:14:16,104 - Columnas eliminadas: ['title', 'type']
+2025-03-20 02:14:18,050 - Archivo CSV cargado correctamente.
+2025-03-20 02:14:18,129 - Dataset guardado correctamente en sesión.
+2025-03-20 02:15:32,956 - Archivo CSV cargado correctamente.
+2025-03-20 02:15:40,452 - Archivo CSV cargado correctamente.
+2025-03-20 02:15:45,097 - Archivo CSV cargado correctamente.
+2025-03-20 02:15:45,863 - Archivo CSV cargado correctamente.
+2025-03-20 02:15:46,662 - Archivo CSV cargado correctamente.
+2025-03-20 02:15:47,571 - Archivo CSV cargado correctamente.
+2025-03-20 02:15:47,674 - Columnas eliminadas: ['title', 'director', 'type']
+2025-03-20 02:15:49,041 - Archivo CSV cargado correctamente.
+2025-03-20 02:15:49,117 - Dataset guardado correctamente en sesión.
+2025-03-20 02:32:52,080 - Archivo CSV cargado correctamente.
+2025-03-20 02:32:59,272 - Archivo CSV cargado correctamente.
+2025-03-20 02:33:04,447 - Archivo CSV cargado correctamente.
+2025-03-20 02:33:05,146 - Archivo CSV cargado correctamente.
+2025-03-20 02:33:06,832 - Archivo CSV cargado correctamente.
+2025-03-20 02:33:06,937 - Dataset guardado correctamente en sesión.
+2025-03-20 02:33:41,021 - Archivo CSV cargado correctamente.
+2025-03-20 02:33:49,657 - Archivo CSV cargado correctamente.
+2025-03-20 02:33:54,751 - Archivo CSV cargado correctamente.
+2025-03-20 02:33:55,704 - Archivo CSV cargado correctamente.
+2025-03-20 02:33:57,213 - Archivo CSV cargado correctamente.
+2025-03-20 02:33:57,272 - Dataset guardado correctamente en sesión.
+2025-03-20 02:41:44,843 - Archivo CSV cargado correctamente con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 02:41:49,555 - Archivo CSV cargado correctamente con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 02:41:57,381 - Archivo CSV cargado correctamente con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 02:42:13,722 - Archivo CSV cargado correctamente con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 02:42:14,616 - Archivo CSV cargado correctamente con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 02:42:14,697 - Columnas eliminadas: ['type']
+2025-03-20 02:42:17,795 - Archivo CSV cargado correctamente con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 02:42:17,868 - Dataset guardado correctamente en sesión con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 02:43:13,604 - Archivo CSV cargado correctamente.
+2025-03-20 02:45:01,297 - Archivo CSV cargado correctamente.
+2025-03-20 02:45:09,370 - Archivo CSV cargado correctamente.
+2025-03-20 02:45:10,845 - Archivo CSV cargado correctamente.
+2025-03-20 02:45:10,909 - Dataset guardado correctamente en sesión.
+2025-03-20 02:45:13,054 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 02:45:13,618 - Columna 'title' identificada con 19 fechas válidas
+2025-03-20 02:45:15,136 - Columna 'date_added' identificada con 16000 fechas válidas
+2025-03-20 02:45:18,732 - Columna 'title' configurada como índice temporal
+2025-03-20 03:07:15,087 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:07:15,104 - Columna 'show_id' configurada como índice temporal
+2025-03-20 03:07:27,834 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:07:27,857 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:07:30,442 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:07:30,456 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:07:36,005 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:07:36,021 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:07:37,403 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:07:37,423 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:07:38,239 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:07:38,258 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:07:38,294 - Suavizado aplicado con ventana de 5
+2025-03-20 03:07:38,760 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-20 03:11:45,920 - Archivo CSV cargado correctamente.
+2025-03-20 03:11:49,972 - Archivo CSV cargado correctamente.
+2025-03-20 03:11:50,059 - Dataset guardado correctamente en sesión.
+2025-03-20 03:11:52,383 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:11:52,400 - Columna 'show_id' configurada como índice temporal
+2025-03-20 03:11:58,914 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:11:58,938 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:13:55,503 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:13:55,520 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:14:10,485 - Archivo CSV cargado correctamente.
+2025-03-20 03:14:18,780 - Archivo CSV cargado correctamente.
+2025-03-20 03:14:22,752 - Archivo CSV cargado correctamente.
+2025-03-20 03:14:22,819 - Dataset guardado correctamente en sesión.
+2025-03-20 03:14:23,855 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:14:23,866 - Columna 'show_id' configurada como índice temporal
+2025-03-20 03:15:24,343 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:15:24,359 - Columna 'show_id' configurada como índice temporal
+2025-03-20 03:15:53,148 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:15:53,164 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:15:56,276 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:15:56,291 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:16:01,117 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:16:01,135 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:16:03,805 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:16:03,821 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:16:03,849 - Suavizado aplicado con ventana de 5
+2025-03-20 03:16:04,219 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-20 03:17:04,029 - Archivo CSV cargado correctamente.
+2025-03-20 03:17:07,277 - Archivo CSV cargado correctamente.
+2025-03-20 03:17:07,337 - Dataset guardado correctamente en sesión.
+2025-03-20 03:17:09,645 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:17:09,661 - Columna 'show_id' configurada como índice temporal
+2025-03-20 03:17:17,836 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:17:17,853 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:17:21,152 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:17:21,164 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:17:21,946 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:17:21,958 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:19:21,584 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:19:21,599 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:34:39,099 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:34:44,114 - Columna 'date_added' configurada como índice temporal
+2025-03-20 03:34:55,085 - Archivo CSV cargado correctamente.
+2025-03-20 03:34:59,590 - Archivo CSV cargado correctamente.
+2025-03-20 03:34:59,673 - Dataset guardado correctamente en sesión.
+2025-03-20 03:35:00,692 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:35:05,871 - Columna 'show_id' configurada como índice temporal
+2025-03-20 03:35:55,078 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:35:59,965 - Columna 'show_id' configurada como índice temporal
+2025-03-20 03:37:41,792 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:37:47,097 - Columna 'show_id' configurada como índice temporal
+2025-03-20 03:38:04,881 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:38:09,924 - Columna 'show_id' configurada como índice temporal
+2025-03-20 03:42:50,225 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:42:55,889 - Columna 'show_id' configurada como índice temporal
+2025-03-20 03:56:49,099 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:56:59,702 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:57:11,546 - Archivo CSV cargado correctamente.
+2025-03-20 03:57:14,486 - Archivo CSV cargado correctamente.
+2025-03-20 03:57:14,552 - Dataset guardado correctamente en sesión.
+2025-03-20 03:57:15,656 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 03:59:40,229 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 04:09:04,071 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 04:09:20,730 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 04:09:28,362 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 04:09:34,124 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 04:09:36,906 - DataFrame recibido con columnas: ['show_id', 'type', 'title', 'director', 'cast', 'country', 'date_added', 'release_year', 'rating', 'duration', 'genres', 'language', 'description', 'popularity', 'vote_count', 'vote_average', 'budget', 'revenue']
+2025-03-20 04:09:47,919 - Suavizado aplicado con ventana de 5
+2025-03-20 04:09:48,409 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-20 04:10:17,529 - Archivo CSV cargado correctamente.
+2025-03-20 04:10:19,809 - Archivo CSV cargado correctamente.
+2025-03-20 04:10:22,184 - Archivo CSV cargado correctamente.
+2025-03-20 04:10:22,216 - Dataset guardado correctamente en sesión.
+2025-03-20 04:10:23,242 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 04:10:28,245 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 04:10:28,902 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 04:10:28,914 - Suavizado aplicado con ventana de 5
+2025-03-20 04:10:28,979 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-20 04:10:42,002 - DataFrame recibido con columnas: ['fecha', 'super']

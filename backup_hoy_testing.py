@@ -14,7 +14,6 @@ class SeriesTemporales:
         setup_logging()
         self.original_df = df.copy()
         self.df = df.copy()
-        #self.df = df  activar y quitar  el anterior.
         self.show_smoothed = False
         self.eda = EDA(self.df)
         logging.info(f"DataFrame recibido con columnas: {list(self.df.columns)}")
@@ -42,7 +41,7 @@ class SeriesTemporales:
 
         col1, col2, col3 = st.columns([1.7, 1.6, 1.5])  # Ajustamos tamaños para balance visual
         with col1: #Selección de fechas
-            option, d_fecha = self.date_config_selection()
+            option, d_fecha = self.render_option_selection()
 
         with col2: #Selección de la variable numérica
             selected_data_col = self.render_numeric_column_selector()
@@ -56,7 +55,128 @@ class SeriesTemporales:
 
         return option, d_fecha, selected_data_col, suavizado
     
-    def modify_date_config(self):
+    def render_option_selection(self):
+        """Renderiza la opción de 'Seleccionar' o 'Crear' y la configuración asociada."""
+        st.write("### Opciones")
+        option = st.radio("Selecciona una opción:", ("Seleccionar", "Crear"))
+
+        if option == "Seleccionar":
+            datos = self.render_data_selector()
+            if datos:  
+                st.write(f"Columna de fecha seleccionada: {datos}")
+        elif option == "Crear":
+            datos = self.render_create_data()  # Retorna frecuencia, fecha_inicio y fecha_fin
+            if datos:
+                st.write(f"Frecuencia: {datos['frecuencia']}")
+                st.write(f"Fecha de inicio: {datos['fecha_inicio']}")
+                st.write(f"Fecha de fin: {datos['fecha_fin']}")            
+
+        return option, datos
+
+
+
+
+
+
+
+    def render_option_selection___(self):
+        """Renderiza la opción de 'Seleccionar' o 'Crear' y la configuración asociada."""
+        st.write("### Opciones")
+        option = st.radio("Selecciona una opción:", ("Seleccionar", "Crear"))
+
+        if option == "Seleccionar":
+            datos = self.render_data_selector()
+            if datos:  
+                st.write(f"Columna de fecha seleccionada: {datos}")
+        elif option == "Crear":
+            datos = self.render_create_data()  # Retorna frecuencia, fecha_inicio y fecha_fin
+            if datos:
+                st.write(f"Frecuencia: {datos['frecuencia']}")
+                st.write(f"Fecha de inicio: {datos['fecha_inicio']}")
+                st.write(f"Fecha de fin: {datos['fecha_fin']}")            
+
+        return option, datos
+
+    def render_data_selector(self):
+        """Renderiza el selector de columna de fechas en los datos."""
+        potential_date_columns = self.get_potential_date_columns()
+
+        if potential_date_columns:
+            return self.select_date_column(potential_date_columns)
+        else:
+            st.warning("No se encontraron columnas con formato de fecha válido.")
+            logging.warning("No se encontraron columnas con formato de fecha válido")
+            return None
+
+    def get_potential_date_columns(self):
+        """Verifica las columnas que pueden ser de tipo fecha."""
+        potential_date_columns = []
+
+        potential_date_columns += self.get_valid_date_column('fecha')
+
+        if not potential_date_columns: # si no hay una columna llamada "fecha", revisa las columnas de tipo datetime
+            potential_date_columns += self.get_valid_datetime_columns()
+
+        # Si aún no se encontró, revisa las columnas de texto y trata de convertirlas
+        if not potential_date_columns:
+            potential_date_columns += self.get_valid_date_columns_from_text()
+
+        return potential_date_columns
+
+    def get_valid_date_column(self, column_name):
+        """Verifica si una columna específica es válida para fechas."""
+        potential_date_columns = []
+        if column_name in self.df.columns:
+            test_series = pd.to_datetime(self.df[column_name], errors='coerce')
+            valid_dates = test_series.notnull().sum()
+            if valid_dates > 0:
+                potential_date_columns.append(column_name)
+                logging.info(f"Columna '{column_name}' identificada con {valid_dates} fechas válidas")
+        return potential_date_columns
+
+    def get_valid_datetime_columns(self):
+        """Verifica si hay columnas de tipo datetime en el DataFrame."""
+        potential_date_columns = []
+        for column in self.df.columns:
+            if pd.api.types.is_datetime64_any_dtype(self.df[column]):
+                potential_date_columns.append(column)
+                st.success(f"Columna '{column}' identificada como columna de fecha.")
+                logging.info(f"Columna '{column}' identificada como columna de fecha")
+        return potential_date_columns
+
+    def get_valid_date_columns_from_text(self):
+        """Verifica las columnas de texto y trata de convertirlas a fechas."""
+        potential_date_columns = []
+        st.write("### Revisando columnas de tipo texto...")
+        for column in self.df.columns:
+            if pd.api.types.is_string_dtype(self.df[column]) or pd.api.types.is_object_dtype(self.df[column]):
+                test_series = pd.to_datetime(self.df[column], errors='coerce')
+                valid_dates = test_series.notnull().sum()
+                if valid_dates > 0:
+                    potential_date_columns.append(column)
+                    st.success(f"Columna '{column}' identificada con {valid_dates} fechas válidas")
+                    logging.info(f"Columna '{column}' identificada con {valid_dates} fechas válidas")
+        return potential_date_columns
+
+    def select_date_column(self, potential_date_columns):
+        """Muestra el selector de columna de fecha y permite usarla como índice temporal."""
+        selected_column = st.selectbox("Selecciona una columna de fecha:", potential_date_columns)
+
+
+        self.df[selected_column] = pd.to_datetime(self.df[selected_column], errors='coerce', dayfirst=False)
+            
+        # Eliminar filas con fechas no válidas
+        valid_rows = self.df[selected_column].notnull().sum()
+        total_rows = len(self.df)
+        self.df = self.df.dropna(subset=[selected_column])
+            
+        # Establecer la columna seleccionada como índice
+        self.df.set_index(selected_column, inplace=True)
+        logging.info(f"Columna '{selected_column}' configurada como índice temporal")
+        
+        return selected_column
+
+    def render_create_data(self):
         """Renderiza los controles para la creación de datos si no existen fechas."""
         frecuencia = st.selectbox(
             "Los datos vienen de forma:",
@@ -72,84 +192,6 @@ class SeriesTemporales:
         self.display_top_bottom_tabs()
 
         return {"frecuencia": frecuencia, "fecha_inicio": fecha_inicio, "fecha_fin": fecha_fin}
-
-    def date_config_selection(self):
-        """Configura la selección de fecha y la opción de modificación del formato de fecha."""
-        st.write("### Fechas")
-
-        date_selected = self.render_date_column_selector()
-        
-        if date_selected:
-            modify_option = st.radio("¿Quieres modificar el formato de la fecha?", ("No", "Sí"))
-            
-            if modify_option == "No":
-                st.write(f"Usando la fecha seleccionada: {date_selected}")
-                # Aquí puedes convertir la columna a datetime y establecerla como índice
-                self.df[date_selected] = pd.to_datetime(self.df[date_selected], errors='coerce')
-                self.df.set_index(date_selected, inplace=True)
-            elif modify_option == "Sí":
-                date_config = self.modify_date_config()
-                return modify_option, date_config
-        else:
-            # Si no se encontró ninguna columna de fecha, ofrecer crear una nueva
-            modify_option = "Sí"
-            date_config = self.modify_date_config()
-            return modify_option, date_config
-            
-        return modify_option, date_selected
-
-    def get_date_columns(self):
-        """Identifica columnas que probablemente contienen fechas, excluyendo columnas puramente numéricas."""
-        date_columns = []
-        
-        for column in self.df.columns:
-            # Verifica si la columna ya es de tipo datetime
-            if pd.api.types.is_datetime64_any_dtype(self.df[column]):
-                date_columns.append(column)
-                continue
-                
-            # Excluye columnas numéricas (int, float)
-            if pd.api.types.is_numeric_dtype(self.df[column]):
-                # Verifica si son años (entre 1900 y 2100)
-                if self.df[column].min() >= 1900 and self.df[column].max() <= 2100:
-                    # Podría ser una columna de años
-                    pass
-                else:
-                    # Es una columna numérica normal, no fecha
-                    continue
-                    
-            # Para columnas de texto, verifica si pueden convertirse a fechas
-            if pd.api.types.is_string_dtype(self.df[column]) or pd.api.types.is_object_dtype(self.df[column]):
-                # Verifica si hay valores vacíos o NaN
-                non_null_values = self.df[column].dropna()
-                if len(non_null_values) == 0:
-                    continue
-                    
-                # Intenta convertir a datetime
-                test_series = pd.to_datetime(non_null_values, errors='coerce')
-                valid_dates = test_series.notnull().sum()
-                
-                # Si al menos el 70% son fechas válidas, considérala como columna de fecha
-                if valid_dates / len(non_null_values) >= 0.7:
-                    date_columns.append(column)
-        
-        return date_columns
-
-    def render_date_column_selector(self):
-        """Muestra un selectbox con columnas de fecha disponibles."""
-        date_columns = self.get_date_columns()
-        
-        if date_columns:
-            selected_date_column = st.selectbox(
-                "Selecciona una columna de fecha:",
-                date_columns
-            )
-            return selected_date_column
-        else:
-            st.warning("No se encontraron columnas con formato de fecha válido.")
-            return None
-
-
 
     def render_numeric_column_selector(self):
         """Renderiza la selección de la columna de datos numéricos."""
@@ -177,9 +219,13 @@ class SeriesTemporales:
         # Crear un contenedor que ocupe todo el ancho de la pantalla
         with st.container():
             if st.button("Aplicar suavizado", key="apply_smoothing_button", use_container_width=True):
-                if not d_fecha:
+                if not isinstance(self.df.index, pd.DatetimeIndex):
                     st.warning("Primero debes seleccionar una columna de fecha válida.")
-                    return 
+                    selected_column = self.select_date_column(self.get_potential_date_columns())
+                    if selected_column:  # Verifica si se seleccionó una columna
+                        st.success(f"Columna '{selected_column}' configurada correctamente como índice temporal.")
+                    else:
+                        return 
                     
                 # Validar si se ha seleccionado una columna numérica
                 if not selected_data_col:
