@@ -24,8 +24,8 @@ class EDA:
         with col2:
             decimal = st.selectbox("Decimal", [".", ","], index=0)
         with col3:
-            encoding = st.selectbox("Codificación", ["utf-8", "latin1"], index=0)
-
+            encoding = st.selectbox("Codificación", ["utf-8", "latin1", "ISO-8859-1"], index=0)
+        st.write(f"Codificación seleccionada: {encoding}")
         return separator, decimal, encoding
 
     def load_data(self, uploaded_file, separator, decimal, encoding):

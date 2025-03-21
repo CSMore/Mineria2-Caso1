@@ -18,6 +18,7 @@ class SeriesTemporales:
         self.show_smoothed = False
         self.eda = EDA(self.df)
         logging.info(f"DataFrame recibido con columnas: {list(self.df.columns)}")
+        #self.current_page = 0  # Control de paginación
 
     def validate_data_loaded(self):
         """Verifica si los datos están cargados en el pipeline."""
@@ -132,8 +133,73 @@ class SeriesTemporales:
                 # Si al menos el 70% son fechas válidas, considérala como columna de fecha
                 if valid_dates / len(non_null_values) >= 0.7:
                     date_columns.append(column)
+                    continue
+
+                # Intento con formato español como '3-ene-23'
+                test_series = non_null_values.apply(SeriesTemporales.parse_spanish_date)
+                valid_dates = test_series.notnull().sum()
+                
+                # Si al menos el 70% son fechas válidas, considérala como columna de fecha
+                if valid_dates / len(non_null_values) >= 0.7:
+                    date_columns.append(column)
+                    continue
+
+            # Segundo intento: Intentar con formato específico '%d-%b-%y' ingles 
+                try:
+                    test_series = pd.to_datetime(non_null_values, format='%d-%b-%y', errors='coerce')
+                    valid_dates = test_series.notnull().sum()
+                    if valid_dates / len(non_null_values) >= 0.7:
+                        date_columns.append(column)
+                except Exception:
+                    pass  # Si falla, simplemente ignoramos esta conversión
         
-        return date_columns
+        return list(dict.fromkeys(date_columns))
+
+    @staticmethod
+    def parse_spanish_date(date_str):
+        """
+        Convierte fechas en formato español como '3-ene-23' a formato datetime.
+        
+        Args:
+            date_str: String que contiene la fecha en formato día-mes-año (ej: '3-ene-23')
+            
+        Returns:
+            Timestamp de pandas o NaT si no se puede convertir
+        """
+        if not isinstance(date_str, str):
+            return pd.NaT
+            
+        try:
+            # Diccionario para traducir abreviaturas de meses en español a números
+            month_map = {
+                'ene': '01', 'feb': '02', 'mar': '03', 'abr': '04',
+                'may': '05', 'jun': '06', 'jul': '07', 'ago': '08',
+                'sep': '09', 'oct': '10', 'nov': '11', 'dic': '12'
+            }
+            
+            parts = date_str.split('-')
+            if len(parts) != 3:
+                return pd.NaT
+                
+            day, month_abbr, year = parts
+            
+            # Convertir mes de texto a número
+            if month_abbr.lower() in month_map:
+                month = month_map[month_abbr.lower()]
+            else:
+                return pd.NaT
+                
+            # Formatear año
+            if len(year) == 2:
+                year = '20' + year  # Asumimos años 2000+
+                
+            # Crear fecha en formato estándar
+            return pd.to_datetime(f'{year}-{month}-{day.zfill(2)}')
+        except:
+            return pd.NaT
+
+
+
 
     def render_date_column_selector(self):
         """Muestra un selectbox con columnas de fecha disponibles."""
@@ -197,6 +263,63 @@ class SeriesTemporales:
                     
                     # Generar la gráfica de los datos suavizados
                     self.display_time_series_data(show_smoothed=self.show_smoothed)
+
+
+
+
+
+
+    def apply_smoothing_daily(self, date_column):
+        """Genera una serie temporal interpolada a frecuencia diaria."""
+        if date_column not in self.df.columns:
+            st.warning("La columna de fecha seleccionada no es válida.")
+            return
+        
+        self.df[date_column] = pd.to_datetime(self.df[date_column], errors='coerce')
+        self.df.set_index(date_column, inplace=True)
+        self.df = self.df.resample('D').ffill().reset_index()
+        
+        # Guardar en session_state para persistencia
+        st.session_state['generated_data'] = self.df.copy()
+        st.session_state['current_page'] = 0  # Reiniciar la paginación
+        
+        st.success("Suavizado aplicado y serie temporal generada correctamente.")
+        self.display_paginated_table()
+
+    def display_paginated_table(self):
+        """Muestra la tabla de valores generados con paginación de 10 registros por página."""
+        if 'generated_data' not in st.session_state:
+            st.warning("No hay datos generados aún.")
+            return
+        
+        df = st.session_state['generated_data']
+        total_rows = len(df)
+        rows_per_page = 10
+        total_pages = (total_rows // rows_per_page) + (1 if total_rows % rows_per_page > 0 else 0)
+        
+        start_idx = st.session_state['current_page'] * rows_per_page
+        end_idx = start_idx + rows_per_page
+        
+        st.write(f"Mostrando registros {start_idx + 1} - {min(end_idx, total_rows)} de {total_rows}")
+        st.dataframe(df.iloc[start_idx:end_idx])
+        
+        col1, col2, col3 = st.columns([1, 2, 1])
+        with col1:
+            if st.button("⬅️ Anterior", disabled=st.session_state['current_page'] == 0):
+                st.session_state['current_page'] -= 1
+                st.rerun()
+        with col3:
+            if st.button("Siguiente ➡️", disabled=st.session_state['current_page'] >= total_pages - 1):
+                st.session_state['current_page'] += 1
+                st.rerun()
+        
+        st.download_button(
+            "Descargar CSV", df.to_csv(index=False), "series_temporales.csv", "text/csv", key="download-csv"
+        )
+
+
+
+
 
     def apply_smoothing(self, window_size):
         """Aplica el suavizado de media móvil a los datos de la serie temporal."""

@@ -2070,3 +2070,92 @@ dtype: object
 2025-03-20 04:10:28,914 - Suavizado aplicado con ventana de 5
 2025-03-20 04:10:28,979 - Datos suavizados guardados en 'smoothed_data.csv'
 2025-03-20 04:10:42,002 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 16:23:17,961 - Archivo CSV cargado correctamente.
+2025-03-20 16:23:22,341 - Archivo CSV cargado correctamente.
+2025-03-20 16:23:23,710 - Archivo CSV cargado correctamente.
+2025-03-20 16:23:29,662 - Archivo CSV cargado correctamente.
+2025-03-20 16:23:29,699 - Dataset guardado correctamente en sesión.
+2025-03-20 16:24:00,172 - Archivo CSV cargado correctamente.
+2025-03-20 16:24:13,853 - Archivo CSV cargado correctamente.
+2025-03-20 16:24:29,853 - Archivo CSV cargado correctamente.
+2025-03-20 16:24:41,831 - Archivo CSV cargado correctamente.
+2025-03-20 16:24:44,914 - Archivo CSV cargado correctamente.
+2025-03-20 16:24:46,029 - Archivo CSV cargado correctamente.
+2025-03-20 16:24:46,061 - Dataset guardado correctamente en sesión.
+2025-03-20 16:26:54,556 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 16:26:58,552 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 16:26:58,580 - Suavizado aplicado con ventana de 3
+2025-03-20 16:26:58,658 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-20 16:27:09,929 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 16:27:12,815 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 16:28:28,555 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 16:28:30,192 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 16:28:30,202 - Suavizado aplicado con ventana de 5
+2025-03-20 16:28:30,255 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-20 16:59:52,689 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-20 17:00:14,843 - Archivo CSV cargado correctamente.
+2025-03-20 17:00:19,473 - Archivo CSV cargado correctamente.
+2025-03-20 17:00:23,640 - Archivo CSV cargado correctamente.
+2025-03-20 17:00:28,794 - Archivo CSV cargado correctamente.
+2025-03-20 17:00:28,819 - Dataset guardado correctamente en sesión.
+2025-03-20 17:00:30,584 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:10:41,399 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:11:17,803 - Archivo CSV cargado correctamente.
+2025-03-20 17:11:21,801 - Archivo CSV cargado correctamente.
+2025-03-20 17:11:24,159 - Archivo CSV cargado correctamente.
+2025-03-20 17:11:26,611 - Archivo CSV cargado correctamente.
+2025-03-20 17:11:26,643 - Dataset guardado correctamente en sesión.
+2025-03-20 17:11:27,957 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:11:39,633 - Archivo CSV cargado correctamente.
+2025-03-20 17:11:41,753 - Archivo CSV cargado correctamente.
+2025-03-20 17:22:00,439 - Archivo CSV cargado correctamente.
+2025-03-20 17:22:16,205 - Archivo CSV cargado correctamente.
+2025-03-20 17:22:18,376 - Archivo CSV cargado correctamente.
+2025-03-20 17:22:21,667 - Archivo CSV cargado correctamente.
+2025-03-20 17:22:24,135 - Archivo CSV cargado correctamente.
+2025-03-20 17:22:24,160 - Dataset guardado correctamente en sesión.
+2025-03-20 17:22:25,018 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:22:34,765 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:30:28,201 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:30:30,091 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:30:30,809 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:30:31,143 - Suavizado aplicado con ventana de 5
+2025-03-20 17:30:31,196 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-20 17:30:58,439 - Archivo CSV cargado correctamente.
+2025-03-20 17:31:02,203 - Archivo CSV cargado correctamente.
+2025-03-20 17:34:20,493 - Archivo CSV cargado correctamente.
+2025-03-20 17:34:24,462 - Archivo CSV cargado correctamente.
+2025-03-20 17:34:27,324 - Archivo CSV cargado correctamente.
+2025-03-20 17:34:27,357 - Dataset guardado correctamente en sesión.
+2025-03-20 17:34:29,176 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:34:49,185 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:34:52,400 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 17:34:52,711 - Suavizado aplicado con ventana de 5
+2025-03-20 17:34:52,770 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-20 20:00:30,318 - DataFrame recibido con columnas: ['Fecha', 'Venta']
+2025-03-20 20:06:30,135 - Error al cargar CSV: 'utf-8' codec can't decode byte 0xa4 in position 11: invalid start byte
+2025-03-20 20:06:35,168 - Error al cargar CSV: Error tokenizing data. C error: Expected 1 fields in line 87, saw 2
+
+2025-03-20 20:15:37,801 - Error al cargar CSV: 'utf-8' codec can't decode byte 0xa4 in position 11: invalid start byte
+2025-03-20 20:15:40,434 - Error al cargar CSV: Error tokenizing data. C error: Expected 1 fields in line 87, saw 2
+
+2025-03-20 20:15:46,394 - Error al cargar CSV: 'utf-8' codec can't decode byte 0xa4 in position 11: invalid start byte
+2025-03-20 20:15:48,326 - Error al cargar CSV: Error tokenizing data. C error: Expected 1 fields in line 87, saw 2
+
+2025-03-20 20:15:50,778 - Error al cargar CSV: Error tokenizing data. C error: Expected 1 fields in line 87, saw 2
+
+2025-03-20 20:17:18,877 - Error al cargar CSV: Error tokenizing data. C error: Expected 1 fields in line 87, saw 2
+
+2025-03-20 20:17:42,482 - Archivo CSV cargado correctamente.
+2025-03-20 20:17:48,857 - Error al cargar CSV: Error tokenizing data. C error: Expected 1 fields in line 87, saw 2
+
+2025-03-20 20:17:58,166 - Archivo CSV cargado correctamente.
+2025-03-20 20:18:00,420 - Archivo CSV cargado correctamente.
+2025-03-20 20:18:03,370 - Archivo CSV cargado correctamente.
+2025-03-20 20:18:30,323 - Archivo CSV cargado correctamente.
+2025-03-20 20:18:30,374 - Dataset guardado correctamente en sesión.
+2025-03-20 20:18:56,944 - Archivo CSV cargado correctamente.
+2025-03-20 20:19:03,252 - Error al cargar CSV: 'utf-8' codec can't decode byte 0xa4 in position 11: invalid start byte
+2025-03-20 20:22:26,093 - Error al cargar CSV: 'utf-8' codec can't decode byte 0xa4 in position 11: invalid start byte
+2025-03-20 20:22:29,319 - Error al cargar CSV: 'utf-8' codec can't decode byte 0xa4 in position 11: invalid start byte
+2025-03-20 20:22:31,709 - Archivo CSV cargado correctamente.
