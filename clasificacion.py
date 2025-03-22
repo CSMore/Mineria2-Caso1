@@ -37,7 +37,12 @@ class Clasificacion:
 
         # Escalado de características
         scaler = StandardScaler()
-        X_scaled = scaler.fit_transform(X)
+        X_numeric = X.select_dtypes(include=[np.number])
+        X_scaled = scaler.fit_transform(X_numeric)
+        
+        X_non_numeric = X.select_dtypes(exclude=[np.number])
+        self.X = pd.concat([pd.DataFrame(X_scaled, columns=X_numeric.columns), X_non_numeric.reset_index(drop=True)], axis=1)
+
 
         self.X = X_scaled
         self.y = y

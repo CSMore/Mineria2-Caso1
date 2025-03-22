@@ -183,6 +183,12 @@ class app:
             
             st.subheader("Valores Faltantes")
             st.write(eda_instance.missing_values_info())
+            
+            if st.button("Aplicar limpieza de NaN"):
+                eda_instance.drop_missing_values()
+                st.session_state['data'] = eda_instance.get_df()
+                st.success("Limpieza aplicada y datos actualizados.")
+
 
             st.subheader("Detección de Outliers")
             st.write(eda_instance.detect_outliers())

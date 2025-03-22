@@ -6,6 +6,7 @@ import exploratorio as exploratorio  # Importar py Análisis Exploratorio
 import aprendizaje as aprendizaje  # Importar py Aprendizaje Supervisado
 import clasificacion as clasi
 import series_temporales as series_tiempo
+import regresion as reg 
 
 st.set_page_config(page_title="Testing", layout="wide")
 
@@ -52,7 +53,7 @@ def main():
         st.session_state.pipeline_completed = True
 
     elif st.session_state.page == "Análisis Exploratorio":
-        exploratorio.app().main()  # Llamada al módulo Análisis Exploratorio
+        exploratorio.app().main()  
 
     elif st.session_state.page == "Configuración inicial":
         series_tiempo.app().main()
@@ -61,8 +62,8 @@ def main():
         series_tiempo.app().main()  # Llamada al módulo Series Temporales
 
     elif st.session_state.page == "Regresión":
-        aprendizaje.app().main()  
-
+        reg.app().main()
+  
     elif st.session_state.page == "Clasificación":
         clasi.app().main()  
 

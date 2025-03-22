@@ -2159,3 +2159,94 @@ dtype: object
 2025-03-20 20:22:26,093 - Error al cargar CSV: 'utf-8' codec can't decode byte 0xa4 in position 11: invalid start byte
 2025-03-20 20:22:29,319 - Error al cargar CSV: 'utf-8' codec can't decode byte 0xa4 in position 11: invalid start byte
 2025-03-20 20:22:31,709 - Archivo CSV cargado correctamente.
+2025-03-21 17:24:01,727 - Archivo CSV cargado correctamente.
+2025-03-21 17:24:09,671 - Archivo CSV cargado correctamente.
+2025-03-21 17:24:18,848 - Archivo CSV cargado correctamente.
+2025-03-21 17:24:18,947 - Dataset guardado correctamente en sesión.
+2025-03-21 17:24:22,479 - Archivo CSV cargado correctamente.
+2025-03-21 17:37:55,991 - Archivo CSV cargado correctamente.
+2025-03-21 17:38:03,428 - Archivo CSV cargado correctamente.
+2025-03-21 17:38:03,530 - Dataset guardado correctamente en sesión.
+2025-03-21 17:38:05,906 - Archivo CSV cargado correctamente.
+2025-03-21 17:38:07,896 - Archivo CSV cargado correctamente.
+2025-03-21 17:38:08,836 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-21 17:38:14,063 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-21 17:38:14,148 - Suavizado aplicado con ventana de 3
+2025-03-21 17:38:14,432 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-21 17:38:30,561 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-21 17:38:32,268 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-21 17:38:33,121 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-21 17:38:35,431 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-21 17:38:35,470 - Suavizado aplicado con ventana de 3
+2025-03-21 17:38:35,661 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-21 17:39:15,867 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-21 17:39:17,893 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-21 17:39:17,929 - Suavizado aplicado con ventana de 3
+2025-03-21 17:39:18,092 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-21 17:39:32,385 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-21 17:39:33,016 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 04:53:24,613 - Archivo CSV cargado correctamente.
+2025-03-22 04:53:37,079 - Archivo CSV cargado correctamente.
+2025-03-22 04:53:37,225 - Dataset guardado correctamente en sesión.
+2025-03-22 04:54:18,313 - Archivo CSV cargado correctamente.
+2025-03-22 04:54:22,473 - Archivo CSV cargado correctamente.
+2025-03-22 04:54:22,571 - Dataset guardado correctamente en sesión.
+2025-03-22 04:54:26,859 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 04:54:29,625 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 04:54:29,701 - Suavizado aplicado con ventana de 3
+2025-03-22 04:54:29,893 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-22 04:54:32,747 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 04:54:41,779 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 04:54:41,819 - Suavizado aplicado con ventana de 3
+2025-03-22 04:54:41,993 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-22 04:54:44,283 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 04:54:45,934 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 05:12:14,895 - Archivo CSV cargado correctamente.
+2025-03-22 05:12:18,219 - Archivo CSV cargado correctamente.
+2025-03-22 05:12:18,323 - Dataset guardado correctamente en sesión.
+2025-03-22 05:12:20,640 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 05:12:22,531 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 05:12:22,603 - Suavizado aplicado con ventana de 3
+2025-03-22 05:12:22,794 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-22 05:12:24,585 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 05:12:26,072 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 05:12:26,132 - Suavizado aplicado con ventana de 3
+2025-03-22 05:12:26,285 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-22 05:19:22,929 - Archivo CSV cargado correctamente.
+2025-03-22 05:19:35,655 - Archivo CSV cargado correctamente.
+2025-03-22 05:19:35,755 - Dataset guardado correctamente en sesión.
+2025-03-22 05:19:37,648 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 05:19:40,234 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 05:19:40,291 - Suavizado aplicado con ventana de 3
+2025-03-22 05:19:40,555 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-22 05:23:21,108 - Archivo CSV cargado correctamente.
+2025-03-22 05:23:32,536 - Archivo CSV cargado correctamente.
+2025-03-22 05:23:32,640 - Dataset guardado correctamente en sesión.
+2025-03-22 05:23:34,778 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 05:23:36,856 - DataFrame recibido con columnas: ['fecha', 'super']
+2025-03-22 05:23:36,913 - Suavizado aplicado con ventana de 3
+2025-03-22 05:23:37,121 - Datos suavizados guardados en 'smoothed_data.csv'
+2025-03-22 05:25:03,131 - Archivo CSV cargado correctamente.
+2025-03-22 05:26:32,872 - Archivo CSV cargado correctamente.
+2025-03-22 05:26:39,951 - Archivo CSV cargado correctamente.
+2025-03-22 05:26:40,055 - Dataset guardado correctamente en sesión.
+2025-03-22 05:26:47,270 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-22 05:26:51,586 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-22 05:26:53,384 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-22 05:27:01,866 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-22 05:39:52,479 - Archivo CSV cargado correctamente.
+2025-03-22 05:40:03,232 - Archivo CSV cargado correctamente.
+2025-03-22 05:40:14,881 - Archivo CSV cargado correctamente.
+2025-03-22 05:40:16,589 - Archivo CSV cargado correctamente.
+2025-03-22 05:40:18,179 - Archivo CSV cargado correctamente.
+2025-03-22 05:40:18,275 - Dataset guardado correctamente en sesión.
+2025-03-22 05:40:52,875 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-22 05:40:56,151 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-22 05:40:58,826 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-22 05:41:00,207 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-22 05:41:01,741 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-22 05:46:41,942 - Archivo CSV cargado correctamente.
+2025-03-22 05:46:47,038 - Archivo CSV cargado correctamente.
+2025-03-22 05:46:57,866 - Archivo CSV cargado correctamente.
+2025-03-22 05:46:57,912 - Dataset guardado correctamente en sesión.
+2025-03-22 05:47:03,860 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
