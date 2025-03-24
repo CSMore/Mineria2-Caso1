@@ -2,21 +2,14 @@ import streamlit as st
 import pandas as pd
 import logging
 
-# Configuración básica del log
-def setup_logging():
-    logging.basicConfig(filename="audit_log.txt", 
-                        level=logging.INFO, 
-                        format="%(asctime)s - %(message)s")
-
 class EDA:
     def __init__(self):
-        setup_logging()
         self.df = None
 
     def render_file_uploader(self):
         uploaded_file = st.file_uploader("Selecciona un archivo CSV:", type="csv")
         return uploaded_file
-
+        
     def render_options_panel(self):
         col1, col2, col3 = st.columns(3)
         with col1:

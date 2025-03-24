@@ -5,10 +5,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.metrics import mean_squared_error
-from CEvaluator import ModelEvaluator
+from logic.CEvaluator import ModelEvaluator
 import logging
-
-logging.basicConfig(filename="audit_log.txt", level=logging.INFO, format="%(asctime)s - %(message)s")
 
 class ModelTrainer:
     def __init__(self, df, target_column, test_size):

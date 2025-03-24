@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from CEvaluator import ModelEvaluator
+from logic.CEvaluator import ModelEvaluator
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 

@@ -1,5 +1,7 @@
 import streamlit as st
+from utils.config_logging import setup_logging
 
+setup_logging()
 # Configuración de la página principal
 st.set_page_config(page_title="FlowLab Analytics", layout="wide")
 
