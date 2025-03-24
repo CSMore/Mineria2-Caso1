@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-from exploratorio import EDA
+from app_pages.exploratorio import EDA
 import logging
 
 def setup_logging():
@@ -14,11 +14,9 @@ class SeriesTemporales:
         setup_logging()
         self.original_df = df.copy()
         self.df = df.copy()
-        #self.df = df  activar y quitar  el anterior.
         self.show_smoothed = False
         self.eda = EDA(self.df)
         logging.info(f"DataFrame recibido con columnas: {list(self.df.columns)}")
-        #self.current_page = 0  # Control de paginación
 
     def validate_data_loaded(self):
         """Verifica si los datos están cargados en el pipeline."""
@@ -57,18 +55,39 @@ class SeriesTemporales:
 
         return option, d_fecha, selected_data_col, suavizado
     
-    def modify_date_config(self):
-        """Renderiza los controles para la creación de datos si no existen fechas."""
+    def get_date_range_defaults(self, selected_date_column):
+        """Calcula la fecha mínima y máxima de la columna seleccionada.
+            Devuelve una tupla (default_start, default_end)
+        """
+        default_start = None
+        default_end = None
+        if selected_date_column and selected_date_column in self.df.columns:
+            try:
+                # Aplicar la función personalizada para convertir las fechas en formato español
+                fechas = self.df[selected_date_column].apply(SeriesTemporales.parse_spanish_date)
+                # Si la conversión falla completamente, intentar con pd.to_datetime
+                if fechas.isna().all():
+                    fechas = pd.to_datetime(self.df[selected_date_column], errors='coerce')
+                default_start = fechas.min().date() if pd.notna(fechas.min()) else None
+                default_end = fechas.max().date() if pd.notna(fechas.max()) else None
+            except Exception as e:
+                logging.warning(f"No se pudo calcular el rango de fechas: {e}")
+        return default_start, default_end
+
+    def render_date_config_ui(self, selected_date_column):
+        """
+        Renderiza los controles para configurar la fecha y la frecuencia.
+        """
+        default_start, default_end = self.get_date_range_defaults(selected_date_column)
         frecuencia = st.selectbox(
             "Los datos vienen de forma:",
             ("Anual", "Mensual", "Diaria", "Por días laborales", "Por hora", "Por minuto", "Por segundo")
         )
-
         col1, col2 = st.columns(2)
         with col1:
-            fecha_inicio = st.date_input("Fecha de inicio")
+            fecha_inicio = st.date_input("Fecha de inicio", value=default_start)
         with col2:
-            fecha_fin = st.date_input("Fecha de fin")
+            fecha_fin = st.date_input("Fecha de fin", value=default_end)
 
         self.display_top_bottom_tabs()
 
@@ -89,12 +108,12 @@ class SeriesTemporales:
                 self.df[date_selected] = pd.to_datetime(self.df[date_selected], errors='coerce')
                 self.df.set_index(date_selected, inplace=True)
             elif modify_option == "Sí":
-                date_config = self.modify_date_config()
+                date_config = self.render_date_config_ui(date_selected)
                 return modify_option, date_config
         else:
             # Si no se encontró ninguna columna de fecha, ofrecer crear una nueva
             modify_option = "Sí"
-            date_config = self.modify_date_config()
+            date_config = self.render_date_config_ui(date_selected)
             return modify_option, date_config
             
         return modify_option, date_selected
@@ -390,3 +409,6 @@ class app:
                 return
         else:
             st.warning("No hay datos cargados. Carga un dataset en el Pipeline primero.")
+
+if __name__ == "__page__":
+    app().main()

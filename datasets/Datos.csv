@@ -1,0 +1,121 @@
+ID;Titulo;A¤o de Lanzamiento;Clasifiacion;Duracion;Temporadas;Categoria;Tipo
+1;One Piece;01/01/1999;13;;4;Anime;TV show
+2;Invacion en las Alturas;01/01/2021;16;;1;Anime;TV show
+3;Naruto;01/01/2002;13;;9;Anime;TV show
+4;Akame ga Kill;01/01/2014;16;;1;Anime;TV show
+5;Psycho Pass;01/01/2012;16;;2;Anime;TV show
+6;Neon Genesis Evangelion;01/01/1995;13;;1;Anime;TV show
+7;Sword Art Online;01/01/2012;16;;3;Anime;TV show
+8;A Silence Voice;01/01/2016;13;2:09:00;;Anime;Movie
+9;Violet Evergarden;01/01/2018;16;;1;Anime;TV show
+10;Shokugueki no Souma;01/01/2015;13;;2;Anime;TV show
+11;The Irregular at magic high School;01/01/2014;16;;1;Anime;TV show
+12;The Beginning;01/01/2018;16;;1;Anime;TV show
+13;Bleach;01/01/2004;13;;5;Anime;TV show
+14;Erased;01/01/2016;13;;1;Anime;TV show
+15;Full Metal Alquimist Brotherhood;01/01/2009;13;;5;Anime;TV show
+16;Crepusculo;01/01/2010;16;2:03:00;;Drama;Movie
+17;El Pianista;01/01/2002;16;2:29:00;;Drama;Movie
+18;Forrest Gump;01/01/1994;16;2:23:00;;Drama;Movie
+19;Perfume de Mujer;01/01/1992;16;2:36:00;;Drama;Movie
+20;Musica Amigos y Fiesta;01/01/2015;16;1:35:00;;Drama;Movie
+21;El Juez;01/01/2014;16;2:21:00;;Drama;Movie
+22;Los Juegos del Hambre;01/01/2013;13;2:26:00;;Drama;Movie
+23;Inframundo;01/01/2012;16;1:28:00;;Drama;Movie
+24;Dracula: la historia jamas contada;01/01/2014;16;1:32:00;;Drama;Movie
+25;La torre oscura;01/01/2017;13;1:34:00;;Drama;Movie
+26;Inferno;01/01/2016;13;2:01:00;;Drama;Movie
+27;La chica Danesa;01/01/2014;16;2:12:00;;Drama;Movie
+28;Anna Kanenina;01/01/2012;16;2:09:00;;Drama;Movie
+29;Sully;01/01/2016;13;1:35:00;;Drama;Movie
+30;Francotirador;01/01/2014;16;2:12:00;;Drama;Movie
+31;Parasitos;01/01/2019;16;2:11:00;;Peliculas Independiente;Movie
+32;El ni¤o que domo el viento;01/01/2019;13;1:53:00;;Peliculas Independiente;Movie
+33;The Fundamental os Caring;01/01/2016;16;1:37:00;;Peliculas Independiente;Movie
+34;Una Historia Diferente;01/01/2010;13;1:41:00;;Peliculas Independiente;Movie
+35;Quisiera ser millonario;01/01/2008;16;1:55:00;;Peliculas Independiente;Movie
+36;El Huesped;01/01/2014;16;1:39:00;;Peliculas Independiente;Movie
+37;La Bruja;01/01/2015;16;1:32:00;;Peliculas Independiente;Movie
+38;Hasta el hueso;01/01/2017;16;1:47:00;;Peliculas Independiente;Movie
+39;Roma;01/01/2018;16;2:14:00;;Peliculas Independiente;Movie
+40;La Boda de Ali;01/01/2018;16;1:49:00;;Peliculas Independiente;Movie
+41;LadyBird;01/01/2017;16;1:35:00;;Peliculas Independiente;Movie
+42;Si no despierto;01/01/2017;13;1:39:00;;Peliculas Independiente;Movie
+43;Historia de un matrimonio;01/01/2019;16;2:17:00;;Peliculas Independiente;Movie
+44;Luz de luna;01/01/2016;16;1:51:00;;Peliculas Independiente;Movie
+45;Las ventajas de ser invicible;01/01/2012;13;1:48:00;;Peliculas Independiente;Movie
+46;Un peque¤o favor;01/01/2018;16;1:59:00;;Trillers;Movie
+47;Amenaza en lo profundo;01/01/2020;13;1:35:00;;Trillers;Movie
+48;El diablo a todas horas;01/01/2020;16;2:19:00;;Trillers;Movie
+49;Un lugar en silencio;01/01/2018;13;1:35:00;;Trillers;Movie
+50;Bird Box: a ciegas;01/01/2018;16;2:04:00;;Trillers;Movie
+51;El desorden que dejas;01/01/2020;16;;1;Trillers;TV show
+52;El mu¤eco de nieve;01/01/2017;16;1:59:00;;Trillers;Movie
+53;La caceria;01/01/2020;18;1:30:00;;Peliculas de Terror;Movie
+54;Nadie duerme en el bosque esta noche;01/01/2020;18;1:42:00;;Peliculas de Terror;Movie
+55;Presencias del mal;01/01/2020;18;1:40:00;;Peliculas de Terror;Movie
+56;It;01/01/2019;18;2:50:00;;Peliculas de Terror;Movie
+57;The Silence;01/01/2019;18;1:32:00;;Peliculas de Terror;Movie
+58;Su casa;01/01/2020;18;1:50:00;;Peliculas de Terror;Movie
+59;Verdad o reto;01/01/2018;18;1:45:00;;Peliculas de Terror;Movie
+60;Mara;01/01/2018;18;1:46:00;;Peliculas de Terror;Movie
+61;El Resplandor;01/01/1980;18;;;Trillers;Movie
+62;Nerve;01/01/2016;13;1:36:00;;Trillers;Movie
+63;Dragon Rojo;01/01/2002;16;2:04:00;;Trillers;Movie
+64;Fragmentado;01/01/2016;16;1:57:00;;Trillers;Movie
+65;I am mother;01/01/2019;13;1:53:00;;Trillers;Movie
+66;Gravedad;01/01/2013;13;1:30:00;;Trillers;Movie
+67;Hannibal;01/01/2001;18;2:11:00;;Trillers;Movie
+68;Siberia;01/01/2018;16;1:44:00;;Trillers;Movie
+69;El Titan;01/01/2018;16;1:37:00;;Trillers;Movie
+70;Destino IO;01/01/2019;13;1:36:00;;Trillers;Movie
+71;La noche del demonio;01/01/2018;13;1:43:00;;Peliculas de Terror;Movie
+72;El regreso del demonio;01/01/2017;16;1:41:00;;Peliculas de Terror;Movie
+73;El conjuro;01/01/2016;16;2:13:00;;Peliculas de Terror;Movie
+74;Insidius;01/01/2015;16;1:37:00;;Peliculas de Terror;Movie
+75;Terror en Silent Hill;01/01/2006;16;2:05:00;;Peliculas de Terror;Movie
+76;Pele;01/01/2021;13;1:48:00;;Peliculas Latinoamericanas;Movie
+77;Gente Topo;01/01/2020;7;1:29:00;;Peliculas Latinoamericanas;Movie
+78;El camino de Xico;01/01/2021;7;1:26:00;;Peliculas Latinoamericanas;Movie
+79;Papa por dos;01/01/2020;7;1:45:00;;Peliculas Latinoamericanas;Movie
+80;Todas las pecas del mundo;01/01/2020;13;1:29:00;;Peliculas Latinoamericanas;Movie
+81;Rico Amor;01/01/2020;13;1:45:00;;Peliculas Latinoamericanas;Movie
+82;Modo avion;01/01/2020;7;1:36:00;;Peliculas Latinoamericanas;Movie
+83;Perfectos desconocidos;01/01/2018;16;1:44:00;;Peliculas Latinoamericanas;Movie
+84;la leyenda de la llorona;01/01/2011;7;1:15:00;;Peliculas Latinoamericanas;Movie
+85;El pepe una vida suprema;01/01/2018;13;1:13:00;;Peliculas Latinoamericanas;Movie
+86;Gabo, la magia de lo real;01/01/2015;13;1:29:00;;Peliculas Latinoamericanas;Movie
+87;Guatemala: Corazon del mundo maya;01/01/2019;0;1:06:00;;Peliculas Latinoamericanas;Movie
+88;Andes magicos;01/01/2019;0;;1;Peliculas Latinoamericanas;Movie
+89;Loco por vos;01/01/2020;13;1:40:00;;Peliculas Latinoamericanas;Movie
+90;Joven y alocada;01/01/2012;16;1:35:00;;Peliculas Latinoamericanas;Movie
+91;Formula 1;01/01/2019;16;;2;Deportes y Salud Fisica;TV show
+92;El ultimo baile;01/01/2020;16;;1;Deportes y Salud Fisica;TV show
+93;Cheerleaders en acciom;01/01/2020;13;;1;Deportes y Salud Fisica;TV show
+94;Cambio radical;01/01/2018;13;1:25:00;;Deportes y Salud Fisica;Movie
+95;Atleta A;01/01/2020;16;1:44:00;;Deportes y Salud Fisica;Movie
+96;Accomplice;01/01/2021;13;0:52:00;;Deportes y Salud Fisica;Movie
+97;El manual de juevo;01/01/2020;16;;1;Deportes y Salud Fisica;TV show
+98;Rising Phoenix;01/01/2020;13;1:46:00;;Deportes y Salud Fisica;Movie
+99;La guerra de las 24 horas;01/01/2016;13;1:39:00;;Deportes y Salud Fisica;Movie
+100;Un dia menos pesado;01/01/2020;13;;1;Deportes y Salud Fisica;TV show
+101;Fangio;01/01/2020;7;1:32:00;;Deportes y Salud Fisica;Movie
+102;Matchday;01/01/2020;13;;1;Deportes y Salud Fisica;TV show
+103;The Short game;01/01/2020;13;1:40:00;;Deportes y Salud Fisica;Movie
+104;La historia oficial de la copa mundial ;01/01/2017;7;;1;Deportes y Salud Fisica;TV show
+105;Becoming Champions;01/01/2018;7;;1;Deportes y Salud Fisica;TV show
+106;Snowpiercer;01/01/2020;16;;2;Series;TV show
+107;Shadowshunters;01/01/2016;16;;4;Series;TV show
+108;Lucifer;01/01/2016;13;;5;Series;TV show
+109;Iron Fist;01/01/2017;16;;2;Series;TV show
+110;Merlin;01/01/2008;13;;5;Series;TV show
+111;Los 100;01/01/2014;16;;6;Series;TV show
+112;Star Trek;01/01/2020;16;;3;Series;TV show
+113;Perdidos en el espacio;01/01/2018;7;;2;Series;TV show
+114;Salvacion;01/01/2017;13;;2;Series;TV show
+115;Stranger Things;01/01/2016;16;;3;Series;TV show
+116;Ozark;01/01/2017;16;;3;Series;TV show
+117;Gambito de dama;01/01/2020;16;;1;Series;TV show
+118;Dark;01/01/2017;16;;3;Series;TV show
+119;Breaking Bad;01/01/2008;16;;5;Series;TV show
+120;Riverdale;01/01/2017;13;;4;Series;TV show

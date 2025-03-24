@@ -128,3 +128,5 @@ class app:
         else:
             st.warning("Primero debes cargar y procesar el dataset en el Pipeline.")
 
+if __name__ == "__page__":
+    app().main()

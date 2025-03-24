@@ -243,7 +243,8 @@ class app:
         else:
             st.warning("No hay datos cargados. Carga un dataset en el Pipeline primero.")
     
-                
+if __name__ == "__page__":
+    app().main()                
                 
                 
                 

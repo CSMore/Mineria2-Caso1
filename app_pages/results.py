@@ -51,3 +51,7 @@ class app:
 
                         st.write(f"RMSE: {rmse:.4f}")
                         st.write(f"R²: {r2:.4f}")
+
+
+if __name__ == "__page__":
+    app().run()

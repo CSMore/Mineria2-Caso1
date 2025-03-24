@@ -25,8 +25,32 @@ class EDA:
             decimal = st.selectbox("Decimal", [".", ","], index=0)
         with col3:
             encoding = st.selectbox("Codificación", ["utf-8", "latin1", "ISO-8859-1"], index=0)
-        st.write(f"Codificación seleccionada: {encoding}")
+        
         return separator, decimal, encoding
+
+    def validate_parameters(self, uploaded_file, separator, decimal, encoding):
+        """
+        Valida que los parámetros seleccionados sean coherentes con el contenido del archivo.
+        """
+        errors = []
+        # Aseguramos que el puntero del archivo esté al inicio
+        uploaded_file.seek(0)
+        try:
+            # Leer una porción del archivo
+            content = uploaded_file.read(1024).decode(encoding)
+        except Exception as e:
+            errors.append("Codificación")
+            content = ""
+        if content:
+            header_line = content.split("\n")[0]
+            if separator not in header_line:
+                errors.append("Separador")
+
+            if decimal not in content:
+                errors.append("Decimal")
+
+        uploaded_file.seek(0)
+        return errors
 
     def load_data(self, uploaded_file, separator, decimal, encoding):
         try:
@@ -98,6 +122,12 @@ class EDA:
         uploaded_file = self.render_file_uploader()
         if uploaded_file:
             separator, decimal, encoding = self.render_options_panel()
+            errors = self.validate_parameters(uploaded_file, separator, decimal, encoding)
+            if errors:
+                st.error("Los siguientes parámetros son incorrectos: " + ", ".join(errors))
+                return  # No se continúa la carga si hay errores
+            else:
+                st.write(f"Parámetros seleccionados correctos: Separador({separator}), Decimal({decimal}), Codificación({encoding})")
             if self.load_data(uploaded_file, separator, decimal, encoding):
                 self.show_preview()
                 self.check_data_quality()  # Nuevo: validaciones
@@ -112,4 +142,18 @@ class app:
     def main(self):
         st.markdown('<h2>Análisis de Datos </h2>', unsafe_allow_html=True)
         eda_instance = EDA()
-        eda_instance.read_dataset()
+        if "data" in st.session_state and st.session_state["data"] is not None:
+            eda_instance.df = st.session_state["data"]
+            st.success("Dataset cargado desde la sesión.")
+            # Renderizar la interfaz basada en los datos ya cargados
+            eda_instance.show_preview()
+            eda_instance.check_data_quality()
+            eda_instance.check_class_balance()
+            eda_instance.detect_outliers()
+            eda_instance.allow_column_selection()
+            eda_instance.validate_and_save()
+        else:
+            eda_instance.read_dataset()
+
+if __name__ == "__page__":
+    app().main()

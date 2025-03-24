@@ -11,7 +11,7 @@ from sklearn.utils import resample
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
-from exploratorio import EDA  # Si el archivo EDA tiene una clase Exploratorio
+from app_pages.exploratorio import EDA  # Si el archivo EDA tiene una clase Exploratorio
 
 
 class Clasificacion:
@@ -136,3 +136,7 @@ class app:
             clasificador.run()
         else:
             st.warning("No hay datos cargados. Carga un dataset en el Pipeline primero.")
+
+
+if __name__ == "__page__":
+    app().main()
