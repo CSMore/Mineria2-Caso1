@@ -1,164 +1,87 @@
-from sklearn.cluster import KMeans
-import logging
+# agrupamiento_lg.py
+import numpy as np
 import pandas as pd
+import logging
+from sklearn.cluster import KMeans
+from sklearn.mixture import GaussianMixture
+from scipy.cluster.hierarchy import linkage, fcluster
+from sklearn.metrics import silhouette_score, davies_bouldin_score
+from sklearn.preprocessing import LabelEncoder
 
+def preprocess_for_clustering(df):
+    """
+    Convierte todas las columnas categóricas del DataFrame a valores numéricos usando LabelEncoder.
+    """
+    df_encoded = df.copy()
+    for col in df_encoded.columns:
+        if df_encoded[col].dtype == 'object':
+            le = LabelEncoder()
+            df_encoded[col] = le.fit_transform(df_encoded[col])
+    return df_encoded
 
-class clustering():
-    def __init__(self, df):
-        self.__df = df
+def kmeans_clustering(df, n_clusters=3, max_iter=500, n_init=10, random_state=42):
+    """
+    Aplica KMeans al DataFrame y retorna las etiquetas, el puntaje de Silhouette y el Davies-Bouldin.
+    """
+    logging.info(f"Iniciando KMeans con n_clusters={n_clusters}, max_iter={max_iter}, n_init={n_init}, random_state={random_state}")
+    df_encoded = preprocess_for_clustering(df)
+    kmeans = KMeans(n_clusters=n_clusters, max_iter=max_iter, n_init=n_init, random_state=random_state)
+    labels = kmeans.fit_predict(df_encoded)
+    sil_score = silhouette_score(df_encoded, labels)
+    db_score = davies_bouldin_score(df_encoded, labels)
+    logging.info(f"KMeans completado: Silhouette Score={sil_score:.4f}, Davies-Bouldin Index={db_score:.4f}")
+    return labels, sil_score, db_score
 
-    @property
-    def df(self):
-        return self.__df
+def hac_clustering(df, n_clusters=3, method='ward'):
+    """
+    Aplica el método de Agrupamiento Jerárquico (HAC) usando el método especificado
+    y retorna las etiquetas y métricas de evaluación.
+    """
+    logging.info(f"Iniciando HAC con n_clusters={n_clusters} y método={method}")
+    df_encoded = preprocess_for_clustering(df)
+    Z = linkage(df_encoded, method=method, metric='euclidean')
+    labels = fcluster(Z, t=n_clusters, criterion='maxclust')
+    labels = labels - 1  # Ajuste para que las etiquetas inicien en 0
+    sil_score = silhouette_score(df_encoded, labels)
+    db_score = davies_bouldin_score(df_encoded, labels)
+    logging.info(f"HAC ({method}) completado: Silhouette Score={sil_score:.4f}, Davies-Bouldin Index={db_score:.4f}")
+    return labels, sil_score, db_score
 
-    @df.setter
-    def df(self, p_df):
-        self.__df = p_df
+def gmm_clustering(df, n_components=3, covariance_type='full', random_state=42):
+    """
+    Aplica Gaussian Mixture Model (GMM) al DataFrame y retorna las etiquetas y métricas de evaluación.
+    """
+    logging.info(f"Iniciando GMM con n_components={n_components}, covariance_type={covariance_type}, random_state={random_state}")
+    df_encoded = preprocess_for_clustering(df)
+    gmm = GaussianMixture(n_components=n_components, covariance_type=covariance_type, random_state=random_state)
+    labels = gmm.fit_predict(df_encoded)
+    sil_score = silhouette_score(df_encoded, labels)
+    db_score = davies_bouldin_score(df_encoded, labels)
+    logging.info(f"GMM completado: Silhouette Score={sil_score:.4f}, Davies-Bouldin Index={db_score:.4f}")
+    return labels, sil_score, db_score
 
-    def ACP(self, n_componentes):
-        p_acp = ACPBasico(self.__df, n_componentes)
-        self.__ploteoGraficosACP(p_acp, 1)
-        self.__ploteoGraficosACP(p_acp, 2)
-        self.__ploteoGraficosACP(p_acp, 3)
+def compare_clustering_algorithms(df, n_clusters=3, max_iter=500, n_init=10, 
+                                  hac_method='ward', covariance_type='full', random_state=42):
+    """
+    Compara KMeans, HAC y GMM utilizando métricas de evaluación.
+    Retorna un diccionario con los resultados de cada algoritmo.
+    """
+    logging.info("Iniciando comparación de algoritmos de clustering")
+    results = {}
 
-    def __ploteoGraficosACP(self, p_acp, tipo):
-        fig, ax = plt.subplots(nrows=1, ncols=1, figsize=(10, 6), dpi=200)
-        if tipo == 1:
-            p_acp.plot_plano_principal()
-        elif tipo == 2:
-            p_acp.plot_circulo()
-        elif tipo == 3:
-            p_acp.plot_sobreposicion()
-        ax.grid(False)
-        plt.show()
+    # KMeans
+    k_labels, k_sil, k_db = kmeans_clustering(
+        df, n_clusters=n_clusters, max_iter=max_iter, n_init=n_init, random_state=random_state
+    )
+    results['KMeans'] = {'Silhouette Score': k_sil, 'Davies-Bouldin Index': k_db}
 
-    def HAC(self):
-        p_hac = self.__df
-        ward_res = ward(self.__df)
-        average_res = average(self.__df)
-        single_res = single(self.__df)
-        complete_res = complete(self.__df)
-        self.__ploteoGraficosHAC(p_hac, ward_res, 1)
-        self.__ploteoGraficosHAC(p_hac, average_res, 2)
-        self.__ploteoGraficosHAC(p_hac, single_res, 3)
-        self.__ploteoGraficosHAC(p_hac, complete_res, 4)
-        self.__clusterHAC(1)
-        self.__clusterHAC(2)
-        self.__clusterHAC(3)
+    # HAC
+    h_labels, h_sil, h_db = hac_clustering(df, n_clusters=n_clusters, method=hac_method)
+    results[f'HAC ({hac_method.capitalize()})'] = {'Silhouette Score': h_sil, 'Davies-Bouldin Index': h_db}
 
-    def __ploteoGraficosHAC(self, p_hac, res, tipo):
-        fig, ax = plt.subplots(1, 1, figsize=(12, 8), dpi=200)
-        if tipo == 1:
-            dendrogram(res, labels=self.__df.index.tolist(), ax=ax)
-            print(f"Agregación de Ward:")
-        elif tipo == 2:
-            dendrogram(res, labels=self.__df.index.tolist(), ax=ax)
-            print(f"Salto promedio:")
-        elif tipo == 3:
-            dendrogram(res, labels=self.__df.index.tolist(), ax=ax)
-            print(f"Salto mínimo:")
-        elif tipo == 4:
-            dendrogram(res, labels=self.__df.index.tolist(), ax=ax)
-            print(f"Salto máximo:")
-        ax.grid(False)
-        plt.show()
+    # GMM
+    g_labels, g_sil, g_db = gmm_clustering(df, n_components=n_clusters, covariance_type=covariance_type, random_state=random_state)
+    results['GMM'] = {'Silhouette Score': g_sil, 'Davies-Bouldin Index': g_db}
 
-    def __clusterHAC(self, tipo):
-        grupos = fcluster(linkage(self.__df, method='ward', metric='euclidean'), 3, criterion='maxclust')
-        grupos = grupos - 1
-        centros = np.array(pd.concat([AnalisisDatosExploratorio.centroide(0, self.__df, grupos),
-                                      AnalisisDatosExploratorio.centroide(1, self.__df, grupos),
-                                      AnalisisDatosExploratorio.centroide(2, self.__df, grupos)]))
-        if tipo == 1:
-            AnalisisDatosExploratorio.bar_plot(centros, self.__df.columns, scale=True)
-        elif tipo == 2:
-            AnalisisDatosExploratorio.bar_plot_detail(centros, self.__df.columns)
-        elif tipo == 3:
-            AnalisisDatosExploratorio.radar_plot(centros, self.__df.columns)
-        plt.show()
-
-    def Kmeans(self):
-        self.__ploteoGraficosKMEDIAS(1)
-        self.__ploteoGraficosKMEDIAS(2)
-
-    def __ploteoGraficosKMEDIAS(self, tipo):
-        if tipo == 1:
-            self.__ploteoKmedias()
-        elif tipo == 2:
-            self.__ploteoKmedoids()
-
-    def __ploteoKmedias(self):
-        kmedias = KMeans(n_clusters=3, max_iter=500, n_init=150)
-        kmedias.fit(self.__df)
-        pca = PCA(n_components=2)
-        componentes = pca.fit_transform(self.__df)
-        fig, ax = plt.subplots(1, 1, figsize=(15, 8), dpi=200)
-        colores = ['red', 'green', 'blue']
-        colores_puntos = [colores[label] for label in kmedias.predict(self.__df)]
-        ax.scatter(componentes[:, 0], componentes[:, 1], c=colores_puntos)
-        ax.set_xlabel('componente 1')
-        ax.set_ylabel('componente 2')
-        ax.set_title('3 Cluster K-Medias')
-        ax.grid(False)
-        plt.show()
-
-        centros = np.array(kmedias.cluster_centers_)
-        AnalisisDatosExploratorio.bar_plot(centros, self.__df.columns)
-        AnalisisDatosExploratorio.bar_plot_detail(centros, self.__df.columns)
-        AnalisisDatosExploratorio.radar_plot(centros, self.__df.columns)
-        plt.show()
-
-    def __ploteoKmedoids(self):
-        kmedoids = KMedoids(n_clusters=3, max_iter=500, metric='cityblock')
-        kmedoids.fit(self.__df)
-        pca = PCA(n_components=2)
-        componentes = pca.fit_transform(self.__df)
-        fig, ax = plt.subplots(1, 1, figsize=(15, 8), dpi=200)
-        colores = ['red', 'green', 'blue']
-        colores_puntos = [colores[label] for label in kmedoids.predict(self.__df)]
-        ax.scatter(componentes[:, 0], componentes[:, 1], c=colores_puntos)
-        ax.set_xlabel('componente 1')
-        ax.set_ylabel('componente 2')
-        ax.set_title('3 Cluster K-Medoids')
-        ax.grid(False)
-        plt.show()
-
-        centros = np.array(kmedoids.cluster_centers_)
-        AnalisisDatosExploratorio.bar_plot(centros, self.__df.columns)
-        AnalisisDatosExploratorio.bar_plot_detail(centros, self.__df.columns)
-        AnalisisDatosExploratorio.radar_plot(centros, self.__df.columns)
-        plt.show()
-
-
-    def compare_algorithms(self):
-        """Compare the performance of different clustering algorithms."""
-        results = {}
-
-        # KMeans
-        kmeans = KMeans(n_clusters=3, max_iter=500, n_init=150)
-        kmeans_labels = kmeans.fit_predict(self.__df)
-        results['KMeans'] = {
-            'Silhouette Score': silhouette_score(self.__df, kmeans_labels),
-            'Davies-Bouldin Index': davies_bouldin_score(self.__df, kmeans_labels)
-        }
-
-        # HAC (Ward)
-        hac_labels = fcluster(linkage(self.__df, method='ward', metric='euclidean'), 3, criterion='maxclust')
-        results['HAC_Ward'] = {
-            'Silhouette Score': silhouette_score(self.__df, hac_labels),
-            'Davies-Bouldin Index': davies_bouldin_score(self.__df, hac_labels)
-        }
-
-        # Gaussian Mixture Model (GMM)
-        gmm = GaussianMixture(n_components=3, covariance_type='full')
-        gmm_labels = gmm.fit_predict(self.__df)
-        results['GMM'] = {
-            'Silhouette Score': silhouette_score(self.__df, gmm_labels),
-            'Davies-Bouldin Index': davies_bouldin_score(self.__df, gmm_labels)
-        }
-
-        # Print the results
-        for algorithm, metrics in results.items():
-            print(f"\n{algorithm} Performance Metrics:")
-            for metric, value in metrics.items():
-                print(f"{metric}: {value:.4f}")
+    logging.info("Comparación completada")
+    return results
