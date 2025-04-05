@@ -35,6 +35,12 @@ class Clasificacion:
         # Asignar la columna seleccionada como objetivo
         y = X.pop(target_column)
 
+        # Si la columna objetivo no es numérica, convertirla a códigos (0, 1, 2, ...)
+        if not pd.api.types.is_numeric_dtype(y):
+            y = y.astype("category").cat.codes
+            st.info(f"La columna seleccionada ('{target_column}') fue convertida automáticamente a valores numéricos para clasificación.")
+
+
         # Escalado de características
         scaler = StandardScaler()
         X_numeric = X.select_dtypes(include=[np.number])
@@ -43,8 +49,7 @@ class Clasificacion:
         X_non_numeric = X.select_dtypes(exclude=[np.number])
         self.X = pd.concat([pd.DataFrame(X_scaled, columns=X_numeric.columns), X_non_numeric.reset_index(drop=True)], axis=1)
 
-
-        self.X = X_scaled
+        #self.X = X_scaled
         self.y = y
         return X_scaled, y
 

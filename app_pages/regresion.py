@@ -24,8 +24,19 @@ class Regresion:
 
     def preprocess_data(self):
         st.write("### Selección de columna objetivo")
-        column_options = [col for col in self.df.columns if self.df[col].dtype != 'object']
-    
+        column_options = list(self.df.columns)  # Mostrar todas las columnas
+        target_column = st.selectbox("Selecciona la variable objetivo (y):", column_options)
+
+        if target_column not in self.df.columns:
+            st.error("Columna objetivo no válida.")
+            return False
+
+        # Validar si el target es numérico
+        if not pd.api.types.is_numeric_dtype(self.df[target_column]):
+            st.error(f"La columna seleccionada ('{target_column}') no es numérica. Para regresión, el objetivo debe ser numérico.")
+            return False
+
+           
         if not column_options:
             st.error("No hay columnas numéricas disponibles para aplicar regresión.")
             return False

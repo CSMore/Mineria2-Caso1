@@ -2250,3 +2250,134 @@ dtype: object
 2025-03-22 05:46:57,866 - Archivo CSV cargado correctamente.
 2025-03-22 05:46:57,912 - Dataset guardado correctamente en sesión.
 2025-03-22 05:47:03,860 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-23 22:40:40,492 - Archivo CSV cargado correctamente.
+2025-03-23 22:40:45,939 - Archivo CSV cargado correctamente.
+2025-03-23 22:41:02,768 - Archivo CSV cargado correctamente.
+2025-03-23 22:41:07,325 - Archivo CSV cargado correctamente.
+2025-03-23 22:41:08,500 - Archivo CSV cargado correctamente.
+2025-03-23 22:41:08,544 - Dataset guardado correctamente en sesión.
+2025-03-23 22:41:27,551 - DataFrame recibido con columnas: ['Unnamed: 0', 'Name', 'Location', 'Year', 'Kilometers_Driven', 'Fuel_Type', 'Transmission', 'Owner_Type', 'Mileage', 'Engine', 'Power', 'Seats', 'New_Price']
+2025-03-23 22:41:46,813 - Regresión Lineal entrenado con MSE: 116201.22580576598
+2025-03-23 22:41:46,819 - Árbol de Decisión entrenado con MSE: 172406.70945945947
+2025-03-23 22:41:46,947 - Random Forest entrenado con MSE: 140343.80164605405
+2025-03-23 22:41:46,997 - Gradient Boosting entrenado con MSE: 124054.30048891164
+2025-03-23 22:41:46,998 - Modelo Evaluador entrenado con MSE: 116201.22580576598
+2025-03-23 22:42:10,678 - Regresión Lineal entrenado con MSE: 0.5178575883559023
+2025-03-23 22:42:10,681 - Árbol de Decisión entrenado con MSE: 1.3783783783783783
+2025-03-23 22:42:10,794 - Random Forest entrenado con MSE: 0.6142459459459461
+2025-03-23 22:42:10,855 - Gradient Boosting entrenado con MSE: 0.6239161091336686
+2025-03-23 22:42:10,857 - Modelo Evaluador entrenado con MSE: 0.5178575883559023
+2025-03-23 22:42:21,047 - Regresión Lineal entrenado con MSE: 435153420.1960842
+2025-03-23 22:42:21,051 - Árbol de Decisión entrenado con MSE: 1174299604.2162163
+2025-03-23 22:42:21,171 - Random Forest entrenado con MSE: 584215822.9769135
+2025-03-23 22:42:21,220 - Gradient Boosting entrenado con MSE: 674625384.971042
+2025-03-23 22:42:21,222 - Modelo Evaluador entrenado con MSE: 435153420.1960842
+2025-03-25 20:57:15,216 - Archivo CSV cargado correctamente.
+2025-03-25 20:57:22,553 - Archivo CSV cargado correctamente.
+2025-03-25 20:57:35,621 - Archivo CSV cargado correctamente.
+2025-03-25 20:57:35,664 - Dataset guardado correctamente en sesión.
+2025-03-25 20:58:24,813 - DataFrame recibido con columnas: ['Unnamed: 0', 'colesterol', 'glucosa', 'hdl_chol', 'prop_col_hdl', 'edad', 'genero', 'altura', 'peso', 'IMC', 'ps_sistolica', 'ps_diastolica', 'cintura', 'caderas', 'prop_cin_cad', 'diabetes']
+2025-03-25 20:58:27,715 - No se encontraron datos suavizados.
+2025-03-25 20:59:38,355 - Regresión Lineal entrenado con MSE: 217.21102547578883
+2025-03-25 20:59:38,368 - Árbol de Decisión entrenado con MSE: 21.141025641025642
+2025-03-25 20:59:38,921 - Random Forest entrenado con MSE: 9.594982051282047
+2025-03-25 20:59:39,102 - Gradient Boosting entrenado con MSE: 5.931283699534336
+2025-03-25 20:59:39,105 - Modelo Evaluador entrenado con MSE: 217.21102547578883
+2025-03-25 21:00:02,488 - Regresión Lineal entrenado con MSE: 392.88678887407457
+2025-03-25 21:00:02,499 - Árbol de Decisión entrenado con MSE: 1029.2307692307693
+2025-03-25 21:00:03,108 - Random Forest entrenado con MSE: 620.0603871794871
+2025-03-25 21:00:03,292 - Gradient Boosting entrenado con MSE: 535.7470743597036
+2025-03-25 21:00:03,294 - Modelo Evaluador entrenado con MSE: 392.88678887407457
+2025-03-25 21:01:01,951 - Regresión Lineal entrenado con MSE: 217.21102547578883
+2025-03-25 21:01:01,960 - Árbol de Decisión entrenado con MSE: 21.03846153846154
+2025-03-25 21:01:02,512 - Random Forest entrenado con MSE: 9.76992179487179
+2025-03-25 21:01:02,692 - Gradient Boosting entrenado con MSE: 5.835478576497603
+2025-03-25 21:01:02,694 - Modelo Evaluador entrenado con MSE: 217.21102547578883
+2025-03-25 21:06:54,554 - Regresión Lineal entrenado con MSE: 2379.3353723909627
+2025-03-25 21:06:54,566 - Árbol de Decisión entrenado con MSE: 3622.0384615384614
+2025-03-25 21:06:55,283 - Random Forest entrenado con MSE: 2597.096551282051
+2025-03-25 21:06:55,467 - Gradient Boosting entrenado con MSE: 3183.860536542843
+2025-03-25 21:06:55,469 - Modelo Evaluador entrenado con MSE: 2379.3353723909627
+2025-03-25 21:07:09,712 - Regresión Lineal entrenado con MSE: 0.5581777523906015
+2025-03-25 21:07:09,722 - Árbol de Decisión entrenado con MSE: 9.372179487179487
+2025-03-25 21:07:10,316 - Random Forest entrenado con MSE: 6.775254282051274
+2025-03-25 21:07:10,500 - Gradient Boosting entrenado con MSE: 2.5947529465529846
+2025-03-25 21:07:10,502 - Modelo Evaluador entrenado con MSE: 0.5581777523906015
+2025-03-29 05:33:33,551 - Archivo CSV cargado correctamente.
+2025-03-29 05:33:40,982 - Archivo CSV cargado correctamente.
+2025-03-29 05:33:47,510 - Archivo CSV cargado correctamente.
+2025-03-29 05:33:50,597 - Archivo CSV cargado correctamente.
+2025-03-29 05:33:53,509 - Archivo CSV cargado correctamente.
+2025-03-29 05:33:57,255 - Archivo CSV cargado correctamente.
+2025-03-29 05:34:05,485 - Archivo CSV cargado correctamente.
+2025-03-29 05:34:05,593 - Dataset guardado correctamente en sesión.
+2025-03-29 05:35:47,448 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:35:47,455 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:36:00,666 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:36:00,672 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:36:03,757 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:36:03,761 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:36:23,935 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:36:23,958 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:57:37,818 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:57:37,823 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:58:06,937 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:58:06,943 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:58:17,085 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:58:17,090 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:58:30,259 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 05:58:30,264 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:05:51,402 - Regresión Lineal entrenado con MSE: 392.88678887407457
+2025-03-29 06:05:51,459 - Árbol de Decisión entrenado con MSE: 1075.679487179487
+2025-03-29 06:05:52,146 - Random Forest entrenado con MSE: 602.8370269230768
+2025-03-29 06:05:52,333 - Gradient Boosting entrenado con MSE: 539.891089375135
+2025-03-29 06:05:52,336 - Modelo Evaluador entrenado con MSE: 392.88678887407457
+2025-03-29 06:06:05,557 - Regresión Lineal entrenado con MSE: 0.5581777523906015
+2025-03-29 06:06:05,607 - Árbol de Decisión entrenado con MSE: 11.50307692307692
+2025-03-29 06:06:06,235 - Random Forest entrenado con MSE: 7.042142641025639
+2025-03-29 06:06:06,421 - Gradient Boosting entrenado con MSE: 2.6056291248622205
+2025-03-29 06:06:06,423 - Modelo Evaluador entrenado con MSE: 0.5581777523906015
+2025-03-29 06:25:01,687 - Archivo CSV cargado correctamente.
+2025-03-29 06:25:10,268 - Archivo CSV cargado correctamente.
+2025-03-29 06:25:29,509 - Archivo CSV cargado correctamente.
+2025-03-29 06:25:35,988 - Archivo CSV cargado correctamente.
+2025-03-29 06:25:40,789 - Archivo CSV cargado correctamente.
+2025-03-29 06:25:43,975 - Archivo CSV cargado correctamente.
+2025-03-29 06:25:44,127 - Dataset guardado correctamente en sesión.
+2025-03-29 06:25:51,988 - DataFrame recibido con columnas: ['Unnamed: 0', 'colesterol', 'glucosa', 'hdl_chol', 'prop_col_hdl', 'edad', 'genero', 'altura', 'peso', 'IMC', 'ps_sistolica', 'ps_diastolica', 'cintura', 'caderas', 'prop_cin_cad', 'diabetes']
+2025-03-29 06:25:56,018 - No se encontraron datos suavizados.
+2025-03-29 06:25:59,487 - No se encontraron datos suavizados.
+2025-03-29 06:27:16,499 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:16,504 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:23,602 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:23,609 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:26,391 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:26,397 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:41,950 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:41,955 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:44,962 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:44,967 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:56,862 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:27:56,868 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:09,069 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:09,075 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:16,248 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:16,254 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:30,448 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:30,453 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:33,890 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:33,896 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:47,782 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:47,787 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:57,649 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:29:57,653 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:30:26,565 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:30:26,570 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:30:30,005 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:30:30,010 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:33:30,943 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:33:30,948 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:34:17,561 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:34:17,567 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:37:07,769 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-03-29 06:37:07,774 - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.

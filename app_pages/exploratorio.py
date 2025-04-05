@@ -96,17 +96,37 @@ class EDA:
         st.pyplot(plt)
 
 
-    def plot_bar(self, col):
-        if self.validate_column(col):
-            return
-        if self.__df[col].nunique() < 2:
-                return st.warning("No hay suficientes categorías para generar un gráfico de barras.")
-        plt.figure(figsize=(10, 6))
-        sns.countplot(x=self.__df[col])
-        plt.title(f'Gráfico de Barras: {col}')
-        plt.xlabel(col)
-        plt.ylabel('Frecuencia')
+    def plot_bar(self, col_x, col_y=None):
+        if col_x not in self.__df.columns:
+            return st.error("Selecciona una columna válida para el gráfico de barras.")
+        
+        df = self.__df.copy()
+
+        # Si la columna X es numérica, la agrupamos en bins para mejorar la legibilidad
+        if pd.api.types.is_numeric_dtype(df[col_x]):
+            df['binned_x'] = pd.cut(df[col_x], bins=10)  # 10 bins por defecto
+            x = 'binned_x'
+        else:
+            x = col_x
+
+        plt.figure(figsize=(12, 6))
+
+        if col_y and col_y in df.columns:
+            # Si hay columna Y numérica, se hace el promedio por grupo
+            grouped = df.groupby(x)[col_y].mean().reset_index()
+            sns.barplot(x=x, y=col_y, data=grouped)
+            plt.ylabel(col_y)
+            plt.title(f'Gráfico de Barras: {col_x} vs {col_y}')
+        else:
+            sns.countplot(x=x, data=df)
+            plt.ylabel("Frecuencia")
+            plt.title(f'Gráfico de Barras: {col_x}')
+
+        plt.xlabel(col_x)
+        plt.xticks(rotation=45)
         st.pyplot(plt)
+
+
 
     def plot_violin(self, col):
         if self.validate_column(col):
@@ -118,13 +138,18 @@ class EDA:
             plt.xlabel(col)
             st.pyplot(plt)
 
-    def plot_line(self, col):
+    def plot_line(self, x_col, y_col):
+        if x_col not in self.__df.columns or y_col not in self.__df.columns:
+            return st.error("Selecciona columnas válidas para el gráfico de líneas.")
+        
         plt.figure(figsize=(10, 6))
-        sns.lineplot(data=self.__df, x=self.__df.index, y=self.__df[col])
-        plt.title(f'Gráfico de Líneas: {col}')
-        plt.xlabel('Índice')
-        plt.ylabel(col)
+        sns.lineplot(data=self.__df, x=self.__df[x_col], y=self.__df[y_col])
+        plt.title(f'Gráfico de Líneas: {y_col} vs {x_col}')
+        plt.xlabel(x_col)
+        plt.ylabel(y_col)
+        plt.grid()
         st.pyplot(plt)
+
 
     def plot_pairplot(self):
         num_df = self.__df.select_dtypes(include=['float64', 'int64'])
@@ -215,8 +240,13 @@ class app:
                 eda_instance.plot_boxplot(col)
 
             elif tipo_grafico == "Barras":
-                col = st.selectbox("Columna para gráfico de barras", eda_instance.get_df().columns)
-                eda_instance.plot_bar(col)
+                x_col = st.selectbox("Columna para el eje X (categorías)", eda_instance.get_df().columns)
+                y_col = st.selectbox("Columna para el eje Y (opcional, valores numéricos)", ["Ninguna"] + columnas_numericas)
+                if y_col != "Ninguna":
+                    eda_instance.plot_bar(x_col, y_col)
+                else:
+                    eda_instance.plot_bar(x_col)
+
 
             elif tipo_grafico == "Dispersión":
                 cols = st.multiselect("Dos columnas numéricas", columnas_numericas, max_selections=2)
@@ -232,8 +262,10 @@ class app:
                 eda_instance.plot_pairplot()
 
             elif tipo_grafico == "Línea":
-                col = st.selectbox("Columna numérica para gráfico de líneas", columnas_numericas)
-                eda_instance.plot_line(col)
+                x_col = st.selectbox("Eje X", eda_instance.get_df().columns)
+                y_col = st.selectbox("Eje Y (numérica)", columnas_numericas)
+                eda_instance.plot_line(x_col, y_col)
+
                
              # Agregar botón para limpiar los datos
             if st.button("Reiniciar Datos"):
