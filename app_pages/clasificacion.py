@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split, cross_val_score, StratifiedKFold
 from sklearn.metrics import roc_auc_score, accuracy_score, confusion_matrix, roc_curve
 from sklearn.ensemble import RandomForestClassifier
@@ -11,6 +12,7 @@ from sklearn.utils import resample
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import logging
 from app_pages.exploratorio import EDA  # Si el archivo EDA tiene una clase Exploratorio
 
 
@@ -56,7 +58,24 @@ class Clasificacion:
     def evaluate_model(self, model, X, y, cv=5):
         """Evaluar el modelo con validación cruzada y métrica AUC"""
         st.write(f"Evaluando modelo {model.__class__.__name__}...")
-        auc_scores = cross_val_score(model, X, y, cv=StratifiedKFold(cv), scoring='roc_auc')
+
+        # Validar que cada clase tenga al menos 'cv' muestras
+        class_counts = pd.Series(y).value_counts()
+        if class_counts.min() < cv:
+            msg = (f"La columna objetivo seleccionada no tiene suficientes muestras en alguna de sus clases "
+                f"(mínimo requerido: {cv}, presente: {class_counts.min()}). "
+                "Por favor, selecciona otra columna o ajusta el parámetro n_splits.")
+            st.error(msg)
+            logging.error(msg)
+            return None  # O
+
+            # Selecciona el scoring adecuado según el número de clases
+        if len(np.unique(y)) > 2:
+            scoring = 'roc_auc_ovr'
+        else:
+            scoring = 'roc_auc'
+
+        auc_scores = cross_val_score(model, X, y, cv=StratifiedKFold(cv), scoring=scoring)
         mean_auc = auc_scores.mean()
         st.write(f"Promedio AUC: {mean_auc:.4f}")
         return mean_auc
@@ -67,7 +86,11 @@ class Clasificacion:
         model.fit(self.X, self.y)
         y_pred = model.predict(self.X)
         accuracy = accuracy_score(self.y, y_pred)
-        auc = roc_auc_score(self.y, model.predict_proba(self.X)[:, 1])
+
+        if len(np.unique(self.y)) == 2:
+            auc = roc_auc_score(self.y, model.predict_proba(self.X)[:, 1])
+        else:
+            auc = roc_auc_score(self.y, model.predict_proba(self.X), multi_class='ovr')
         
         st.write(f"Accuracy: {accuracy:.4f}")
         st.write(f"AUC: {auc:.4f}")
@@ -92,15 +115,19 @@ class Clasificacion:
             "Decision Tree": DecisionTreeClassifier(),
         }
         
-        best_auc = 0
+        best_auc = -1
         best_model = None
         
         for name, model in models.items():
             st.write(f"Evaluando el modelo {name}")
             auc_score = self.evaluate_model(model, self.X, self.y)
-            if auc_score > best_auc:
+            if auc_score is not None and auc_score > best_auc:
                 best_auc = auc_score
                 best_model = model
+
+        if best_model is None:
+            st.error("Ningún modelo pudo ser evaluado. Verifica que la columna objetivo tenga suficientes muestras por clase.")
+            return
         
         st.write(f"El mejor modelo es: {best_model.__class__.__name__} con AUC de {best_auc:.4f}")
         self.display_classification_results(best_model)
