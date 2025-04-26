@@ -19,6 +19,8 @@ pages = [
     st.Page("app_pages/clasificacion.py", title="Clasificación", icon="➖"),
 
     st.Page("app_pages/results.py", title="Comparación de Modelo", icon="➖"),
+    
+    st.Page("app_pages/web_mining.py", title="Web Mining", icon="🕸️"),
 ]
 
 # Páginas agrupadas en secciones
@@ -27,7 +29,9 @@ navigation_dict = {
     "⏰ Series Temporales": [pages[2], pages[3]],
     "💎 Aprendizaje No Supervisado": [pages[4], pages[5]],
     "💡 Aprendizaje Supervisado": [pages[6], pages[7]],
-    "📈 Comparación": [pages[8]]
+    "📈 Comparación": [pages[8]],
+    "🕸️ Web Mining": [pages[9]]
+
 } 
 
 # Configuración de la navegación 
